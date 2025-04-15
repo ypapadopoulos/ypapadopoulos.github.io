@@ -1,21 +1,21 @@
 ---
 # Display name
-title: Nelson Bighetti
+title: Yannis Papadopoulos
 
 # Full Name (for SEO)
-first_name: Nelson
-last_name: Bighetti
+first_name: Yannis
+last_name: Papadopoulos
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position
-role: Professor of Artificial Intelligence
+role: Associate Professor of Biophotonics
 
 # Organizations/Affiliations
 organizations:
-  - name: Stanford University
-    url: ''
+  - name: National Technical University of Athens
+    url: 'www.ntua.gr'
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include distributed robotics, mobile computing and programmable matter.

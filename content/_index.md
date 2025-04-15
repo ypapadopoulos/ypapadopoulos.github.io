@@ -36,7 +36,7 @@ sections:
       view: card
       columns: '1'
 
-- block: collection
+  - block: collection
     id: Thesis Projects
     content:
       title: Available thesis projects

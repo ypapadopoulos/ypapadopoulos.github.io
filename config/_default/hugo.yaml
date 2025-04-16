@@ -12,8 +12,8 @@ baseURL: 'https://ypapadopoulos.github.io' # Website URL
 
 defaultContentLanguage: en
 hasCJKLanguage: false
-defaultContentLanguageInSubdir: true
-removePathAccents: true
+defaultContentLanguageInSubdir: false
+removePathAccents: false
 
 ############################
 ## ADVANCED

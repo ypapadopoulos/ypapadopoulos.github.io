@@ -1,8 +1,9 @@
 ---
 # Leave the homepage title empty to use the site title
-title: My page
+title: []
 date: 2022-10-24
 type: landing
+
 
 sections:
   - block: hero
@@ -32,6 +33,11 @@ sections:
       order: desc
       page_type: post
     design:
+      # background:
+      # # Choose a color such as from https://html-color-codes.info
+      #   color: 'navy'
+      #   # Text color (true=light, false=dark, or remove for the dynamic theme color).
+      #   text_color_light: true
       view: card
       columns: '1'
 
@@ -47,7 +53,7 @@ sections:
       filters:
         # The folders to display content from
         folders:
-          - event
+          - thesis-projects
         author: ""
         category: ""
         tag: ""

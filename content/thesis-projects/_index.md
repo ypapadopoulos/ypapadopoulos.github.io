@@ -3,6 +3,8 @@ title: Thesis projects
 date: 2025-04-16
 type: landing
 
+
+
 sections:
 
   - block: collection
@@ -34,5 +36,7 @@ sections:
       sort_ascending: false
     design:
       # Choose a listing view
-      view: compact
+      view: showcase
+      columns: 2
+
 ---

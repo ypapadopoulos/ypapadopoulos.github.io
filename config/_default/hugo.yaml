@@ -61,3 +61,12 @@ security:
   _merge: deep
 sitemap:
   _merge: deep
+
+cascade:
+  # Configure blog posts
+  - _target:
+      path: /thesis-projects/**
+    share: false
+    profile: false
+    show_date: false
+    

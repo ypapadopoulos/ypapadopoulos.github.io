@@ -3,23 +3,31 @@
 
 title: "Μοντελοποίηση διάδοσης φωτός laser μέσω βιολογικών ιστών με τη χρήση
   μοντέλων μηχανικής μάθησης"
-# summary: ""
-authors: [""]
+summary: ""
+authors: []
 tags: []
 categories: []
 date: 2025-04-16T16:20:39+03:00
-share: false
 
 # # Optional external URL for project (replaces project detail page).
 # external_link: ""
 
-# # Featured image
-# # To use, add an image named `featured.jpg/png` to your page's folder.
-# # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
-# image:
-#   caption: ""
-#   focal_point: ""
-#   preview_only: false
+# Cover image
+# To use, place an image named `featured.jpg/png` in your page's folder.
+# Otherwise, specify the `filename` option to load an image from your `assets/media/` folder.
+# Placement options: 1 = Full column width, 2 = Out-set, 3 = Screen-width
+# Focal point options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
+# Set `preview_only` to `true` to just use the image for thumbnails.
+image:
+  placement: 1
+  caption: ""
+  focal_point: "Center"
+  preview_only: false
+  filename: learning-tomography.jpeg
+
+# banner:
+#   caption: ''
+#   image: 'learning-tomography.jpeg'
 
 # Custom links (optional).
   # Uncomment and edit lines below to show custom links.

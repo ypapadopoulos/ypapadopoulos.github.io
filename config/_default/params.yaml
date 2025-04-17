@@ -9,7 +9,7 @@ appearance:
   theme_day: minimal
   theme_night:
   font: native
-  font_size: L
+  font_size: m
 
 # SEO
 
@@ -38,6 +38,7 @@ header:
     align: r
     show_logo: true
     show_language: false
+    show_lang_switcher: true
     show_day_night: true
     show_search: true
     highlight_active_link: false
@@ -47,11 +48,11 @@ header:
 footer:
   block: minimal
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
+    notice: '© {year} NTUA Biophotonics research group'
     license:
       enable: false
       allow_derivatives: false
-      share_alike: true
+      share_alike: false
       allow_commercial: false
 
 # Localization
@@ -108,9 +109,8 @@ features:
 
 extensions:
   decap_cms:
-    
     branch: main
-    local_backend: false
+    local_backend: true
   academicons:
     enable: true
 

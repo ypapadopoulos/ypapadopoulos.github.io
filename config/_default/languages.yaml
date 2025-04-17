@@ -15,8 +15,3 @@ el:
   title: Εργαστήριο Βιοφωτονικής
   params:
     description: Site description in Greek...
-  menu:
-    main:
-      - name: Επικοινωνία
-        url: '#contact'
-        weight: 1

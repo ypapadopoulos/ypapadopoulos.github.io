@@ -20,14 +20,6 @@ organizations:
 # Short bio (displayed in user profile at end of posts)
 bio: 
 
-avatar:
-  placement: 1
-  caption: ""
-  focal_point: "Center"
-  preview_only: false
-  filename: fsharp.png
-
-
 interests:
   - Biomedical imaging
   - Miniature biosensing
@@ -52,7 +44,7 @@ social:
     link: 'mailto:ypapadopoulos (at) mail (dot) ntua (dot) gr'
   - icon: google-scholar
     icon_pack: ai
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+    link: https://scholar.google.com/citations?user=w7Mnkc4AAAAJ
   - icon: github
     icon_pack: fab
     link: https://github.com/ypapadopoulos
@@ -72,6 +64,9 @@ highlight_name: false
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
   - Researchers
+
+avatar:
+  shape: square
 ---
 
 Yannis Papadopoulos is an Associate Professor of Laser Applications in Biophysics/Biophotonics at the Physics Department, School of Applied Mathematical and Physical Sciences of the National Technical University of Athens. 

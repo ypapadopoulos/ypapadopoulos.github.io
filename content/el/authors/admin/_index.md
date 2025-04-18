@@ -25,6 +25,9 @@ interests:
   - Computational Linguistics
   - Information Retrieval
 
+avatar:
+  name: icon.png
+
 education:
   courses:
     - course: PhD in Artificial Intelligence
@@ -50,7 +53,7 @@ social:
     link: https://twitter.com/GeorgeCushen
   - icon: google-scholar
     icon_pack: ai
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+    link: https://scholar.google.com/citations?user=w7Mnkc4AAAAJ&hl
   - icon: github
     icon_pack: fab
     link: https://github.com/gcushen

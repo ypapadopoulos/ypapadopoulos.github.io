@@ -2,7 +2,7 @@
 title: Thesis projects
 date: 2025-04-16
 type: landing
-
+# blox: landing_page2
 
 
 sections:
@@ -38,5 +38,6 @@ sections:
       # Choose a listing view
       view: showcase
       columns: 2
+      add_horizontal_line: true
 
 ---

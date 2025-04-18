@@ -1,11 +1,11 @@
 ---
-title: Latest News
+title: Courses
 
 # Listing view
-view: compact
+view: card
 
 # Optional banner image (relative to `assets/media/` folder).
 banner:
   caption: ''
-  image: 'coders.jpg'
+  image: 'blackboard.jpg'
 ---

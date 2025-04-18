@@ -19,7 +19,7 @@ main:
   #   url: event
   #   weight: 40
   - name: Research
-    pageref: research
+    pageref: event
     weight: 45
   - name: Publications
     parent: Research
@@ -27,14 +27,14 @@ main:
     weight: 10
   - name: Projects
     parent: Research
-    pageref: projects
+    pageref: project
     weight: 20
   - name: Teaching
     pageref: teaching
     weight: 50
   - name: Courses
     parent: Teaching
-    pageref: courses
+    pageref: post
     weight: 10
   - name: Thesis projects
     parent: Teaching

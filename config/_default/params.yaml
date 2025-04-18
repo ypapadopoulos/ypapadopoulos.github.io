@@ -104,6 +104,8 @@ features:
     provider: 'mapnik'
     api_key: ''
     zoom: 15
+  avatar:
+    shape: circle
 
 # Extensions
 

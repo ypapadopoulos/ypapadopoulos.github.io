@@ -6,10 +6,7 @@ summary: ""
 authors: []
 tags: []
 categories: []
-date: ""
-
-
-
+date: 2025-04-16T16:20:39+03:00
 
 # # Optional external URL for project (replaces project detail page).
 # external_link: ""
@@ -25,7 +22,11 @@ image:
   caption: ""
   focal_point: "Center"
   preview_only: false
-  filename: fsharp.png
+  filename: learning-tomography.jpeg
+
+# banner:
+#   caption: ''
+#   image: 'learning-tomography.jpeg'
 
 # Custom links (optional).
   # Uncomment and edit lines below to show custom links.

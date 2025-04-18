@@ -22,7 +22,7 @@ image:
   caption: ""
   focal_point: "Center"
   preview_only: false
-  filename: learning-tomography.jpeg
+  filename: fsharp.jpeg
 
 # banner:
 #   caption: ''

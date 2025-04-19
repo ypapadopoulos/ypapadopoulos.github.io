@@ -1,7 +1,7 @@
 ---
 title: Optical-resolution photoacoustic microscopy by use of a multimode fiber
 authors:
-- Ioannis N. Papadopoulos
+- Yannis Papadopoulos
 - Olivier Simandoux
 - Salma Farahi
 - Jean Pierre Huignard

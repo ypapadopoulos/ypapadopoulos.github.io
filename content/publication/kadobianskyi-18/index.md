@@ -2,7 +2,7 @@
 title: Scattering correlations of time-gated light
 authors:
 - Mykola Kadobianskyi
-- Ioannis N. Papadopoulos
+- Yannis Papadopoulos
 - Thomas Chaigne
 - Roarke Horstmeyer
 - Benjamin Judkewitz

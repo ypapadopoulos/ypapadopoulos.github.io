@@ -1,13 +1,16 @@
 ---
 title: Learning approach to optical tomography
 authors:
-- Ulugbek S Kamilov*
-- Ioannis N Papadopoulos*
+- Ulugbek S Kamilov
+- Yannis Papadopoulos
 - Morteza H Shoreh
 - Alexandre Goy
 - Cedric Vonesch
 - Michael Unser
 - Demetri Psaltis
+author_notes:
+- "Equal contribution"
+- "Equal contribution"
 date: '2015-06-01'
 publishDate: '2025-04-19T18:32:08.398197Z'
 publication_types:

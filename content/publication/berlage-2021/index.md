@@ -6,7 +6,7 @@ authors:
 - Mathias Babot
 - Diego Di Battista
 - Clarissa Whitmire
-- Ioannis N. Papadopoulos
+- Yannis Papadopoulos
 - James F. A. Poulet
 - Matthew Larkum
 - Benjamin Judkewitz

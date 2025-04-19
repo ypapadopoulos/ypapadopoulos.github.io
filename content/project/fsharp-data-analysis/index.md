@@ -22,7 +22,7 @@ image:
   caption: ""
   focal_point: "Center"
   preview_only: false
-  filename: fsharp.jpeg
+  filename: fsharp.jpg
 
 # banner:
 #   caption: ''

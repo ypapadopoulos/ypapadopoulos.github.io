@@ -8,7 +8,7 @@
 appearance:
   theme_day: minimal
   theme_night:
-  font: native
+  font: classic
   font_size: m
 
 # SEO
@@ -75,7 +75,7 @@ features:
   privacy_pack:
     enable: false
   repository:
-    url: 'https://github.com/<username>/<repository>'
+    url: 'https://github.com/ypapadopoulos/ypapadopoulos.github.io'
     content_dir: content
     branch: main
   avatar:
@@ -101,7 +101,7 @@ features:
       index_name: ''
       show_logo: false
   map:
-    provider: 'mapnik'
+    provider: 'mapbox'
     api_key: ''
     zoom: 15
   avatar:

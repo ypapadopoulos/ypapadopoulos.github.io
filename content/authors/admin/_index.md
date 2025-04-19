@@ -14,8 +14,8 @@ role: Associate Professor of Biophotonics
 
 # Organizations/Affiliations
 organizations:
-  - name: National Technical University of Athens
-    url: 'www.ntua.gr'
+  - name: School of ANational Technical University of Athens
+    url: https://www.ntua.gr
 
 # Short bio (displayed in user profile at end of posts)
 bio: 
@@ -63,10 +63,7 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Researchers
-
-avatar:
-  shape: square
+  - Principal Investigator
 ---
 
 Yannis Papadopoulos is an Associate Professor of Laser Applications in Biophysics/Biophotonics at the Physics Department, School of Applied Mathematical and Physical Sciences of the National Technical University of Athens. 

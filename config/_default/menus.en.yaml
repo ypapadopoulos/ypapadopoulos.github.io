@@ -4,9 +4,9 @@
 #   The weight parameter defines the order that the links will appear in.
 
 main:
-  # - name: Tour
-  #   pageref: /tour
-  #   weight: 10
+  - name: About us
+    pageref: /about-us
+    weight: 10
   - name: News
     pageref: post
     weight: 20

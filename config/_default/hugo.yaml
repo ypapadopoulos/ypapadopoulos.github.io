@@ -65,7 +65,7 @@ sitemap:
 cascade:
   # Configure blog posts
   - _target:
-      path: '{/thesis-projects/**,/courses/**,/publication/**}'
+      path: '{/thesis-projects/**,/courses/**,/publication/**,/post/**}'
     share: false
     profile: false
     show_date: false

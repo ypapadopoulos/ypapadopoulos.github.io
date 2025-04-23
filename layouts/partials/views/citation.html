@@ -38,7 +38,7 @@
     {{ with $item.Params.issue }}
       ({{ . | markdownify -}})
     {{ end }}
-    ({{ $item.Date.Format "2006" | markdownify -}}).
+    ({{ $item.Date.Format "2006" | markdownify -}})
   
     {{ if $has_attachments }}
     <div class="btn-links">

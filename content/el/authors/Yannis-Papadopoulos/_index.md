@@ -12,28 +12,28 @@ last_name: Papadopoulos
 superuser: true
 
 # Role/position
-role: Associate Professor of Biophotonics
+role: Αναπληρωτής Καθηγητής Βιοφωτονικής
 
 # Organizations/Affiliations
 organizations:
-  - name: School of ANational Technical University of Athens
-    url: https://www.ntua.gr
+  - name: Σχολή Εφαρμοσμένων Μαθηματικών και Φυσικών Επιστημών, ΕΜΠ
+    url: http://semfe.ntua.gr
 
 # Short bio (displayed in user profile at end of posts)
 bio: 
 
 interests:
-  - Biomedical imaging
-  - Miniature biosensing
-  - Imaging through scattering media
+  - Βιοϊατρική απεικόνιση
+  - Μικροσκοπικοί βιοαισθητήρες
+  - Απεικόνιση μέσω σκεδαστικών μέσων
 
 education:
   courses:
     - course: PhD in Optics
       institution: Ecole Polytechnique Federale de Lausanne
       year: 2014
-    - course: Diploma in Electrical and Computer Engineering
-      institution: Aristotle University of Thessaloniki
+    - course: Δίπλωμα Ηλεκτρολόγου Μηχανικού και Μηχανικού Υπολογιστών
+      institution: Αριστοτέλειο Πανεπιστήμιο Θεσσαλονίκης
       year: 2009
 
 # Social/Academic Networking
@@ -68,6 +68,6 @@ user_groups:
   - Principal Investigator
 ---
 
-Yannis Papadopoulos is an Associate Professor of Laser Applications in Biophysics/Biophotonics at the Physics Department, School of Applied Mathematical and Physical Sciences of the National Technical University of Athens. 
+Ο Γιάννης Παπαδόπουλος είναι Αναπληρωτής Καθηγητής με γνωστικό αντικείμενο "Εφαρμογές των Λέιζερ στη Βιοφυσική/Βιοφωτονική" στον Τομέα Φυσικής της Σχολής Εφαρμοσμένων Μαθηματικών και Φυσικών Επιστημών του Εθνικού Μετσόβιου Πολυτεχνείου.
 
-He leads the Biophotonics Research Group, a part of the Laboratoty of Optoelectronics and Laser Applications.
+Είναι επικεφαλής της Ερευνητικής Ομάδας Βιοφωτονικής, που αποτελεί τμήμα του Εργαστηρίου Οπτοηλεκτρονικής και Εφαρμογών Λέιζερ.

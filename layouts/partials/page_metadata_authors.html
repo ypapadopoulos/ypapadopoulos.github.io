@@ -1,8 +1,8 @@
-{{/* Display author list. */}}
-
 {{- $taxonomy := "authors" }}
-{{ if .Param $taxonomy }}
-  {{ range $index, $value := (.GetTerms $taxonomy) }}
+{{- if .Param $taxonomy }}
+  {{- $authors := .GetTerms $taxonomy }}
+  {{- $count := len $authors }}
+  {{- range $index, $value := $authors }}
     {{- $authorPage := .Page }}
     {{- $enPage := $authorPage }}
     {{- if ne $authorPage.Lang "en" }}
@@ -14,19 +14,25 @@
 
     {{- $highlight := or ($authorPage.Params.highlight_name) ($enPage.Params.highlight_name) }}
 
-    {{- if gt $index 0 }}, {{ end -}}
-    <span {{ if $highlight }}class="font-bold"{{ end }}>
-      {{ if $authorPage.RelPermalink }}
+    {{- if gt $index 0 }}
+      {{- if and (eq $index (sub $count 1)) (gt $count 2) }},{{ end }}
+      {{- if eq $index (sub $count 1) }} and{{ else }},{{ end }} 
+    {{- end }}
+
+    <span{{ if $highlight }} class="font-weight-bold"{{ end }}>
+      {{- if $authorPage.RelPermalink }}
         <a href="{{ $authorPage.RelPermalink }}">{{ $enPage.Title }}</a>
-      {{ else }}
+      {{- else }}
         {{ $enPage.Title }}
-      {{ end }}
+      {{- end -}}
     </span>
 
-    {{- if isset $.Params "author_notes" -}}
-      {{- with (index $.Params.author_notes $index) -}}
-        <i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="{{.}}"></i>
+    {{- if eq $index (sub $count 1) }}.{{ end }}
+
+    {{- if isset $.Params "author_notes" }}
+      {{- with (index $.Params.author_notes $index) }}
+        <i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="{{ . }}"></i>
       {{- end }}
     {{- end }}
-  {{ end }}
-{{ end }}
+  {{- end }}
+{{- end }}

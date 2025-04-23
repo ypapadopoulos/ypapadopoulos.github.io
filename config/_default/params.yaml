@@ -121,3 +121,14 @@ extensions:
 publications:
   date_format: January 2006
   citation_style: nature
+
+i_am_a_sponsor: true
+  # enable: true
+  # github: gcushen
+  # custom: https://hugoblox.com/sponsor/
+  # patreon: hugoblox
+  # ko_fi: hugoblox
+  # open_collective: hugoblox
+  # buy_me_a_coffee: hugoblox
+  # liberapay: hugoblox
+  # opencollective: hugoblox

@@ -4,7 +4,8 @@
 
 # Default language
 en:
-  languageCode: en-us
+  languageCode: en
+  contentDir: content/en
   params:
     description: Site description in English...
   title: NTUA Biophotonics research group

@@ -4,24 +4,41 @@
 #   The weight parameter defines the order that the links will appear in.
 
 main:
-  - name: Tour
-    url: /el/tour
+  - name: About us
+    pageref: /about-us
     weight: 10
   - name: Νέα
-    url: /el/post
+    pageref: post
     weight: 20
   - name: Προσωπικό
-    url: /el/people
+    pageref: people
     weight: 30
   # - name: Events
   #   url: event
   #   weight: 40
+  - name: Έρευνα
+    # pageref: research
+    weight: 45
   - name: Δημοσιεύσεις
-    url: /el/publication
+    parent: Έρευνα
+    pageref: publication
+    weight: 10
+  - name: Projects
+    parent: Έρευνα
+    pageref: project
+    weight: 20
+  - name: Διδασκαλία
+    pageref: teaching
     weight: 50
-  - name: Διπλωματικές
-    url: /el/project
-    weight: 55
+  - name: Μαθήματα
+    parent: Διδασκαλία
+    pageref: courses
+    weight: 10
+  - name: Διπλωματικές εργασίες
+    parent: Διδασκαλία
+    pageref: thesis-projects
+    weight: 20
   - name: Επικοινωνία
-    url: /el/contact
+    pageref: contact
     weight: 60
+

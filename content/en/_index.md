@@ -12,6 +12,7 @@ sections:
         Biophotonics Research Group
       image:
         filename: hand_nature.jpg
+        caption: "Psaltis, D. & Papadopoulos, I. N. Imaging: The fog clears. Nature 491, 197–198 (2012)"
       text: |
         <br>
         
@@ -27,11 +28,11 @@ sections:
             image:
               # Specify an image from `assets/media/`
               # or delete the image section to remove it
-              filename: beautiful-optical-fiber-detail_cropped.jpg
+              filename: beautiful-optical-fiber-detail.jpg
               filters:
                 brightness: 0.4
             position: right
-            color: '#666'
+            color: '#46616e'
           link:
             icon: flask
             icon_pack: fas
@@ -44,7 +45,7 @@ sections:
             image:
               # Specify an image from `assets/media/`
               # or delete the image section to remove it
-              filename: beautiful-optical-fiber-detail_cropped.jpg
+              filename: beautiful-optical-fiber-detail.jpg
               filters:
                 brightness: 0.4
             position: center
@@ -56,7 +57,7 @@ sections:
             image:
               # Specify an image from `assets/media/`
               # or delete the image section to remove it
-              filename: beautiful-optical-fiber-detail_cropped.jpg
+              filename: beautiful-optical-fiber-detail.jpg
               filters:
                 brightness: 0.4
             position: center

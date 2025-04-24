@@ -300,3 +300,6 @@
 
 - id: feedback_widget_answer_negative
   translation: 😡 No
+
+- id: footer_contact
+  translation: "<strong>Biophotonics Research Group</strong><br>School of Applied Mathematical and Physical Sciences<br>National Technical University of Athens<br>9 Iroon Polytechniou, Zografou 15780"

@@ -46,7 +46,8 @@ header:
 # Site footer
 
 footer:
-  block: minimal
+  block: custom-footer
+  background_color: "#46616e"
   copyright:
     notice: '© {year} NTUA Biophotonics research group'
     license:

@@ -17,16 +17,18 @@ date: 2025-04-16T16:20:39+03:00
 # Placement options: 1 = Full column width, 2 = Out-set, 3 = Screen-width
 # Focal point options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
 # Set `preview_only` to `true` to just use the image for thumbnails.
+# Set 'fontsize' for caption
 image:
-  placement: 1
-  caption: "Image from Design of Multi-Wavelength Optical Sensor Module for Depth-Dependent Photoplethysmography. https://www.mdpi.com/1424-8220/19/24/5441."
+  placement: 3
+  caption: "Image from Design of Multi-Wavelength Optical Sensor Module for Depth-Dependent Photoplethysmography. https://www.mdpi.com/ 1424-8220/19/24/5441."
+  fontsize: "0.6em"
   focal_point: "Center"
   preview_only: false
   filename: mwppg-monte-carlo.jpg
 
-# banner:
-#   caption: ''
-#   image: 'learning-tomography.jpeg'
+  # banner:
+  #   caption: ''
+  #   image: 'learning-tomography.jpeg'
 
 # Custom links (optional).
   # Uncomment and edit lines below to show custom links.

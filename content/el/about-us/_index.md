@@ -1,11 +1,13 @@
 ---
-title: Τελευταία Νέα
+title: About us
 
 # Listing view
-view: compact
+view: card
 
 # Optional banner image (relative to `assets/media/` folder).
 banner:
   caption: ''
-  image: ''
+  image: 'blackboard.jpg'
 ---
+## Test 
+here here

@@ -42,6 +42,7 @@ html, body {
   height: 100%;
 }
 
+
 body {
   display: flex;
   flex-direction: column;
@@ -82,5 +83,32 @@ main {
 
   .footer-contact {
     text-align: center;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .footer-inner {
+    flex-direction: row;
+    padding: 0 2rem;
+    gap: 1.5rem;
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .footer-left {
+    flex: 1 1 60%;
+    text-align: left;
+  }
+
+  .footer-logo {
+    flex: 1 1 40%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+  }
+
+  .footer-logo img {
+    height: 90px;
+    width: auto;
   }
 }

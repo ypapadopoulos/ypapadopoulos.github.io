@@ -19,7 +19,7 @@ date: 2025-04-16T16:20:39+03:00
 # Set `preview_only` to `true` to just use the image for thumbnails.
 # Set 'fontsize' for caption
 image:
-  placement: 3
+  placement: 1
   caption: "Image from Design of Multi-Wavelength Optical Sensor Module for Depth-Dependent Photoplethysmography. https://www.mdpi.com/ 1424-8220/19/24/5441."
   fontsize: "0.6em"
   focal_point: "Center"

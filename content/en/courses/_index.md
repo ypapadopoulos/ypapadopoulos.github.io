@@ -2,7 +2,7 @@
 title: Courses
 
 # Listing view
-view: card
+# view: card
 
 # Optional banner image (relative to `assets/media/` folder).
 banner:

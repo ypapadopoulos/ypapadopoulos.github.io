@@ -13,12 +13,14 @@
   <div class="container">
     {{/* Show the About block if an account exists for this user. */}}
     {{/* TODO: remove dependency on v1 blocks. Either migrate to v2 blocks(?) or directly implement layout here. */}}
-    {{ if .File }}
-      {{ $widget := "blocks/v1/about.html" }}
-      {{ $username := (path.Base .File.Dir) }}{{/* Alternatively, use `index .Params.authors 0` */}}
-      {{ $params := dict "wcPage" $ "wcBlock" . "author" $username }}
-      {{ partial $widget $params }}
-    {{end}}
+    <div class="author-profile-wrapper">
+      {{ if .File }}
+        {{ $widget := "blocks/v1/about.html" }}
+        {{ $username := (path.Base .File.Dir) }}
+        {{ $params := dict "wcPage" $ "wcBlock" . "author" $username }}
+        {{ partial $widget $params }}
+      {{end}}
+    </div>
 
     {{/* Use the first translation if available, otherwise use the current page */}}
     {{ $canonical := . }}
@@ -49,7 +51,7 @@
     {{ if $count }}
     <div class="article-widget content-widget-hr">
         <h3>{{ i18n "user_profile_latest" | default "Latest" }}</h3>
-        <ul>
+        <ul class="publication-list">
           {{ range first 5 $query }}
             <li>
               <a href="{{ .RelPermalink }}">{{ .Title }}</a>,
@@ -63,7 +65,7 @@
           {{ end }}
         </ul>
       
-        <p class="mt-2 mb-0">
+        <p class="mt-2 mb-0 profile-link-hover">
           <a href="{{ "/publication" | relLangURL }}">{{ i18n "all_publications" | default "See all publications" }}</a>
         </p>
     </div>

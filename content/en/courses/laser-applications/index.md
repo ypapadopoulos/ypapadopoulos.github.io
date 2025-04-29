@@ -1,36 +1,23 @@
 ---
-title: Applications of lasers in biomedicine and the environment
-authors: []
-tags: []
-summary: "In this course we explore the biomedical applications of lasers. Fundamental concepts involve "
-
-# Is this a featured talk? (true/false)
-featured: false
-
+title: "Laser applications in biomedicine and the environment"
+date: 2024-09-01
+type: "courses"
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)'
-  focal_point: Right
-
-url_code: ''
-url_pdf: ''
-url_slides: ''
-url_video: ''
-
-# Markdown Slides (optional).
-#   Associate this talk with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
-#   Otherwise, set `slides = ""`.
-slides:
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
-projects:
+  # filename: "courses/biophotonics.jpg"
+  alttext: "Laser-tissue interaction in Biophotonics course"
+  caption: "Courtesy of Biophotonics"
+summary: "Light-tissue interactions, imaging, and therapy."
+course_code: "APH401"
+semester: "Fall 2024"
+level: "Undergraduate"
+location: "NTUA, Room B12"
+ects: "5"
+schedule: "Mon & Wed, 10:00-12:00"
+link_to_syllabus: "/docs/biophotonics-syllabus.pdf"
+external_link: "https://moodle.ntua.gr/course/view.php?id=123"
+tags: ["Medical Physics", "Optics"]
+# tags: []
 ---
-
 ### Description ###
 
 Biophotonics/applications in biomedicine module.

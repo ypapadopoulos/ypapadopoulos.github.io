@@ -1,0 +1,13 @@
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+      document.querySelectorAll('img.fade-in').forEach(function(img) {
+        if (img.complete) {
+          img.classList.add('loaded');
+        } else {
+          img.addEventListener('load', function() {
+            img.classList.add('loaded');
+          });
+        }
+      });
+    });
+</script>

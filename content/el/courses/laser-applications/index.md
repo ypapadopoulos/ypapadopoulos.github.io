@@ -1,55 +1,43 @@
 ---
-title: Applications of lasers in biomedicine and the environment
-authors: []
-tags: []
-summary: "In this course we explore the biomedical applications of lasers. Fundamental concepts involve "
-
-# Is this a featured talk? (true/false)
-featured: false
-
+title: "Εφαρμογές των λέιζερ στη βιοϊατρική και το περιβάλλον"
+date: 2024-09-01
+type: "courses"
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)'
-  focal_point: Right
-
-url_code: ''
-url_pdf: ''
-url_slides: ''
-url_video: ''
-
-# Markdown Slides (optional).
-#   Associate this talk with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
-#   Otherwise, set `slides = ""`.
-slides:
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
-projects:
+  # filename: "courses/biophotonics.jpg"
+  alttext: "Αλληλεπίδραση λέιζερ-ιστών στο μάθημα Βιοφωτονικής"
+  caption: "Ntziachristos, V. Going deeper than microscopy: the optical imaging frontier in biology. Nat Methods 7, 603–614 (2010). https://doi.org/10.1038/nmeth.1483"
+summary: "Αλληλεπιδράσεις φωτός-ιστών, απεικόνιση και θεραπεία."
+course_code: "9198"
+semester: "Χειμερινό εξάμηνο 2024"
+level: "Προπτυχιακό"
+location: "ΕΜΠ, Νέο Κτίριο ΣΕΜΦΕ"
+ects: "5"
+schedule: "Δευτέρα & Τετάρτη, 10:45-12:30"
+external_link: "https://helios.ntua.gr/course/view.php?id=1445"
+tags: ["Lasers", "Optics"]
 ---
 
-### Description ###
+### Περιγραφή ###
 
-Biophotonics/applications in biomedicine module.
-1. Introduction to biomedical applications of lasers, biophotonics
-2. Quantities and physics of radiometry/photometry.
-3. Basic concepts from laser physics, spatial/temporal coherence, focusing, interaction with lenses, beam propagation.
-4. Tissue optics. Scattering, absorption, Beer-Lambert law, scattering probability function, scattering anisotropy coefficient.
-5. Radiation propagation equation and applications to the study of light propagation within biological tissues.
-6. Basic concepts of radiation laser interaction of living matter:
-        <ol type="a">
-          <li>Photochemical action, photodynamic therapy</li>
-          <li>Photothermal action</li>
-          <li>Photodegradation</li>
-          <li>Photomechanical action</li>
-        </ol>
-7. Applications of lasers in ophthalmology
-8. Diagnostic applications. Optical microscopy, optical coherence tomography, optogenetics, optical diffusion tomography, two-photon fluorescence microscopy.
+Μάθημα για τις εφαρμογές της Βιοφωτονικής στη βιοϊατρική.
 
-### Course schedule 2024-2025 ###
-The courses are given as follows:
-- Monday:  10:45am - 12:30pm Room 103 (New Build. SAMPS)
-- Wednesday:  10:45am - 12:30pm, Room 001 (New Build. SAMPS) 
+1. Εισαγωγή στις βιοϊατρικές εφαρμογές των λέιζερ και στη βιοφωτονική  
+2. Μεγέθη και βασικές έννοιες φωτεινότητας/φωτομετρίας  
+3. Βασικές αρχές φυσικής των λέιζερ: χωρική/χρονική συνεκτικότητα, εστίαση, αλληλεπίδραση με φακούς, διάδοση δέσμης  
+4. Οπτική ιστών: σκέδαση, απορρόφηση, νόμος Beer-Lambert, συνάρτηση πιθανότητας σκέδασης, συντελεστής ανισοτροπίας σκέδασης  
+5. Εξίσωση διάδοσης ακτινοβολίας και εφαρμογές στη μελέτη διάδοσης φωτός σε βιολογικούς ιστούς  
+6. Βασικές αρχές αλληλεπίδρασης ακτινοβολίας λέιζερ με ζωντανή ύλη:
+    <ol type="a">
+      <li>Φωτοχημική δράση – φωτοδυναμική θεραπεία</li>
+      <li>Φωτοθερμική δράση</li>
+      <li>Φωτοαποικοδόμηση</li>
+      <li>Φωτομηχανική δράση</li>
+    </ol>
+7. Εφαρμογές λέιζερ στην οφθαλμολογία  
+8. Διαγνωστικές εφαρμογές: Οπτική μικροσκοπία, οπτική τομογραφία συνοχής (OCT), οπτογενετική, οπτική τομογραφία διάχυσης, μικροσκοπία διφωτονικής διέγερσης
+
+### Πρόγραμμα Μαθήματος 2024–2025 ###
+
+Το μάθημα διδάσκεται ως εξής:
+- Δευτέρα: 10:45 – 12:30, Αίθουσα 103 (Νέο Κτίριο ΣΕΜΦΕ)  
+- Τετάρτη: 10:45 – 12:30, Αίθουσα 001 (Νέο Κτίριο ΣΕΜΦΕ)

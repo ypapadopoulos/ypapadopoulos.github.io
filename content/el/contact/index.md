@@ -1,69 +1,25 @@
 ---
-title: Contact
-date: 2022-10-24
+title: Επικοινωνία
+layout: custom-contact
+subtitle : "Θα χαρούμε πολύ να επικοινωνήσετε - είτε είστε φοιτητής, είτε συνεργάτης, είτε απλά ενδιαφέρεστε για την έρευνά μας."
 
-type: landing
+address: |
+  Ηρώων Πολυτεχνείου 9,  
+  Πολυτεχνειούπολη Ζωγράφου  
+  Κτήριο Φυσικής  
+  15780  
+  Αθήνα
 
-sections:
-  - block: contact
-    content:
-      title: Contact
-      text: |-
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempus augue non tempor egestas. Proin nisl nunc, dignissim in accumsan dapibus, auctor ullamcorper neque. Quisque at elit felis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aenean eget elementum odio. Cras interdum eget risus sit amet aliquet. In volutpat, nisl ut fringilla dignissim, arcu nisl suscipit ante, at accumsan sapien nisl eu eros.
-      email: test@example.org
-      phone: 888 888 88 88
-      address:
-        street: 450 Serra Mall
-        city: Stanford
-        region: CA
-        postcode: '94305'
-        country: United States
-        country_code: US
-      coordinates:
-        latitude: '37.4275'
-        longitude: '-122.1697'
-      directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
-      office_hours:
-        - 'Monday 10:00 to 13:00'
-        - 'Wednesday 09:00 to 10:00'
-      appointment_url: 'https://calendly.com'
-      #contact_links:
-      #  - icon: comments
-      #    icon_pack: fas
-      #    name: Discuss on Forum
-      #    link: 'https://discourse.gohugo.io'
-    
-      # Automatically link email and phone or display as text?
-      autolink: true
-    
-      # Email form provider
-      form:
-        provider: netlify
-        formspree:
-          id:
-        netlify:
-          # Enable CAPTCHA challenge to reduce spam?
-          captcha: false
-    design:
-      columns: '1'
 
-  - block: markdown
-    content:
-      title:
-      subtitle: ''
-      text:
-    design:
-      columns: '1'
-      background:
-        image: 
-          filename: contact.jpg
-          filters:
-            brightness: 1
-          parallax: false
-          position: center
-          size: cover
-          text_color_light: true
-      spacing:
-        padding: ['20px', '0', '20px', '0']
-      css_class: fullscreen
+email: ypapadopoulos@mail.ntua.gr
+phone: +30 210 772 3041
+
+office_hours: |
+  **Δευτέρα-Παρασκευή**  
+  09:00–17:00
+
+appointment_url: https://calendly.com/ypapadopoulos
+
+map_embed: |
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3145.243031975916!2d23.779958276295353!3d37.97702797193502!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14a197f3f55dbf97%3A0xf3b91c87dc69ed50!2zzqTOv868zq3Osc-CIM6mz4XPg865zrrOrs-CIM6jzpXOnM6mzpU!5e0!3m2!1sen!2sgr!4v1746120492764!5m2!1sen!2sgr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 ---

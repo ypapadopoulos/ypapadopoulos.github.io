@@ -1,38 +1,44 @@
-{{- $taxonomy := "authors" }}
-{{- if .Param $taxonomy }}
-  {{- $authors := .GetTerms $taxonomy }}
-  {{- $count := len $authors }}
-  {{- range $index, $value := $authors }}
-    {{- $authorPage := .Page }}
-    {{- $enPage := $authorPage }}
+{{- $authors := .Params.authors }}
+{{- $count := len $authors }}
+{{- $currentLang := .Lang }}
+
+{{- range $index, $author := $authors }}
+  {{- $authorPage := site.GetPage (printf "authors/%s" $author) }}
+  {{- $linkTarget := $authorPage }}
+  {{- $enPage := $authorPage }}
+
+  {{- if $authorPage }}
+    {{- if ne $authorPage.Lang $currentLang }}
+      {{- $localized := where $authorPage.Translations "Lang" $currentLang }}
+      {{- if gt (len $localized) 0 }}
+        {{- $linkTarget = index $localized 0 }}
+      {{- end }}
+    {{- end }}
     {{- if ne $authorPage.Lang "en" }}
       {{- $enTranslations := where $authorPage.Translations "Lang" "en" }}
       {{- if gt (len $enTranslations) 0 }}
         {{- $enPage = index $enTranslations 0 }}
       {{- end }}
     {{- end }}
+  {{- end }}
 
-    {{- $highlight := or ($authorPage.Params.highlight_name) ($enPage.Params.highlight_name) }}
+  {{- if gt $index 0 -}}
+    {{- if and (eq $index (sub $count 1)) (gt $count 2) -}},{{- end -}}
+    {{- if eq $index (sub $count 1) -}} and{{- else -}},{{- end -}}
+  {{- end }}
 
-    {{- if gt $index 0 }}
-      {{- if and (eq $index (sub $count 1)) (gt $count 2) }},{{ end }}
-      {{- if eq $index (sub $count 1) }} and{{ else }},{{ end }} 
-    {{- end }}
+  <span{{ if and $authorPage $authorPage.File $authorPage.Params.highlight_name }} class="font-weight-bold"{{ end }}>
+    {{- if and $authorPage $authorPage.File -}}
+      <a href="{{ $linkTarget.RelPermalink }}">{{ $enPage.Title }}</a>
+    {{- else -}}
+      {{ $author }}
+    {{- end -}}
+    {{- if eq $index (sub $count 1) -}}.{{- end -}}
+  </span>
 
-    <span{{ if $highlight }} class="font-weight-bold"{{ end }}>
-      {{- if $authorPage.RelPermalink }}
-        <a href="{{ $authorPage.RelPermalink }}">{{ $enPage.Title }}</a>
-      {{- else }}
-        {{ $enPage.Title }}
-      {{- end -}}
-    </span>
-
-    {{- if eq $index (sub $count 1) }}.{{ end }}
-
-    {{- if isset $.Params "author_notes" }}
-      {{- with (index $.Params.author_notes $index) }}
-        <i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="{{ . }}"></i>
-      {{- end }}
+  {{- if isset $.Params "author_notes" }}
+    {{- with (index $.Params.author_notes $index) }}
+      <i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="{{ . }}"></i>
     {{- end }}
   {{- end }}
 {{- end }}

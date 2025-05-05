@@ -3,6 +3,7 @@
 
 title: "Modeling Laser Light Propagation Through Biological Tissues Using Machine Learning"
 summary: ""
+supervisor: "Papadopoulos"
 authors: []
 tags: []
 categories: []

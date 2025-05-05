@@ -1,38 +1,22 @@
 ---
-title: Physics (Oscillations and Waves)
-
-summary: A journey in the field of oscillations and waves starting from the simple harmonic oscillator all the way to Young's double slit experiment. 
-
-description: Simple harmonic oscillator.
-
-authors: []
-tags: []
-
-# Is this a featured talk? (true/false)
-featured: false
-
+title: "Physics [Oscillations and waves]"
+date: 2024-09-01
+type: "courses"
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)'
-  focal_point: Right
-
-url_code: ''
-url_pdf: ''
-url_slides: ''
-url_video: ''
-
-# Markdown Slides (optional).
-#   Associate this talk with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
-#   Otherwise, set `slides = ""`.
-slides:
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
-projects:
+  # filename: "courses/biophotonics.jpg"
+  # alttext: ""
+  caption: "Hokusai, The great wave"
+summary: "From the simple harmonic oscillator to the generation of light"
+course_code: "2170"
+semester: "Spring 2025"
+level: "Undergraduate"
+location: "School of Mechanical Engineering"
+ects: "5"
+schedule: "Tue 14:30-16:15 & Fri, 14:00-15:45"
+# link_to_syllabus: "/docs/biophotonics-syllabus.pdf"
+external_link: "https://helios.ntua.gr/course/view.php?id=1717"
+tags: ["Vibrations", "Waves", "Optics"]
+# tags: []
 ---
 ### Description ###
 

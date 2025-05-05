@@ -1,0 +1,78 @@
+{{ define "main" }}
+
+<!-- Luxury Line -->
+<div class="luxury-line"></div>
+
+<!-- About Page Hero Section -->
+<section class="about-hero">
+    {{ $banner := resources.Get (printf "media/%s" .Params.banner.image) }}
+    {{ if $banner }}
+    {{ $img_lg := $banner.Fit "1600x600 q75" }}
+    {{ $img_sm := $banner.Fit "800x300 q75" }}
+    <div class="hero-banner-image">
+        <img 
+        src="{{ $img_lg.RelPermalink }}" 
+        srcset="{{ $img_sm.RelPermalink }} 800w, {{ $img_lg.RelPermalink }} 1600w"
+        sizes="(max-width: 768px) 100vw, 1600px"
+        alt="{{ $.Title }}"
+        class="img-fluid"
+        loading="lazy">
+    </div>
+    {{ end }}
+
+    
+  
+  <div class="container text-center py-5">
+    <h1 class="display-4">{{ .Title }}</h1>
+    {{ with .Params.subtitle }}
+      <p class="lead">{{ . }}</p>
+    {{ end }}
+  </div>
+</section>
+
+<!-- About Page Main Content Section -->
+<section class="about-content py-5">
+  <div class="container">
+    <div class="row">
+        <!-- Left Sidebar Card: Quick Facts -->
+        <div class="col-lg-4 mb-4">
+            <div class="card shadow-sm bg-light sticky-card">
+            <div class="card-body">
+                <div class="text-center mb-3">
+                    <img src="/images/ntua-logo-black.svg" alt="NTUA Logo" class="img-fluid" style="max-height: 60px;">
+                </div>
+                <h5 class="card-title text-center">{{ i18n "quick_facts" }}</h5>
+                <ul class="list-unstyled">
+                  <li><strong>{{ i18n "institution" }}:</strong> 
+                      <a href="https://www.ntua.gr" target="_blank" rel="noopener noreferrer">
+                      {{i18n "institution_name"}}
+                      </a>
+                  </li>
+                  <li><strong>{{ i18n "school" }}:</strong> 
+                    <a href="https://semfe.ntua.gr" target="_blank" rel="noopener noreferrer">
+                      {{i18n "school_name"}}
+                    </a>
+                  </li>
+                  <li><strong>{{ i18n "department" }}:</strong> 
+                      <a href="https://physics.ntua.gr" target="_blank" rel="noopener noreferrer">
+                        {{i18n "department_name"}}
+                      </a>
+                  </li>
+                  <li><strong>{{ i18n "founded" }}:</strong> 2024</li>
+                  <li><strong>{{ i18n "location" }}:</strong> {{i18n "location_name"}}</li>
+                </ul>
+
+                </div>
+            </div>
+        </div>
+
+      <!-- Right Main Content -->
+      <div class="col-lg-8">
+        {{ .Content }}
+      </div>
+
+    </div>
+  </div>
+</section>
+
+{{ end }}

@@ -5,17 +5,17 @@ type: "courses"
 image:
   # filename: "courses/biophotonics.jpg"
   alttext: "Laser-tissue interaction in Biophotonics course"
-  caption: "Courtesy of Biophotonics"
+  caption: "Ntziachristos, V. Going deeper than microscopy: the optical imaging frontier in biology. Nat Methods 7, 603–614 (2010). https://doi.org/10.1038/nmeth.1483"
 summary: "Light-tissue interactions, imaging, and therapy."
-course_code: "APH401"
+course_code: "9198"
 semester: "Fall 2024"
 level: "Undergraduate"
-location: "NTUA, Room B12"
+location: "NTUA, SAMPS New Building"
 ects: "5"
-schedule: "Mon & Wed, 10:00-12:00"
-link_to_syllabus: "/docs/biophotonics-syllabus.pdf"
-external_link: "https://moodle.ntua.gr/course/view.php?id=123"
-tags: ["Medical Physics", "Optics"]
+schedule: "Mon & Wed, 10:45-12:30"
+# link_to_syllabus: "/docs/biophotonics-syllabus.pdf"
+external_link: "https://helios.ntua.gr/course/view.php?id=1445"
+tags: ["Lasers", "Optics"]
 # tags: []
 ---
 ### Description ###

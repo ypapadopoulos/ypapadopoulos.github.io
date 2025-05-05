@@ -1,0 +1,36 @@
+{{ $item := .item }}
+<div class="card h-100 shadow-sm">
+  <div class="card-body d-flex flex-column">
+
+    <h5 class="card-title mb-2">{{ $item.Title }}</h5>
+
+    {{ with $item.Params.summary }}
+      <p class="card-text small mb-3">{{ . }}</p>
+    {{ end }}
+
+    <ul class="list-unstyled text-muted small mb-2">
+      {{ with $item.Params.supervisor }}
+        <li><strong>👤 Supervisor:</strong> {{ . }}</li>
+      {{ end }}
+      {{ with $item.Params.level }}
+        <li><strong>🎓 Level:</strong> {{ . }}</li>
+      {{ end }}
+    </ul>
+
+    {{ with $item.Params.tags }}
+      <div class="mb-3">
+        {{ range . }}
+          <span class="badge bg-light text-dark border me-1 mb-1">{{ . }}</span>
+        {{ end }}
+      </div>
+    {{ end }}
+
+    <div class="mt-auto d-flex justify-content-between align-items-end">
+      <a href="{{ $item.RelPermalink }}" class="btn btn-outline-primary btn-sm">View Project</a>
+      {{ with $item.Params.link_to_pdf }}
+        <a href="{{ . }}" class="btn btn-outline-secondary btn-sm ms-2" target="_blank">📄 PDF</a>
+      {{ end }}
+    </div>
+    
+  </div>
+</div>

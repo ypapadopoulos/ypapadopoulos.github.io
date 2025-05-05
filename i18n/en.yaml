@@ -303,3 +303,37 @@
 
 - id: footer_contact
   translation: "<strong>Biophotonics Research Group</strong><br>School of Applied Mathematical and Physical Sciences<br>National Technical University of Athens<br>9 Iroon Polytechniou, Zografou 15780"
+
+- course_info: "Course Info"
+- code: "Code"
+- location: "Location"
+- semester: "Semester"
+- schedule: "Schedule"
+- ects: "ECTS"
+- view_syllabus: "View Syllabus"
+- course_website: "Course Website"
+- related_courses: "Related Courses"
+- see_all_courses: "See all courses"
+
+- id: quick_facts
+  translation: "Quick Facts"
+- id: institution
+  translation: "Institution"
+- id: school
+  translation: "School"
+- id: department
+  translation: "Department"
+- id: founded
+  translation: "Founded"
+- id: location
+  translation: "Location"
+
+
+- id: institution_name
+  translation: "National Technical University of Athens"
+- id: school_name
+  translation: "Applied Mathematical and Physical Sciences"
+- id: department_name
+  translation: "Physics"
+- id: location_name
+  translation: "Athens, Greece"

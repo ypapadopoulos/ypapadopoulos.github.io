@@ -14,9 +14,8 @@ sections:
         filename: hand_nature.jpg
         caption: "Psaltis, D. & Papadopoulos, I. N. Imaging: The fog clears. Nature 491, 197–198 (2012)"
       text: |
-        <br>
-        
-        The **Biophotonics Research Group** is focused in research in the field of biomedical imaging, scattering media and miniature biosensing with a focus on consumer electronics devices.
+        We explore how light behaves in biological media to push the limits of biomedical imaging and sensing. Our research spans wavefront shaping, multiphoton microscopy, and **miniature biosensing technologies** designed for integration into everyday consumer devices.
+
 
   - block: slider
     content:
@@ -37,36 +36,24 @@ sections:
             icon: flask
             icon_pack: fas
             text: About Us
-            url: ../about/
-        - title: Lunch & Learn ☕️
-          content: 'Share your knowledge with the group and explore exciting new topics together!'
+            url: ./about-us/
+        - title: Teaching activities
+          content: 'Explore our courses and available thesis projects'
           align: left
           background:
             image:
               # Specify an image from `assets/media/`
               # or delete the image section to remove it
-              filename: beautiful-optical-fiber-detail.jpg
+              filename: psf-preview.png
               filters:
                 brightness: 0.4
             position: center
             color: '#555'
-        - title: World-Class Semiconductor Lab
-          content: 'Just opened last month!'
-          align: right
-          background:
-            image:
-              # Specify an image from `assets/media/`
-              # or delete the image section to remove it
-              filename: beautiful-optical-fiber-detail.jpg
-              filters:
-                brightness: 0.4
-            position: center
-            color: '#333'
           link:
-            icon: graduation-cap
-            icon_pack: fas
-            text: Join Us
-            url: ../contact/
+            # icon: flask
+            # icon_pack: fas
+            text: Thesis projects
+            url: ./thesis-projects/
     design:
       # Slide height is automatic unless you force a specific height (e.g. '400px')
       slide_height: 400px
@@ -165,12 +152,28 @@ sections:
   #     view: citation
   #     columns: '1'
 
+
   - block: markdown
     content:
-      title:
-      subtitle:
+      title: Meet Our Team
+      subtitle: |
+        <span class="fs-5 d-block">Learn more about the people behind the research</span>
       text: |
-        {{% cta cta_link="./people/" cta_text="Meet the team →" %}}
+        <a href="./people/" 
+          class="btn btn-dark btn-lg px-5 py-3 mt-4" 
+          style="color: white !important; transition: all 0.3s ease;">
+          Explore our group →
+        </a>
     design:
-      columns: '2'
+      columns: '1'
+      background:
+        color: "#f8f9fa"  # Adjust if needed (e.g., "#e9ecef" or your gray tone)
+        text_color_light: false
+      spacing:
+        padding: ["3rem", "0", "3rem", "0"]
+      css_class: text-center shadow-sm border-top
+      animation:
+        entrance: fadeInUp
+
+
 ---

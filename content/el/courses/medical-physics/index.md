@@ -1,57 +1,38 @@
 ---
-title: Introduction to medical physics
-
-summary: Basically physics of the human body. Body mechanics
-
-authors: []
-tags: []
-
-# Is this a featured talk? (true/false)
-featured: false
-
+title: "Εισαγωγή στην ιατρική φυσική"
+date: 2024-09-01
+type: "courses"
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)'
-  focal_point: Right
-
-url_code: ''
-url_pdf: ''
-url_slides: ''
-url_video: ''
-
-# Markdown Slides (optional).
-#   Associate this talk with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
-#   Otherwise, set `slides = ""`.
-slides:
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
-projects:
+  # filename: "courses/biophotonics.jpg"
+  # alttext: ""
+  caption: "Leonardo da Vinci, Vitruvian man"
+summary: "Φυσική του ανθρώπινου σώματος"
+course_code: "9199"
+semester: "Χειμερινό 2024"
+level: "Προπτυχιακό"
+location: "ΕΜΠ, Νέο Κτίριο ΣΕΜΦΕ"
+ects: "5"
+schedule: "Δευτέρα & Τετάρτη, 12:45-14:30"
+# link_to_syllabus: "/docs/biophotonics-syllabus.pdf"
+external_link: "https://helios.ntua.gr/course/view.php?id=1446"
+tags: ["Medical physics", "Optics"]
+# tags: []
 ---
 
-### Description ###
+### Περιγραφή ###
 
-Biophotonics/applications in biomedicine module.
-1. Introduction to biomedical applications of lasers, biophotonics
-2. Quantities and physics of radiometry/photometry.
-3. Basic concepts from laser physics, spatial/temporal coherence, focusing, interaction with lenses, beam propagation.
-4. Tissue optics. Scattering, absorption, Beer-Lambert law, scattering probability function, scattering anisotropy coefficient.
-5. Radiation propagation equation and applications to the study of light propagation within biological tissues.
-6. Basic concepts of radiation laser interaction of living matter:
-        <ol type="a">
-          <li>Photochemical action, photodynamic therapy</li>
-          <li>Photothermal action</li>
-          <li>Photodegradation</li>
-          <li>Photomechanical action</li>
-        </ol>
-7. Applications of lasers in ophthalmology
-8. Diagnostic applications. Optical microscopy, optical coherence tomography, optogenetics, optical diffusion tomography, two-photon fluorescence microscopy.
+1. Εισαγωγή: Ορισμός Ιατρικής Φυσικής, η σχέση της με άλλες επιστήμες. Τομείς της Ιατρικής Φυσικής που δεν καλύπτονται στο μάθημα (π.χ. Ακτινοφυσική, Εμβιομηχανική, Φυσική της Ιατρικής Απεικόνισης). Ο ρόλος του Φυσικού Ιατρικής. 
+2. Μύες και δυνάμεις: Δυνάμεις τριβής. Δυνάμεις, μύες και αρθρώσεις. Δυνάμεις κατά τη σύγκρουση. Μηχανική της βάδισης και των αρθρώσεων. 
+3. Φυσική του σκελετού: Σύσταση οστών. Πιεζοηλεκτρικά φαινόμενα στα οστά . Αντοχή οστών. 
+4. Ρευστομηχανική του ανθρώπινου σώματος (πίεση στο σώμα, ώσμωση και νεφροί, Φυσική της αναπνοής): Μέτρηση πίεσης στο σώμα. Ενδοκρανιακή, ενδοφθάλμια πίεση, πίεση στον σκελετό κ.λ.π.. Πίεση κατά την κατάδυση, πίεση σε μεγάλα ύψη. Ώσμωση, νεφροί, τεχνητός νεφρός. Φυσική των πνευμόνων και της αναπνοής. 
+5. Φυσική του καρδιαγγειακού συστήματος: Η καρδιά ως αντλία - Το έργο της καρδιάς. Πίεση του αίματος και μέτρηση της. Αρχή του Bernoulli και καρδιαγγειακό σύστημα. Στρωτή και τυρβώδης ροή του αίματος. Διάδοση μηχανικών κυμάτων στο σώμα (π.χ. εξωσωματική λιθοτριψία). 
+6. Ηλεκτρικά σήματα από το ανθρώπινο σώμα: Ηλεκτρικά δυναμικά (ΗΚΓ, ΗΕΓ, ΗΜΓ, ΗΑΓ). 
+7. Φυσική της ομιλίας και της ακοής: Φυσικές ιδιότητες των ήχων, στηθοσκόπιο, παραγωγή ήχων από το σώμα. 
+8. Φυσική του ωτός, εξέταση ακοής. Αίσθηση ισορροπίας. 
+9. Φυσική της όρασης  Βιοοπτικη: Η διαθλαστική συσκευή του οφθαλμού. Διαθλαστικές ανωμαλίες και διόρθωση τους. Όργανα εξέτασης στην Οφθαλμολογία. 
+10. Στοιχεία Βιονικής. Βιομιμητική, τεχνητά μέλη, βιοαισθητήρες: Ορισμοί, κοχλιακό εμφύτευμα, βιονικό μάτι, τεχνητοί μύες, βιοαισθητήρες.
 
-### Course schedule 2024-2025 ###
-The courses are given as follows:
-- Monday:  10:45am - 12:30pm Room 103 (New Build. SAMPS)
-- Wednesday:  10:45am - 12:30pm, Room 001 (New Build. SAMPS) 
+### Πρόγραμμα Μαθήματος 2024–2025 ###
+Το μάθημα διδάσκεται ως εξής:
+- Δευτέρα: 12:45 – 14:30, Αίθουσα 001 (Νέο Κτίριο ΣΕΜΦΕ)  
+- Τετάρτη: 12:45 – 14:30, Αίθουσα 108 (Νέο Κτίριο ΣΕΜΦΕ)

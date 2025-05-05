@@ -5,7 +5,7 @@ title: Courses
 # view: card
 
 # Optional banner image (relative to `assets/media/` folder).
-banner:
-  caption: ''
-  image: 'blackboard.jpg'
+# banner:
+#   caption: ''
+#   image: 'blackboard.jpg'
 ---

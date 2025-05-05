@@ -1,57 +1,29 @@
 ---
-title: Introduction to medical physics
-
-summary: Basically physics of the human body. Body mechanics
-
-authors: []
-tags: []
-
-# Is this a featured talk? (true/false)
-featured: false
-
+title: "Introduction to medical physics"
+date: 2024-09-01
+type: "courses"
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)'
-  focal_point: Right
-
-url_code: ''
-url_pdf: ''
-url_slides: ''
-url_video: ''
-
-# Markdown Slides (optional).
-#   Associate this talk with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
-#   Otherwise, set `slides = ""`.
-slides:
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
-projects:
+  # filename: "courses/biophotonics.jpg"
+  # alttext: ""
+  caption: "Leonardo da Vinci, Vitruvian man"
+summary: "Physics of the human body"
+course_code: "9199"
+semester: "Fall 2024"
+level: "Undergraduate"
+location: "NTUA, SAMPS New Building"
+ects: "5"
+schedule: "Mon & Wed, 12:45-14:30"
+# link_to_syllabus: "/docs/biophotonics-syllabus.pdf"
+external_link: "https://helios.ntua.gr/course/view.php?id=1446"
+tags: ["Medical physics", "Optics"]
+# tags: []
 ---
 
 ### Description ###
 
-Biophotonics/applications in biomedicine module.
-1. Introduction to biomedical applications of lasers, biophotonics
-2. Quantities and physics of radiometry/photometry.
-3. Basic concepts from laser physics, spatial/temporal coherence, focusing, interaction with lenses, beam propagation.
-4. Tissue optics. Scattering, absorption, Beer-Lambert law, scattering probability function, scattering anisotropy coefficient.
-5. Radiation propagation equation and applications to the study of light propagation within biological tissues.
-6. Basic concepts of radiation laser interaction of living matter:
-        <ol type="a">
-          <li>Photochemical action, photodynamic therapy</li>
-          <li>Photothermal action</li>
-          <li>Photodegradation</li>
-          <li>Photomechanical action</li>
-        </ol>
-7. Applications of lasers in ophthalmology
-8. Diagnostic applications. Optical microscopy, optical coherence tomography, optogenetics, optical diffusion tomography, two-photon fluorescence microscopy.
+Introduction to Medical Physics. The role of Medical Physicist in health care. Biomechanics, Muscle and forces. Physics of the skeleton. Pressure in the body. Osmosis and the kidneys. Physics of the lungs and breathing. Physics of the cardiovascular system and electric signals. Sound, speech and hearing. Interaction of mechanical waves with living matter and applications (e.g. extracorporeal lithotripsy). Physics of the eyes and vision, artificial vision. Introduction to Bionics, biosensors and bioactivators. 
 
 ### Course schedule 2024-2025 ###
 The courses are given as follows:
-- Monday:  10:45am - 12:30pm Room 103 (New Build. SAMPS)
-- Wednesday:  10:45am - 12:30pm, Room 001 (New Build. SAMPS) 
+- Monday:  12:45am - 14:30pm Room 103 (New Build. SAMPS)
+- Wednesday:  12:45am - 14:30pm, Room 001 (New Build. SAMPS) 

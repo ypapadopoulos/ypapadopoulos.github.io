@@ -270,3 +270,42 @@
 
 - id: footer_contact
   translation: "<strong>Ερευνητική Ομάδα Βιοφωτονικής</strong><br>Σχολή Εφαρμοσμένων Μαθηματικών και Φυσικών Επιστημών<br>Εθνικό Μετσόβιο Πολυτεχνείο<br>Ηρώων Πολυτεχνείου 9, Ζωγράφου 15780"
+
+# Courses
+
+- id: course_info
+  translation: "Πληροφορίες Μαθήματος"
+
+- id: code
+  translation: "Κωδικός"
+
+- location: "Τοποθεσία"
+- semester: "Εξάμηνο"
+- schedule: "Ωρολόγιο Πρόγραμμα"
+- ects: "Ακαδημαϊκές Μονάδες (ECTS)"
+- view_syllabus: "Προβολή Αναλυτικού Προγράμματος"
+- course_website: "Ιστότοπος Μαθήματος"
+- related_courses: "Σχετικά Μαθήματα"
+- see_all_courses: "Προβολή Όλων των Μαθημάτων"
+
+- id: quick_facts
+  translation: "Βασικά Στοιχεία"
+- id: institution
+  translation: "Ίδρυμα"
+- id: school
+  translation: "Σχολή"
+- id: department
+  translation: "Τομέας"
+- id: founded
+  translation: "Ίδρυση"
+- id: location
+  translation: "Τοποθεσία"
+
+- id: institution_name
+  translation: "Εθνικό Μετσόβιο Πολυτεχνείο"
+- id: school_name
+  translation: "Εφαρμοσμένων Μαθηματικών και Φυσικών Επιστημών"
+- id: department_name
+  translation: "Φυσικής"
+- id: location_name
+  translation: "Αθήνα, Ελλάδα"

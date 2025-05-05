@@ -3,6 +3,7 @@
 
 title: "Modeling Coherent Laser Light Propagation in the Surface Layers of the Circulatory System Using the Monte-Carlo Method"
 summary: ""
+supervisor: "Papadopoulos"
 authors: []
 tags: []
 categories: []
@@ -20,7 +21,7 @@ date: 2025-04-16T16:20:39+03:00
 # Set 'fontsize' for caption
 image:
   placement: 1
-  caption: "Image from Design of Multi-Wavelength Optical Sensor Module for Depth-Dependent Photoplethysmography. https://www.mdpi.com/ 1424-8220/19/24/5441."
+  caption: "Image from Design of Multi-Wavelength Optical Sensor Module for Depth-Dependent Photoplethysmography. https://www.mdpi.com/1424-8220/19/24/5441."
   fontsize: "0.6em"
   focal_point: "Center"
   preview_only: false

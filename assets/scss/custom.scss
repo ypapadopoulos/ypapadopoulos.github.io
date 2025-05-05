@@ -194,3 +194,137 @@ main {
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
   transform: translateY(-2px);
 }
+
+.about-hero {
+  background-color: #f8f9fa; /* Light gray background for hero */
+}
+
+.about-hero h1 {
+  font-weight: bold;
+}
+
+.about-hero img {
+  max-height: 400px;
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+}
+
+.about-content {
+  background: #ffffff;
+}
+
+.about-content h2 {
+  margin-top: 2rem;
+  font-size: 1.75rem;
+}
+
+.hero-banner-image {
+  margin-top: 0;
+}
+.hero-banner-image img {
+  width: 100%;
+  height: auto;
+  max-height: 400px;
+  object-fit: cover;
+  display: block;
+}
+
+.about-hero {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.luxury-line {
+  height: 3px;
+  background: linear-gradient(to right, #46616e, #6792a8); /* or your custom color */
+  width: 100%;
+  opacity: 0;
+  animation: fadeInLine 1s ease forwards;
+  animation-delay: 0.5s;
+}
+
+@keyframes fadeInLine {
+  from {
+    opacity: 0;
+    transform: translateY(-5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+.card-title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.card-body ul li {
+  margin-bottom: 0.5rem;
+}
+
+.card.shadow-sm {
+  transition: all 0.3s ease;
+}
+
+.card.shadow-sm:hover {
+  transform: translateY(-3px) !important;
+  box-shadow: 0 8px 16px #46616e72 !important; /* NTUA blue glow */
+}
+
+/* Default: not sticky */
+.about-content .sticky-card {
+  position: static;
+}
+
+/* Sticky only on large screens (≥992px) */
+@media (min-width: 992px) {
+  .about-content .sticky-card {
+    position: sticky;
+    top: 100px;
+    z-index: 10;
+  }
+}
+
+/* Fix FA icon alignment in list */
+.fa-ul > li {
+  line-height: 1.6;
+}
+
+/* Optional: reduce size of icons slightly */
+.fa-ul .fa-li i {
+  font-size: 1rem;
+  top: 0.1rem;  /* fine-tune vertical alignment */
+  position: relative;
+}
+
+/* Make embedded map more polished */
+.ratio iframe {
+  border-radius: 0.5rem;
+  border: none;
+}
+
+/* Improve mobile spacing */
+@media (max-width: 576px) {
+  .contact-info-box {
+    padding: 1.5rem;
+  }
+}
+
+.btn-primary:hover,
+.btn-dark:hover {
+  filter: brightness(1.1);
+  transform: translateY(-2px);
+}
+
+.btn-primary i,
+.btn-dark i {
+  transition: transform 0.3s ease;
+}
+
+.btn-primary:hover i,
+.btn-dark:hover i {
+  transform: translateX(4px);
+}

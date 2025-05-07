@@ -13,7 +13,7 @@ sections:
       user_groups:
           - Principal Investigator
           - Researchers
-          - Grad Students
+          - Grad-Students
           - Administration
           - Visitors
           - Alumni

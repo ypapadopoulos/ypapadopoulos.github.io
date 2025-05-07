@@ -16,7 +16,8 @@ role: Associate Professor of Biophotonics
 
 # Organizations/Affiliations
 organizations:
-  - name: School of ANational Technical University of Athens
+  - institute: National Technical University of Athens
+    school: School of Applied Mathematical and Physical Sciences
     url: https://www.ntua.gr
 
 # Short bio (displayed in user profile at end of posts)

@@ -309,3 +309,21 @@
   translation: "Φυσικής"
 - id: location_name
   translation: "Αθήνα, Ελλάδα"
+
+- id: Principal Investigator
+  translation: "Επιστημονικός Υπεύθυνος"
+
+- id: Researchers
+  translation: "Ερευνητές"
+
+- id: Grad Students
+  translation: "Υποψήφιοι Διδάκτορες"
+
+- id: Administration
+  translation: "Διοικητικό Προσωπικό"
+
+- id: Visitors
+  translation: "Επισκέπτες"
+
+- id: Alumni
+  translation: "Απόφοιτοι"

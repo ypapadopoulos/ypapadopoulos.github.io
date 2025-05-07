@@ -337,3 +337,22 @@
   translation: "Physics"
 - id: location_name
   translation: "Athens, Greece"
+
+- id: Principal Investigator
+  translation: "Principal Investigator"
+
+- id: Researchers
+  translation: "Researchers"
+
+- id: Grad Students
+  translation: "Graduate Students"
+
+- id: Administration
+  translation: "Administration"
+
+- id: Visitors
+  translation: "Visitors"
+
+- id: Alumni
+  translation: "Alumni"
+

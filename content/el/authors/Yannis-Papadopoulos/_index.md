@@ -16,9 +16,9 @@ role: Αναπληρωτής Καθηγητής Βιοφωτονικής
 
 # Organizations/Affiliations
 organizations:
-  - name: Σχολή Εφαρμοσμένων Μαθηματικών και Φυσικών Επιστημών, ΕΜΠ
-    school: test
-    url: http://semfe.ntua.gr
+  - institute: Εθνικό Μετσόβιο Πολυτεχνείο
+    school: Σχολή Εφαρμοσμένων Μαθηματικών και Φυσικών Επιστημών
+    url: https://www.ntua.gr
 
 # Short bio (displayed in user profile at end of posts)
 bio: 

@@ -24,8 +24,8 @@
 
   {{- if gt $index 0 -}}
     {{- if and (eq $index (sub $count 1)) (gt $count 2) -}},{{- end -}}
-    {{- if eq $index (sub $count 1) -}} and{{- else -}},{{- end -}}
-  {{- end }}
+    {{- if eq $index (sub $count 1) }} and {{ else }}, {{ end -}}
+  {{- end -}}
 
   <span{{ if and $authorPage $authorPage.File $authorPage.Params.highlight_name }} class="font-weight-bold"{{ end }}>
     {{- if and $authorPage $authorPage.File -}}
@@ -33,7 +33,7 @@
     {{- else -}}
       {{ $author }}
     {{- end -}}
-    {{- if eq $index (sub $count 1) -}}.{{- end -}}
+    {{- if eq $index (sub $count 1) }}.{{ end -}}
   </span>
 
   {{- if isset $.Params "author_notes" }}
@@ -41,4 +41,5 @@
       <i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="{{ . }}"></i>
     {{- end }}
   {{- end }}
+
 {{- end }}

@@ -14,6 +14,7 @@
     {{/* Show the About block if an account exists for this user. */}}
     {{/* TODO: remove dependency on v1 blocks. Either migrate to v2 blocks(?) or directly implement layout here. */}}
     <div class="author-profile-wrapper">
+      <p>test</p>
       {{ if .File }}
         {{ $widget := "blocks/v1/about.html" }}
         {{ $username := (path.Base .File.Dir) }}

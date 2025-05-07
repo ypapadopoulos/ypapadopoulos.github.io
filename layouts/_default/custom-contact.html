@@ -56,7 +56,8 @@
       <!-- Right: Map Embed -->
       <div class="col-md-6">
         {{ with .Params.map_embed }}
-          <div class="ratio ratio-4x3 shadow-sm rounded border">
+          <!-- <div class="ratio ratio-4x3 shadow-sm rounded border"> -->
+            <div class="map-container ratio ratio-4x3 shadow-sm border overflow-hidden"></div>
             {{ . | safeHTML }}
           </div>
         {{ else }}

@@ -11,7 +11,7 @@ authors:
 - Matthew Larkum
 - Benjamin Judkewitz
 date: '2021-01-01'
-publishDate: '2025-04-21T12:23:29.778485Z'
+publishDate: '2025-05-07T10:27:08.088651Z'
 publication_types:
 - article-journal
 publication: '*Optica*'
@@ -25,4 +25,6 @@ abstract: Optical imaging techniques are widely used in biological research, but
   and works reliably even on densely labeled samples, where 2P approaches fail. To
   demonstrate its usability and advantages for biomedical imaging we apply it to the
   imaging of dendritic spines on GFP-labeled layer 5 neurons in an anesthetized mouse.
+volume: '8'
+pages: '1613'
 ---

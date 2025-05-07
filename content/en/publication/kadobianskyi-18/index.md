@@ -7,7 +7,7 @@ authors:
 - Roarke Horstmeyer
 - Benjamin Judkewitz
 date: '2018-04-01'
-publishDate: '2025-04-21T12:23:29.799867Z'
+publishDate: '2025-05-07T10:27:08.100029Z'
 publication_types:
 - article-journal
 publication: '*Optica*'
@@ -34,6 +34,8 @@ tags:
 - Multiple scattering
 - Scattering media
 - Speckle patterns
+volume: '5'
+pages: '389'
 links:
 - name: URL
   url: http://www.osapublishing.org/optica/abstract.cfm?URI=optica-5-4-389

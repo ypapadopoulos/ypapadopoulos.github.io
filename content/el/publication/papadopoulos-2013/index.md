@@ -7,7 +7,7 @@ authors:
 - Christophe Moser
 - Demetri Psaltis
 date: '2013-01-01'
-publishDate: '2025-04-21T12:23:29.873165Z'
+publishDate: '2025-05-07T10:25:01.043542Z'
 publication_types:
 - article-journal
 publication: '*Biomedical Optics Express*'
@@ -21,6 +21,8 @@ abstract: We propose and experimentally demonstrate an ultra-thin rigid endoscop
   resolution and field of view. The small diameter of the proposed endoscope, along
   with its high quality images offer an opportunity for minimally invasive medical
   endoscopic imaging and diagnosis based on cellular phenotype via direct tissue penetration.
+volume: '4'
+pages: '260'
 links:
 - name: URL
   url: http://www.opticsinfobase.org/abstract.cfm?uri=boe-4-2-260

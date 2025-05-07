@@ -9,7 +9,7 @@ authors:
 - James Poulet
 - Benjamin Judkewitz
 date: '2020-01-01'
-publishDate: '2025-04-21T12:23:29.792618Z'
+publishDate: '2025-05-07T10:25:01.000502Z'
 publication_types:
 - article-journal
 publication: '*Light: Science and Applications*'
@@ -25,6 +25,8 @@ abstract: Optical microscopy is an indispensable tool in biomedical sciences, bu
   and home-built two-photon microscopes. We demonstrate the power of the method by
   imaging with high resolution over extended FOV (>80 µm) deeper than 400 μm inside
   a mouse brain through a thinned skull.
+volume: '9'
+pages: '110'
 links:
 - name: URL
   url: https://doi.org/10.1038/s41377-020-00348-x

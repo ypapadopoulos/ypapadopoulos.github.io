@@ -7,7 +7,7 @@ authors:
 - Christophe Moser
 - Demetri Psaltis
 date: '2012-01-01'
-publishDate: '2025-04-21T12:23:29.866261Z'
+publishDate: '2025-05-07T10:25:01.040153Z'
 publication_types:
 - article-journal
 publication: '*Optics Express*'
@@ -17,6 +17,8 @@ abstract: We demonstrate for the first time to our knowledge a digital phase con
   A sharp focus with a contrast of 1800 is experimentally obtained at the tip of a
   105 μm core multimode fiber. Scanning of the focal point is also demonstrated by
   digital means. Effects from illumination and fiber bending are addressed.
+volume: '20'
+pages: '10583'
 links:
 - name: URL
   url: http://www.opticsinfobase.org/abstract.cfm?URI=oe-20-10-10583

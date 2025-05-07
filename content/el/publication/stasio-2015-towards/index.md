@@ -11,7 +11,7 @@ authors:
 - Christophe Moser
 - Demetri Psaltis
 date: '2015-12-01'
-publishDate: '2025-04-21T12:23:29.829422Z'
+publishDate: '2025-05-07T10:25:01.020467Z'
 publication_types:
 - article-journal
 publication: '*Biomedical Optics Express*'
@@ -34,6 +34,8 @@ tags:
 - Endoscopi
 - Fiber optics imaging
 - Phase conjugation
+volume: '6'
+pages: '4619'
 links:
 - name: URL
   url: http://www.osapublishing.org/boe/abstract.cfm?URI=boe-6-12-4619

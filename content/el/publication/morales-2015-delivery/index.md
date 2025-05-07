@@ -7,7 +7,7 @@ authors:
 - Demetri Psaltis
 - Christophe Moser
 date: '2015-04-01'
-publishDate: '2025-04-21T12:23:29.837064Z'
+publishDate: '2025-05-07T10:25:01.024208Z'
 publication_types:
 - article-journal
 publication: '*Optics Express*'
@@ -32,6 +32,8 @@ tags:
 - Femtosecond phenomena
 - Imaging
 - Phase conjugation
+volume: '23'
+pages: '9109'
 links:
 - name: URL
   url: http://www.opticsexpress.org/abstract.cfm?URI=oe-23-7-9109

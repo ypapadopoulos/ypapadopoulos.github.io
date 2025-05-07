@@ -7,7 +7,7 @@ authors:
 - Yannis Papadopoulos
 - Changhuei Yang
 date: '2015-06-01'
-publishDate: '2025-04-21T12:23:29.851864Z'
+publishDate: '2025-05-07T10:27:08.128235Z'
 publication_types:
 - article-journal
 publication: '*Nature Physics*'
@@ -23,6 +23,8 @@ abstract: Controlling light propagation across scattering media by wavefront sha
   we theoretically predict and experimentally verify new transmission matrix correlations
   within thick anisotropically scattering media, with important implications for biomedical
   imaging and adaptive optics.
+volume: '11'
+pages: 684-689
 links:
 - name: URL
   url: http://www.nature.com/doifinder/10.1038/nphys3373 papers3://publication/doi/10.1038/nphys3373

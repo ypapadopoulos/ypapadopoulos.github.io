@@ -6,7 +6,7 @@ authors:
 - Yannis Papadopoulos
 - Benjamin Judkewitz
 date: '2018-01-01'
-publishDate: '2025-04-21T12:23:29.880201Z'
+publishDate: '2025-05-07T10:27:08.144262Z'
 publication_types:
 - article-journal
 publication: '*Optics Letters*'
@@ -32,6 +32,8 @@ tags:
 - Phase conjugation
 - Phase modulation
 - Spatial light modulators
+volume: '43'
+pages: 22-25
 links:
 - name: URL
   url: http://ol.osa.org/abstract.cfm?URI=ol-43-1-22

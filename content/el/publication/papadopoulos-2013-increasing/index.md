@@ -7,7 +7,7 @@ authors:
 - Christophe Moser
 - Demetri Psaltis
 date: '2013-01-01'
-publishDate: '2025-04-21T12:23:29.902938Z'
+publishDate: '2025-05-07T10:25:01.058992Z'
 publication_types:
 - article-journal
 publication: '*Optics Letters*'
@@ -20,6 +20,8 @@ abstract: We present a novel design that exploits the focusing properties of sca
   the working distance and the separation between the fiber and the scattering medium
   on the focus size. We experimentally demonstrate submicron focused spots as far
   away as 800μm with 532nm light.
+volume: '38'
+pages: '2776'
 links:
 - name: URL
   url: http://www.opticsinfobase.org/abstract.cfm?URI=ol-38-15-2776

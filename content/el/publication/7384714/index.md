@@ -10,7 +10,7 @@ authors:
 - Michael Unser
 - Demetri Psaltis
 date: '2016-01-01'
-publishDate: '2025-04-21T12:23:29.859021Z'
+publishDate: '2025-05-07T10:25:01.036305Z'
 publication_types:
 - article-journal
 publication: '*IEEE Transactions on Computational Imaging*'
@@ -32,4 +32,6 @@ abstract: Optical tomographic imaging requires an accurate forward model as well
   a high-quality imaging of the refractive index throughout the object. We demonstrate
   the effectiveness of our method through several experiments on simulated and experimentally
   measured data.
+volume: '2'
+pages: 59-70
 ---

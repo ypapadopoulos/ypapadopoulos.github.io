@@ -9,7 +9,7 @@ authors:
 - Demetri Psaltis
 - Christophe Moser
 date: '2013-04-01'
-publishDate: '2025-04-21T12:23:29.785509Z'
+publishDate: '2025-05-07T10:27:08.092301Z'
 publication_types:
 - article-journal
 publication: '*Applied Physics Letters*'
@@ -23,6 +23,8 @@ abstract: We demonstrate Optical-Resolution Photoacoustic Microscopy (OR-PAM), w
   The use of a multimode optical fiber for the optical excitation part can pave the
   way for miniature endoscopes that can provide optical-resolution photoacoustic images
   at large optical depth. © 2013 AIP Publishing LLC.
+volume: '102'
+pages: '211106'
 links:
 - name: URL
   url: http://link.aip.org/link/?APPLAB/102/211106/1

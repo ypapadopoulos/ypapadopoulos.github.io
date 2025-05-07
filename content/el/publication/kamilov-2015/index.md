@@ -1,15 +1,15 @@
 ---
 title: Learning approach to optical tomography
 authors:
-- Ulugbek S Kamilov
+- Ulugbek S. Kamilov
 - Yannis Papadopoulos
-- Morteza H Shoreh
+- Morteza H. Shoreh
 - Alexandre Goy
 - Cedric Vonesch
 - Michael Unser
 - Demetri Psaltis
 date: '2015-06-01'
-publishDate: '2025-04-21T12:23:29.814712Z'
+publishDate: '2025-05-07T10:25:01.012918Z'
 publication_types:
 - article-journal
 publication: '*Optica*'
@@ -29,6 +29,8 @@ tags:
 - Propagation methods
 - Refractive index
 - Three dimensional imaging
+volume: '2'
+pages: 517-522
 links:
 - name: URL
   url: http://www.osapublishing.org/optica/abstract.cfm?URI=optica-2-6-517 http://www.osapublishing.org/abstract.cfm?URI=LS-2015-LW3I.1

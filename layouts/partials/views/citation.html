@@ -32,12 +32,7 @@
         {{- $item.Params.publication | markdownify -}}
       {{ end }}
     </em>
-    {{ with $item.Params.volume }}
-      <strong>{{ . | markdownify -}}</strong>
-    {{ end }}
-    {{ with $item.Params.issue }}
-      ({{ . | markdownify -}})
-    {{ end }}
+    {{ with $item.Params.volume -}}<strong>{{ . }}</strong>{{- end }}{{ with $item.Params.pages }}, {{ . | markdownify }}{{- end }}
     ({{ $item.Date.Format "2006" | markdownify -}})
   
     {{ if $has_attachments }}

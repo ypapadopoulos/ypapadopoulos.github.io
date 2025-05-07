@@ -7,7 +7,7 @@ authors:
 - Demetri Psaltis
 - Michael Unser
 date: '2015-06-01'
-publishDate: '2025-04-21T12:23:29.887694Z'
+publishDate: '2025-05-07T10:25:01.050972Z'
 publication_types:
 - article-journal
 publication: '*Journal of the Optical Society of America A*'
@@ -32,6 +32,8 @@ tags:
 - Reconstruction algorithms
 - Synthetic aperture radar
 - Wavefront distortions
+volume: '32'
+pages: '1092'
 links:
 - name: URL
   url: http://josaa.osa.org/abstract.cfm?URI=josaa-32-6-1092

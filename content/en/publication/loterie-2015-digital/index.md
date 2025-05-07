@@ -8,7 +8,7 @@ authors:
 - Demetri Psaltis
 - Christophe Moser
 date: '2015-09-01'
-publishDate: '2025-04-21T12:23:29.895232Z'
+publishDate: '2025-05-07T10:27:08.152751Z'
 publication_types:
 - article-journal
 publication: '*Optics Express*'
@@ -39,6 +39,8 @@ tags:
 - Multimode fibers
 - Single mode fibers
 - Turbid media
+volume: '23'
+pages: '23845'
 links:
 - name: URL
   url: http://www.opticsexpress.org/abstract.cfm?URI=oe-23-18-23845

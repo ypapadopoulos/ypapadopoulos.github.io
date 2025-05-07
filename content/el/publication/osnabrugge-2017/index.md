@@ -7,7 +7,7 @@ authors:
 - Benjamin Judkewitz
 - Ivo M. Vellekoop
 date: '2017-01-01'
-publishDate: '2025-04-21T12:23:29.807479Z'
+publishDate: '2025-05-07T10:25:01.008684Z'
 publication_types:
 - article-journal
 publication: '*Optica*'
@@ -26,6 +26,8 @@ tags:
 - Scanning microscopy
 - Scattering theory
 - Wave prop
+volume: '4'
+pages: 886-892
 links:
 - name: URL
   url: https://www.osapublishing.org/abstract.cfm?URI=optica-4-8-886 papers3://publication/doi/10.1364/OPTICA.4.000886

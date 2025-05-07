@@ -6,7 +6,7 @@ authors:
 - James F. A. A Poulet
 - Benjamin Judkewitz
 date: '2017-12-01'
-publishDate: '2025-04-21T12:23:29.844687Z'
+publishDate: '2025-05-07T10:27:08.124295Z'
 publication_types:
 - article-journal
 publication: '*Nature Photonics*'
@@ -22,6 +22,8 @@ abstract: A long-standing goal in biomedical imaging, the control of light insid
   sample turbulence. We demonstrate the imaging capabilities of this technique on
   a variety of samples and notably through vertebrate brains and across thinned skull
   in vivo.
+volume: '11'
+pages: 116-123
 links:
 - name: URL
   url: http://www.nature.com/doifinder/10.1038/nphoton.2016.252 papers3://publication/doi/10.1038/nphoton.2016.252

@@ -7,7 +7,7 @@ authors:
 - Demetri Psaltis
 - Christophe Moser
 date: '2013-01-01'
-publishDate: '2025-04-21T12:23:29.822119Z'
+publishDate: '2025-05-07T10:25:01.016720Z'
 publication_types:
 - article-journal
 publication: '*Optics Express*'
@@ -26,6 +26,8 @@ abstract: Multimode fiber endoscopes have recently been shown to provide sub-mic
   certain range. Once the fiber configuration is determined, previously calibrated
   phase patterns could be stored for each fiber conformation and used to scan the
   distal spot and perform imaging.
+volume: '21'
+pages: '22504'
 links:
 - name: URL
   url: http://www.opticsinfobase.org/viewmedia.cfm?uri=oe-21-19-22504&seq=0&html=true

@@ -64,41 +64,13 @@
   {{ if $block.content.image.filename }}
   </div>
   <div class="col-12 mx-auto col-md-6 {{if $block.content.design.flip}}order-md-first{{end}} hero-media">
-    {{- $image := resources.Get (path.Join "media" $block.content.image.filename) -}}
-    {{ if $image }}
-      {{ $isSVG := eq $image.MediaType.SubType "svg" }}
-      {{ if $isSVG -}}
-        <img src="{{ $image.RelPermalink }}" alt="{{ $block.Title }}">
-      {{- else }}
-        {{ $legacy_img := $image.Resize "400x" }}
-        {{ $img_src := "" }}
-        {{ $img_src_set := slice }}
-        {{ $widths := slice 1200 800 400 }}
-
-        {{ range $widths }}
-          {{ $src_link := ($image.Resize (printf "%dx" .)).RelPermalink }}
-          {{ if eq $img_src "" }}
-            {{ $img_src = $src_link }}
-          {{ end }}
-          {{ $img_src_set = $img_src_set | append (printf "%s %dw" $src_link .) }}
-        {{ end }}
-        {{ $img_src_set = delimit $img_src_set "," }}
-
-        <!-- <img src="{{ $legacy_img.RelPermalink }}" srcset="{{ $img_src_set }}" width="{{ $image.Width }}" height="{{ $image.Height }}" alt="{{ $block.Title }}"> -->
-        <div class="text-center">
-          <div style="display: inline-block; position: relative;">
-            <img src="{{ $legacy_img.RelPermalink }}" srcset="{{ $img_src_set }}" class="img-fluid" alt="{{ $block.Title }}">
-            {{ with $block.content.image.caption }}
-              {{ $fontsize := $block.content.image.fontsize | default "0.7em" }}
-              <div class="article-header-caption" style="{{ printf "max-width: 100%%; box-sizing: border-box; font-size: %s;" $fontsize }}">
-                {{ . | markdownify | emojify }}
-              </div>              
-            {{ end }}
-          </div>
-        </div>
-        
-      {{ end }}
-    {{ end }}
+    {{ partial "image/overlay.html" (dict
+  "src" $block.content.image.filename
+  "caption" $block.content.image.caption
+  "captionwidth" $block.content.image.captionwidth
+  "fontsize" $block.content.image.fontsize
+  "alt" $block.Title
+) }}
   </div>
 </div>
 {{ end }}

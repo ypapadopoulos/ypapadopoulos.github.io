@@ -13,6 +13,7 @@ sections:
       image:
         filename: hand_nature.jpg
         caption: "Psaltis, D. & Papadopoulos, I. N. Imaging: The fog clears. Nature 491, 197–198 (2012)"
+        captionwidth: '400px'
       text: |
         We explore how light behaves in biological media to push the limits of biomedical imaging and sensing. Our research spans wavefront shaping, multiphoton microscopy, and **miniature biosensing technologies** designed for integration into everyday consumer devices.
 

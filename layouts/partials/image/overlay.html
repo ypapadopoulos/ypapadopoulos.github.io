@@ -1,0 +1,34 @@
+{{- $src := .src -}}
+{{- $alt := .alt | default "" -}}
+{{- $caption := .caption -}}
+{{- $fontsize := .fontsize | default "0.8em" -}}
+{{- $captionwidth := .captionwidth | default "500px" -}}
+
+{{- $image := resources.Get (printf "media/%s" $src) -}}
+
+{{ if $image }}
+  {{ $isSVG := eq $image.MediaType.SubType "svg" }}
+  {{ if $isSVG }}
+    <img src="{{ $image.RelPermalink }}" alt="{{ $alt }}">
+  {{ else }}
+    {{ $img_lg := $image.Fit "1600x600" }}
+    {{ $img_sm := $image.Fit "800x300" }}
+
+    <div class="position-relative d-inline-block w-100">
+      <img 
+        src="{{ $img_lg.RelPermalink }}"
+        srcset="{{ $img_sm.RelPermalink }} 800w, {{ $img_lg.RelPermalink }} 1600w"
+        sizes="(max-width: 768px) 100vw, 1600px"
+        alt="{{ $alt }}"
+        class="img-fluid w-100"
+        loading="lazy">
+
+      {{ if $caption }}
+        <div class="article-header-caption position-absolute text-white text-start"
+             style="bottom: 0; right: 0; background: rgba(0,0,0,0.5); font-size: {{ $fontsize }}; max-width: {{ $captionwidth }}; padding: 0.5rem; border-radius: 0.25rem; text-align: left;">
+          {{ $caption | markdownify | emojify }}
+        </div>
+      {{ end }}
+    </div>
+  {{ end }}
+{{ end }}

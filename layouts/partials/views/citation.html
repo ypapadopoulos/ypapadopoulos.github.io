@@ -1,64 +1,9 @@
 {{ $item := .item }}
 {{ $has_attachments := partial "functions/has_attachments" $item }}
-{{ $style := site.Params.publications.citation_style | default "apa" }}
+{{ $style := site.Params.publications.citation_style | default "nature" }}
 
 <div class="pub-list-item view-citation" style="margin-bottom: 1rem">
   <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
 
-  {{ if eq $style "apa" }}
-    {{/* APA Style */}}
-    <span class="article-metadata li-cite-author">
-      {{ partial "page_metadata_authors" $item }}
-    </span>
-    ({{- $item.Date.Format "2006" -}}).
-    <a href="{{ $item.RelPermalink }}">{{ $item.Title }}</a>.
-    {{ if $item.Params.publication_short }}
-      {{- $item.Params.publication_short | markdownify -}}.
-    {{ else if $item.Params.publication }}
-      {{- $item.Params.publication | markdownify -}}.
-    {{ end }}
-    <p>{{ partial "page_links" (dict "page" $item "is_list" 1) }}</p>
-
-    {{ else if eq $style "nature" }}
-    {{/* Nature Style */}}
-    <span class="article-metadata li-cite-author">
-      {{ partial "page_metadata_authors" $item }}
-    </span>
-    <strong><a href="{{ $item.RelPermalink }}">{{ $item.Title }}</a></strong>.
-    <em>
-      {{ if $item.Params.publication_short }}
-        {{- $item.Params.publication_short | markdownify -}}
-      {{ else if $item.Params.publication }}
-        {{- $item.Params.publication | markdownify -}}
-      {{ end }}
-    </em>
-    {{ with $item.Params.volume -}}<strong>{{ . }}</strong>{{- end }}{{ with $item.Params.pages }}, {{ . | markdownify }}{{- end }}
-    ({{ $item.Date.Format "2006" | markdownify -}})
-  
-    {{ if $has_attachments }}
-    <div class="btn-links">
-      {{ partial "page_links" (dict "page" $item "is_list" 1) }}
-    </div>
-    {{ end }}
-
-  {{ else }}
-    {{/* Fallback Style (MLA-like) */}}
-    <span class="article-metadata li-cite-author">
-      {{ partial "page_metadata_authors" $item }}.
-    </span>
-    <a href="{{ $item.RelPermalink }}">{{ $item.Title }}</a>.
-    {{ if $item.Params.publication_short }}
-      {{- $item.Params.publication_short | markdownify -}},
-    {{ else if $item.Params.publication }}
-      {{- $item.Params.publication | markdownify -}},
-    {{ end }}
-    {{- $item.Date.Format "2006" -}}.
-
-    {{ if $has_attachments }}
-    <div class="btn-links">
-      {{ partial "page_links" (dict "page" $item "is_list" 1) }}
-    </div>
-    {{ end }}
-
-  {{ end }}
+  {{ partial (printf "citation_styles/%s.html" $style | default "default") $item }}
 </div>

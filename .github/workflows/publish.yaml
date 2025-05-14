@@ -69,16 +69,22 @@ jobs:
   #       id: deployment
   #       uses: actions/deploy-pages@v4
 
-  web-deploy:
-    name: 🎉 Deploy
+  deploy:
     runs-on: ubuntu-latest
+    needs: build
     steps:
-    - name: 🚚 Get latest code
-      uses: actions/checkout@v4
-    
-    - name: 📂 Sync files
-      uses: SamKirkland/FTP-Deploy-Action@v4.3.5
-      with:
-        server: ftp://biophotonics.physics.ntua.com
-        username: biophotonics
-        password: ${{ secrets.ftp_password }}
+      - name: Install lftp
+        run: sudo apt-get update && sudo apt-get install -y lftp
+
+      - name: Deploy via FTP
+        env:
+          FTP_HOST: ${{ secrets.FTP_HOST }}
+          FTP_USER: ${{ secrets.FTP_USER }}
+          FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+          FTP_TARGET_DIR: ${{ secrets.FTP_TARGET_DIR }}
+        run: |
+          lftp -e "
+          open -u $FTP_USER,$FTP_PASSWORD $FTP_HOST
+          mirror -R ./public $FTP_TARGET_DIR --delete --parallel=5
+          bye
+          "

@@ -1,4 +1,4 @@
-name: Deploy website to GitHub Pages
+name: Deploy website to Custom Domain
 
 env:
   WC_HUGO_VERSION: '0.135.0'
@@ -42,15 +42,15 @@ jobs:
           key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.mod') }}
           restore-keys: |
             ${{ runner.os }}-hugomod-
-      - name: Setup Pages
-        id: pages
-        uses: actions/configure-pages@v5
+      # - name: Setup Pages
+      #   id: pages
+      #   uses: actions/configure-pages@v5
       - name: Build with Hugo
         env:
           HUGO_ENVIRONMENT: production
         run: |
           echo "Hugo Cache Dir: $(hugo config | grep cachedir)"
-          hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
+          hugo --minify
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
@@ -96,6 +96,6 @@ jobs:
           lftp -e "
           open -u $FTP_USER,$FTP_PASSWORD $FTP_HOST
           set ftp:ssl-allow no
-          mirror -R ./public ./ --delete --parallel=5
+          mirror -R ./public/ ./ --delete --parallel=5
           bye
           "

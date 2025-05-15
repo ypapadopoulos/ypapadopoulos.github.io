@@ -97,6 +97,6 @@ jobs:
           lftp -e "
           open -u $FTP_USER,$FTP_PASSWORD $FTP_HOST
           set ftp:ssl-allow no
-          mirror -R /public ./ --delete --parallel=5
+          mirror -R ./public ./ --delete --parallel=5
           bye
           "

@@ -81,10 +81,10 @@ jobs:
           FTP_HOST: ${{ secrets.FTP_HOST }}
           FTP_USER: ${{ secrets.FTP_USER }}
           FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
-          FTP_TARGET_DIR: ${{ secrets.FTP_TARGET_DIR }}
         run: |
           lftp -e "
           open -u $FTP_USER,$FTP_PASSWORD $FTP_HOST
-          mirror -R ./public $FTP_TARGET_DIR --delete --parallel=5
+          set ftp:ssl-allow no
+          mirror -R ./public ./ --delete --parallel=5
           bye
           "

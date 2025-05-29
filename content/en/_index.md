@@ -55,6 +55,19 @@ sections:
             # icon_pack: fas
             text: Thesis projects
             url: ./thesis-projects/
+        - title: We are hiring
+          content: 'We are looking for motivated researchers at the PhD or PostDoc level'
+          align: right
+          link:
+            text: Hiring!
+            url: ./post/2025-5-08-Stimulus-hopon
+          background:
+            image:
+              filename: gradient-ntua.png
+              filters:
+                brightness: 0.7
+            position: right
+            color: '#666'
     design:
       # Slide height is automatic unless you force a specific height (e.g. '400px')
       slide_height: 400px

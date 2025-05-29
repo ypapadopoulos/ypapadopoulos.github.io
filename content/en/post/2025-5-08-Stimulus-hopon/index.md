@@ -1,9 +1,9 @@
 ---
 # Documentation: https://docs.hugoblox.com/managing-content/
 
-title: "Stimulus Hopon"
+title: "Stimulus Hop-On"
 subtitle: ""
-summary: ""
+summary: "The NTUA Biophotonics Research group joins the EIC-Pathfinder STIMULUS Project"
 authors: []
 tags: []
 categories: []
@@ -17,8 +17,9 @@ draft: true
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
   caption: ""
-  focal_point: ""
+  focal_point: "center"
   preview_only: false
+  size: contain
 
 # Projects (optional).
 #   Associate this post with one or more of your projects.
@@ -29,6 +30,18 @@ projects: []
 ---
 
 We are excited to announce that our research group has been awarded a new grant as part of the *Horizon Europe WIDERA Hop On* initiative. Through this funding, we will be joining the consortium of the **STIMULUS** project, contributing our expertise to advance its interdisciplinary goals.
+
+The STIMULUS project consortium develops new non-invasive, convenient, low-cost and easy-to-use imaging technology that can measure new digital biomarkers from microcirculation for early detection of cardiovascular diseases. The novel technology will enable earlier detection of heart failure and chronic kidney disease, which will substantially decrease cardiovascular events in the European population.
+
+The Biophotonics Research Group @ NTUA will be contributing with a separate Work Package focusing on the further development of miniature laser based biosensors for hemodynamics measurements.  
+
+![STIMULUS Project Overview](stimulus-concept.png)
+
+In connection with this new collaboration, **we will soon be opening new research positions** to support our work on STIMULUS. Details will be posted on our website shortly.
+
+Learn more about the project: [STIMULUS Project Website](https://sites.utu.fi/stimulus/project/)
+
+Stay tuned for updates as the project unfolds!
 
 <!-- **STIMULUS** (*Smart Technologies for Improving Monitoring and Understanding in Long-term Urban Sustainability*) aims to develop cutting-edge tools and methods to support sustainable urban development, focusing on data-driven decision-making and inclusive innovation across European cities.
 

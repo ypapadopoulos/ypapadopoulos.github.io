@@ -10,7 +10,7 @@ categories: []
 date: 2025-05-08T14:26:41+03:00
 lastmod: 2025-05-08T14:26:41+03:00
 featured: false
-draft: true
+draft: false
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
@@ -33,7 +33,7 @@ We are excited to announce that our research group has been awarded a new grant 
 
 The STIMULUS project consortium develops new non-invasive, convenient, low-cost and easy-to-use imaging technology that can measure new digital biomarkers from microcirculation for early detection of cardiovascular diseases. The novel technology will enable earlier detection of heart failure and chronic kidney disease, which will substantially decrease cardiovascular events in the European population.
 
-The Biophotonics Research Group @ NTUA will be contributing with a separate Work Package focusing on the further development of miniature laser based biosensors for hemodynamics measurements.  
+The Biophotonics Research Group at NTUA will contribute through a dedicated Work Package focused on advancing miniature laser-based biosensors for hemodynamic measurements, with the goal of integrating this technology into consumer electronic devices.
 
 ![STIMULUS Project Overview](stimulus-concept.png)
 
@@ -42,13 +42,3 @@ In connection with this new collaboration, **we will soon be opening new researc
 Learn more about the project: [STIMULUS Project Website](https://sites.utu.fi/stimulus/project/)
 
 Stay tuned for updates as the project unfolds!
-
-<!-- **STIMULUS** (*Smart Technologies for Improving Monitoring and Understanding in Long-term Urban Sustainability*) aims to develop cutting-edge tools and methods to support sustainable urban development, focusing on data-driven decision-making and inclusive innovation across European cities.
-
-As part of the project, our team will be working on **[insert brief description of your group's focus within the project]**, leveraging our strengths in [insert relevant research areas] to support the consortium’s broader objectives.
-
-In connection with this new collaboration, **we will soon be opening new research positions** to support our work on STIMULUS. Details will be posted on our website shortly.
-
-🔗 Learn more about the project: [Insert STIMULUS website link]
-
-Stay tuned for updates as the project unfolds! -->

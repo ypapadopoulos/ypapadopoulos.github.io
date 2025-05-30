@@ -60,7 +60,7 @@ sections:
           align: right
           link:
             text: Hiring!
-            url: ./post/2025-5-08-Stimulus-hopon
+            url: ./post/2025-5-29-job-openings
           background:
             image:
               filename: gradient-ntua.png

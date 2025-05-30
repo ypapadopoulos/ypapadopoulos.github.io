@@ -24,11 +24,15 @@
               </li>
             {{ end }}
             {{ with .Params.email }}
-              <li class="mb-3">
-                <span class="fa-li"><i class="fas fa-envelope fa-fw text-primary"></i></span>
-                <a href="mailto:{{ . }}" class="text-decoration-none" aria-label="Email">{{ . }}</a>
-              </li>
-            {{ end }}
+  <li class="mb-3">
+    <span class="fa-li">
+      <i class="fas fa-envelope fa-fw text-primary"></i>
+    </span>
+    <img src="/images/email.png"
+         alt="email address"
+         style="display: inline; vertical-align: middle; height: 1.1em;">
+  </li>
+{{ end }}
             {{ with .Params.phone }}
               <li class="mb-3">
                 <span class="fa-li"><i class="fas fa-phone fa-fw text-primary"></i></span>

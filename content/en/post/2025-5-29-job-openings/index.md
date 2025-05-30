@@ -74,5 +74,5 @@ If you're excited about innovation at the interface of **optics and life science
 **To apply**, contact <span style="display: inline-flex; align-items: center; gap: 0.2em; line-height: 1; vertical-align: middle;">
   Yannis at <img src="/images/email.png" alt="" style="height: 1.0em; margin: 0; padding: 0; display: inline;">
 </span>
-and provide your CV along with a brief statement of interest.
+ and provide your CV along with a brief statement of interest.
 

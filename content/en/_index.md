@@ -17,6 +17,16 @@ sections:
       text: |
         We explore how light behaves in biological media to push the limits of biomedical imaging and sensing. Our research spans wavefront shaping, multiphoton microscopy, and **miniature biosensing technologies** designed for integration into everyday consumer devices.
 
+  # - block: fullscreen-hero
+  #   content:
+  #     image: 
+  #       filename: hand_nature.jpg       # Path relative to `static/`
+  #     title: Welcome to the Department
+  #     text: Advancing knowledge through education and research.
+  #     cta:
+  #       label: Learn More
+  #       url: /el/department/
+
 
   - block: slider
     content:

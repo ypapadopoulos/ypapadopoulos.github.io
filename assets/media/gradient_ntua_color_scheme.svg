@@ -24,15 +24,16 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="0.5557652"
-     inkscape:cx="82.768767"
-     inkscape:cy="340.97133"
+     inkscape:zoom="0.47390668"
+     inkscape:cx="32.706861"
+     inkscape:cy="39.037222"
      inkscape:window-width="1512"
      inkscape:window-height="916"
      inkscape:window-x="0"
      inkscape:window-y="38"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1" />
+     inkscape:current-layer="layer1"
+     inkscape:export-bgcolor="#ffffff00" />
   <defs
      id="defs1">
     <linearGradient
@@ -43,8 +44,8 @@
          offset="0"
          id="stop1" />
       <stop
-         style="stop-color:#ced9df;stop-opacity:1;"
-         offset="0.23274881"
+         style="stop-color:#fafafa;stop-opacity:1;"
+         offset="0.26759359"
          id="stop3" />
       <stop
          style="stop-color:#314b57;stop-opacity:1;"
@@ -71,6 +72,23 @@
        width="209.61044"
        height="91.204506"
        x="0.42125627"
-       y="43.934391" />
+       y="43.934391"
+       inkscape:export-filename="gradient-ntua.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <text
+       xml:space="preserve"
+       style="font-size:1.5875px;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.1325"
+       x="47.87133"
+       y="203.31898"
+       id="text3"
+       inkscape:export-filename="../../static/images/email.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan3"
+         style="fill:#000000;fill-opacity:1;stroke-width:0.1325"
+         x="47.87133"
+         y="203.31898">ypapadopoulos@mail.ntua.gr</tspan></text>
   </g>
 </svg>

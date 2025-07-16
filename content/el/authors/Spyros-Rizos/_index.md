@@ -6,6 +6,8 @@ title: Σπύρος Ρίζος
 first_name: Spyros
 last_name: Rizos
 
+slug: "Spyros-Rizos"
+
 # translationKey: "yannis-papadopoulos"
 
 # Is this the primary user of the site?

@@ -6,6 +6,8 @@ title: Γιάννης Παπαδόπουλος
 first_name: Yannis
 last_name: Papadopoulos
 
+slug: "Yannis-Papadopoulos"
+
 # translationKey: "yannis-papadopoulos"
 
 # Is this the primary user of the site?

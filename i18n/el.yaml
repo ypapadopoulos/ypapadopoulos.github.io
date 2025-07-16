@@ -264,9 +264,6 @@
 
 # Published with
 
-- id: published_with
-  translation: Published with {hugoblox} — the free, {repo_link}open source{/repo_link} website builder that empowers creators.
-
 
 - id: footer_contact
   translation: "<strong>Ερευνητική Ομάδα Βιοφωτονικής</strong><br>Σχολή Εφαρμοσμένων Μαθηματικών και Φυσικών Επιστημών<br>Εθνικό Μετσόβιο Πολυτεχνείο<br>Ηρώων Πολυτεχνείου 9, Ζωγράφου 15780"

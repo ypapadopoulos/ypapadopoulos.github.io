@@ -1,3 +1,6 @@
+.page-footer {
+  flex-shrink: 0;
+}
 .footer-wrapper {
   background-color: #46616e;
   color: #fff;
@@ -38,6 +41,19 @@
   text-align: left; // ✅ triple-safe
 }
 
+.page-footer,
+.site-footer {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.page-footer > .container {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  margin-top: 0 !important;
+}
+
 html, body {
   height: 100%;
 }
@@ -52,9 +68,6 @@ main {
   flex: 1 0 auto;
 }
 
-.page-footer {
-  flex-shrink: 0;
-}
 
 @media (max-width: 767px) {
   .footer-inner {
@@ -195,11 +208,8 @@ main {
   transform: translateY(-2px);
 }
 
-.about-hero {
-  background-color: #f8f9fa; /* Light gray background for hero */
-}
-
 .about-hero h1 {
+  background-color: #f8f9fa; /* Light gray background for hero */
   font-weight: bold;
 }
 
@@ -347,4 +357,10 @@ main {
 .btn-primary:hover i,
 .btn-dark:hover i {
   transform: translateX(4px);
+}
+
+#navbar-main {
+  background-color: rgba(255, 255, 255, 0.9); /* Light transparent background */
+  backdrop-filter: blur(5px); /* Optional: adds blur to background */
+  transition: background-color 0.3s ease;
 }

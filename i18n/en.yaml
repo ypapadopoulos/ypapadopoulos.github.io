@@ -304,6 +304,9 @@
 - id: footer_contact
   translation: "<strong>Biophotonics Research Group</strong><br>School of Applied Mathematical and Physical Sciences<br>National Technical University of Athens<br>9 Iroon Polytechniou, Zografou 15780"
 
+- id: footer_contact_physics
+  translation: "<strong>Physics Department</strong><br>School of Applied Mathematical and Physical Sciences<br>National Technical University of Athens<br>9 Iroon Polytechniou, Zografou 15780"
+
 - course_info: "Course Info"
 - code: "Code"
 - location: "Location"

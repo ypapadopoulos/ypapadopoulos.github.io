@@ -13,6 +13,14 @@ main:
   - name: People
     pageref: people
     weight: 30
+  - name: Faculty members
+    parent: People
+    pageref: faculty-members
+    weight: 5
+  - name: Administrative staff
+    parent: People
+    pageref: administrative-staff
+    weight: 10
   # - name: Events
   #   url: event
   #   weight: 40

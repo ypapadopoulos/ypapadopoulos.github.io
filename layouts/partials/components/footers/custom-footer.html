@@ -1,9 +1,9 @@
-<div class="footer-wrapper" style="background-color: {{ site.Params.footer.background_color | default "#111" | safeCSS }};">
+<div class="footer-wrapper pt-3 mt-0" style="background-color: {{ site.Params.footer.background_color | default "#111" | safeCSS }};">
   <div class="container footer-inner d-flex justify-content-between align-items-start flex-wrap">
     <div class="footer-left">
       <p class="footer-contact">
         <span style="line-height: 1.5;">
-          {{ i18n "footer_contact" | safeHTML }}
+          {{ i18n "footer_contact_physics" | safeHTML }}
         </span>
       </p>
     </div>
@@ -15,6 +15,6 @@
   </div>
 
   <div class="container footer-bottom text-center">
-    © {{ now.Year }} NTUA Biophotonics Research Group. All rights reserved.
+    © {{ now.Year }} Physics Department, NTUA. All rights reserved.
   </div>
 </div>

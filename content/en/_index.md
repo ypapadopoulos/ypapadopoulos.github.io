@@ -1,7 +1,7 @@
 ---
 # Leave the homepage title empty to use the site title
 title: []
-date: 2022-10-24
+date: 2025-07-18
 type: landing
 
 
@@ -19,13 +19,44 @@ sections:
 
   - block: fullscreen-hero
     content:
-      image: 
-        filename: hand_nature.jpg       # Path relative to `static/`
       title: Welcome to the Department
       text: Advancing knowledge through education and research.
       cta:
         label: Learn More
-        url: /el/department/
+        url: ./about-us
+    design:
+      spacing:
+        padding: ["0", "0", "0", "0"]  # top, right, bottom, left
+      background:
+        color: 'green'
+        image:
+          filename: hand_nature.jpg
+          filters:
+            brightness: 1
+
+  - block: clickable-cards
+    id: next-section
+    content:
+      cards:
+        - icon: ergastiria-icon.jpg
+          title: "Εργαστήρια"
+          text: "O Τομέας Φυσικής διαθέτει αξιόλογη Εργαστηριακή υποδομή για την εκπαίδευση των φοιτητών της Σχολής μας, αλλά και των άλλων Σχολών του Ε.Μ.Π., σε σειρές Εργαστηριακών Ασκήσεων Μηχανικής, Ηλεκτρομαγνητισμού, Κυματικής, Ατομικής και Μοριακής Φυσικής, Φυσικής Συμπυκνωμένης Ύλης, Πυρηνικής, Laser και Οπτοηλεκτρονικής, Οπτικής, και Ηλεκτρονικών."
+          url: /el/education/labs/
+        - icon: proptyxiaka-icon.jpg
+          title: "Προπτυχιακές Σπουδές"
+          text: "Τα προπτυχιακά µαθήµατα Φυσικής στη Σ.Ε.Μ.Φ.Ε. αποτελούνται από µια σειρά από θεµελιώδη µαθήµατα Φυσικής για τα πρώτα 4 εξάµηνα, και για τις δύο Κατευθύνσεις, εφαρμοσμένων Μαθηματικών και Εφαρμοσμένης Φυσικής, που αποβλέπουν στο να δώσουν στους φοιτητές τις απαραίτητες βασικές γνώσεις στη Φυσική κατά τρόπο µεθοδικό και επιστημονικά θεμελιωμένο."
+          url: /el/education/undergrad/
+        - icon: physics-icon.png
+          title: "Μεταπτυχιακά Προγράμματα"
+          text: "Ο Τομέας Φυσικής συντονίζει δύο Διατμηματικά Προγράμματα Μεταπτυχιακών Σπουδών (Δ.Π.Μ.Σ.), και συμμετέχει, μέσω διδασκαλίας μελών Δ.Ε.Π. του Τομέα, και σε αριθμό Δ.Π.Μ.Σ. του Ε.Μ.Π. και άλλων ιδρυμάτων. Τα Δ.Π.Μ.Σ που συντονίζει ο Τομέας Φυσικής είναι τα εξής
+          ● Φυσική και Τεχνολογικές Εφαρμογές
+          ● Μικροσυστήματα και Νανοδιατάξεις"
+          url: /el/education/postgrad/
+    design:
+      spacing:
+        padding: ["2rem", "0", "4rem", "0"]  # top, right, bottom, left
+      background:
+        color: '#f8f8f8ff'
 
 
   - block: slider
@@ -191,13 +222,11 @@ sections:
     design:
       columns: '1'
       background:
-        color: "#f8f9fa"  # Adjust if needed (e.g., "#e9ecef" or your gray tone)
+        color: "#f8f9fa" 
         text_color_light: false
       spacing:
         padding: ["3rem", "0", "3rem", "0"]
       css_class: text-center shadow-sm border-top
       animation:
         entrance: fadeInUp
-
-
 ---

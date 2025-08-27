@@ -3,7 +3,7 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-title: NTUA Biophotonics research group # Website name
+title: Physics Department, School of Applied Mathematical and Physical Sciences, NTUA # Website name
 baseURL: 'localhost:1313' # Website URL
 # baseURL: 'https://ypapadopoulos.github.io/' # GitHub Pages URL
 

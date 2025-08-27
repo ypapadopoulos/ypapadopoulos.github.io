@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Edgar E. Morales-Delgado | NTUA Biophotonics research group</title>
+    <link>https://biophotonics.physics.ntua.gr/en/author/edgar-e.-morales-delgado/</link>
+      <atom:link href="https://biophotonics.physics.ntua.gr/en/author/edgar-e.-morales-delgado/index.xml" rel="self" type="application/rss+xml" />
+    <description>Edgar E. Morales-Delgado</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en</language><lastBuildDate>Wed, 01 Apr 2015 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://biophotonics.physics.ntua.gr/media/icon_hu_e4ffd11be88803bf.png</url>
+      <title>Edgar E. Morales-Delgado</title>
+      <link>https://biophotonics.physics.ntua.gr/en/author/edgar-e.-morales-delgado/</link>
+    </image>
+    
+    <item>
+      <title>Delivery of focused short pulses through a multimode fiber</title>
+      <link>https://biophotonics.physics.ntua.gr/en/publication/morales-2015-delivery/</link>
+      <pubDate>Wed, 01 Apr 2015 00:00:00 +0000</pubDate>
+      <guid>https://biophotonics.physics.ntua.gr/en/publication/morales-2015-delivery/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

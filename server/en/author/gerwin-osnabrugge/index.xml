@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gerwin Osnabrugge | NTUA Biophotonics research group</title>
+    <link>https://biophotonics.physics.ntua.gr/en/author/gerwin-osnabrugge/</link>
+      <atom:link href="https://biophotonics.physics.ntua.gr/en/author/gerwin-osnabrugge/index.xml" rel="self" type="application/rss+xml" />
+    <description>Gerwin Osnabrugge</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en</language><lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://biophotonics.physics.ntua.gr/media/icon_hu_e4ffd11be88803bf.png</url>
+      <title>Gerwin Osnabrugge</title>
+      <link>https://biophotonics.physics.ntua.gr/en/author/gerwin-osnabrugge/</link>
+    </image>
+    
+    <item>
+      <title>Generalized optical memory effect</title>
+      <link>https://biophotonics.physics.ntua.gr/en/publication/osnabrugge-2017/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://biophotonics.physics.ntua.gr/en/publication/osnabrugge-2017/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

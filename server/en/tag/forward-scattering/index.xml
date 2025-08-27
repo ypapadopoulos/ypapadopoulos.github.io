@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Forward Scattering | NTUA Biophotonics research group</title>
+    <link>https://biophotonics.physics.ntua.gr/en/tag/forward-scattering/</link>
+      <atom:link href="https://biophotonics.physics.ntua.gr/en/tag/forward-scattering/index.xml" rel="self" type="application/rss+xml" />
+    <description>Forward Scattering</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en</language><lastBuildDate>Sun, 01 Apr 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://biophotonics.physics.ntua.gr/media/icon_hu_e4ffd11be88803bf.png</url>
+      <title>Forward Scattering</title>
+      <link>https://biophotonics.physics.ntua.gr/en/tag/forward-scattering/</link>
+    </image>
+    
+    <item>
+      <title>Scattering correlations of time-gated light</title>
+      <link>https://biophotonics.physics.ntua.gr/en/publication/kadobianskyi-18/</link>
+      <pubDate>Sun, 01 Apr 2018 00:00:00 +0000</pubDate>
+      <guid>https://biophotonics.physics.ntua.gr/en/publication/kadobianskyi-18/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

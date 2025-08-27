@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Spatial Light Modulators | Εργαστήριο Βιοφωτονικής</title>
+    <link>https://biophotonics.physics.ntua.gr/el/tag/spatial-light-modulators/</link>
+      <atom:link href="https://biophotonics.physics.ntua.gr/el/tag/spatial-light-modulators/index.xml" rel="self" type="application/rss+xml" />
+    <description>Spatial Light Modulators</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>el</language><lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://biophotonics.physics.ntua.gr/media/icon_hu_e4ffd11be88803bf.png</url>
+      <title>Spatial Light Modulators</title>
+      <link>https://biophotonics.physics.ntua.gr/el/tag/spatial-light-modulators/</link>
+    </image>
+    
+    <item>
+      <title>Kilohertz binary phase modulator for pulsed laser sources using a digital micromirror device</title>
+      <link>https://biophotonics.physics.ntua.gr/el/publication/hoffmann-2018-kilohertz/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://biophotonics.physics.ntua.gr/el/publication/hoffmann-2018-kilohertz/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

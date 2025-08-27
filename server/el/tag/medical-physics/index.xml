@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Medical Physics | Εργαστήριο Βιοφωτονικής</title>
+    <link>https://biophotonics.physics.ntua.gr/el/tag/medical-physics/</link>
+      <atom:link href="https://biophotonics.physics.ntua.gr/el/tag/medical-physics/index.xml" rel="self" type="application/rss+xml" />
+    <description>Medical Physics</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>el</language><lastBuildDate>Sun, 01 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://biophotonics.physics.ntua.gr/media/icon_hu_e4ffd11be88803bf.png</url>
+      <title>Medical Physics</title>
+      <link>https://biophotonics.physics.ntua.gr/el/tag/medical-physics/</link>
+    </image>
+    
+    <item>
+      <title>Εισαγωγή στην ιατρική φυσική</title>
+      <link>https://biophotonics.physics.ntua.gr/el/courses/medical-physics/</link>
+      <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://biophotonics.physics.ntua.gr/el/courses/medical-physics/</guid>
+      <description>&lt;h3 id=&#34;περιγραφή&#34;&gt;Περιγραφή&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Εισαγωγή: Ορισμός Ιατρικής Φυσικής, η σχέση της με άλλες επιστήμες. Τομείς της Ιατρικής Φυσικής που δεν καλύπτονται στο μάθημα (π.χ. Ακτινοφυσική, Εμβιομηχανική, Φυσική της Ιατρικής Απεικόνισης). Ο ρόλος του Φυσικού Ιατρικής.&lt;/li&gt;
+&lt;li&gt;Μύες και δυνάμεις: Δυνάμεις τριβής. Δυνάμεις, μύες και αρθρώσεις. Δυνάμεις κατά τη σύγκρουση. Μηχανική της βάδισης και των αρθρώσεων.&lt;/li&gt;
+&lt;li&gt;Φυσική του σκελετού: Σύσταση οστών. Πιεζοηλεκτρικά φαινόμενα στα οστά . Αντοχή οστών.&lt;/li&gt;
+&lt;li&gt;Ρευστομηχανική του ανθρώπινου σώματος (πίεση στο σώμα, ώσμωση και νεφροί, Φυσική της αναπνοής): Μέτρηση πίεσης στο σώμα. Ενδοκρανιακή, ενδοφθάλμια πίεση, πίεση στον σκελετό κ.λ.π.. Πίεση κατά την κατάδυση, πίεση σε μεγάλα ύψη. Ώσμωση, νεφροί, τεχνητός νεφρός. Φυσική των πνευμόνων και της αναπνοής.&lt;/li&gt;
+&lt;li&gt;Φυσική του καρδιαγγειακού συστήματος: Η καρδιά ως αντλία - Το έργο της καρδιάς. Πίεση του αίματος και μέτρηση της. Αρχή του Bernoulli και καρδιαγγειακό σύστημα. Στρωτή και τυρβώδης ροή του αίματος. Διάδοση μηχανικών κυμάτων στο σώμα (π.χ. εξωσωματική λιθοτριψία).&lt;/li&gt;
+&lt;li&gt;Ηλεκτρικά σήματα από το ανθρώπινο σώμα: Ηλεκτρικά δυναμικά (ΗΚΓ, ΗΕΓ, ΗΜΓ, ΗΑΓ).&lt;/li&gt;
+&lt;li&gt;Φυσική της ομιλίας και της ακοής: Φυσικές ιδιότητες των ήχων, στηθοσκόπιο, παραγωγή ήχων από το σώμα.&lt;/li&gt;
+&lt;li&gt;Φυσική του ωτός, εξέταση ακοής. Αίσθηση ισορροπίας.&lt;/li&gt;
+&lt;li&gt;Φυσική της όρασης  Βιοοπτικη: Η διαθλαστική συσκευή του οφθαλμού. Διαθλαστικές ανωμαλίες και διόρθωση τους. Όργανα εξέτασης στην Οφθαλμολογία.&lt;/li&gt;
+&lt;li&gt;Στοιχεία Βιονικής. Βιομιμητική, τεχνητά μέλη, βιοαισθητήρες: Ορισμοί, κοχλιακό εμφύτευμα, βιονικό μάτι, τεχνητοί μύες, βιοαισθητήρες.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;πρόγραμμα-μαθήματος-20242025&#34;&gt;Πρόγραμμα Μαθήματος 2024–2025&lt;/h3&gt;
+&lt;p&gt;Το μάθημα διδάσκεται ως εξής:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Δευτέρα: 12:45 – 14:30, Αίθουσα 001 (Νέο Κτίριο ΣΕΜΦΕ)&lt;/li&gt;
+&lt;li&gt;Τετάρτη: 12:45 – 14:30, Αίθουσα 108 (Νέο Κτίριο ΣΕΜΦΕ)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Waves | NTUA Biophotonics research group</title>
+    <link>https://biophotonics.physics.ntua.gr/en/tag/waves/</link>
+      <atom:link href="https://biophotonics.physics.ntua.gr/en/tag/waves/index.xml" rel="self" type="application/rss+xml" />
+    <description>Waves</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en</language><lastBuildDate>Sun, 01 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://biophotonics.physics.ntua.gr/media/icon_hu_e4ffd11be88803bf.png</url>
+      <title>Waves</title>
+      <link>https://biophotonics.physics.ntua.gr/en/tag/waves/</link>
+    </image>
+    
+    <item>
+      <title>Physics [Oscillations and waves]</title>
+      <link>https://biophotonics.physics.ntua.gr/en/courses/oscillations-and-waves/</link>
+      <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://biophotonics.physics.ntua.gr/en/courses/oscillations-and-waves/</guid>
+      <description>&lt;h3 id=&#34;description&#34;&gt;Description&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Introduction to the simple harmonic oscillator. Simple harmonic oscillator with damping. Forced oscillations. Complex impedance - Resonance.&lt;/li&gt;
+&lt;li&gt;Coupled oscillators: Normal modes, normal frequencies, normal coordinates. Systems with multiple degrees of freedom.&lt;/li&gt;
+&lt;li&gt;Waves in continuous media in 1 dimension: Wave equation in 1-D. Travelling waves. Standing waves. Reflection, transmission along a discontinuity. Dispersion: Wavepackets. Phase and group velocity. Surface waves in liquids. Fourier methods, bandwidth theoremsΚύματα σε συνεχή μέσα, σε μία διάσταση: Εξίσωση κύματος σε 1-Διάσταση. Οδεύοντα κύματα. Στάσιμα κύματα. Ανάκλαση, διάδοση σε ασυνέχεια. Διασπορά: Κυματοπακέτα. Φασική και ομαδική ταχύτητα. Επιφανειακά κύματα σε υγρά. Μέθοδοι Fourier, θεωρήματα εύρους ζώνης: Πεπερασμένο ελαστικό μέσο – Σειρά Fourier. Άπειρο ελαστικό μέσο – Ολοκλήρωμα Fourier. Θεωρήματα εύρους ζώνης (Σχέσεις αβεβαιότητας).&lt;/li&gt;
+&lt;li&gt;Κύματα σε δύο διαστάσεις: Διαφορική εξίσωση κύματος σε 2-Διαστάσεις. Στάσιμα κύματα σε 2-Δ, Εκφυλισμός, Οδεύοντα κύματα σε 2-Δ, Νόμοι ανάκλασης-διάδοσης, Κυματοδήγηση.&lt;/li&gt;
+&lt;li&gt;Κύματα σε τρεις διαστάσεις (ακουστικά, ηλεκτρομαγνητικά), Πόλωση, Συντελεστές Fresnel, (απλή αναφορά): Ακουστικά. Ηλεκτρομαγνητικά. Συμβολή, Περίθλαση (γενικές αρχές): Συμβολή με διαίρεση μετώπου. Συμβολή με διαίρεση πλάτους. Περίθλαση Fraounhofer.&amp;quot;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;suggested-bibliography&#34;&gt;Suggested bibliography&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Pain&lt;/li&gt;
+&lt;li&gt;Ingard&lt;/li&gt;
+&lt;li&gt;French&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;course-schedule-2024-2025&#34;&gt;Course schedule 2024-2025&lt;/h3&gt;
+&lt;p&gt;The courses are given as follows:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Tuesday:  10:45am - 12:30pm Room 103 (New Build. SAMPS)&lt;/li&gt;
+&lt;li&gt;Wednesday:  10:45am - 12:30pm, Room 001 (New Build. SAMPS) &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

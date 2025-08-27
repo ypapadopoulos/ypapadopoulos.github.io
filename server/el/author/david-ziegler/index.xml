@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>David Ziegler | Εργαστήριο Βιοφωτονικής</title>
+    <link>https://biophotonics.physics.ntua.gr/el/author/david-ziegler/</link>
+      <atom:link href="https://biophotonics.physics.ntua.gr/el/author/david-ziegler/index.xml" rel="self" type="application/rss+xml" />
+    <description>David Ziegler</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>el</language><lastBuildDate>Tue, 01 Jan 2013 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://biophotonics.physics.ntua.gr/media/icon_hu_e4ffd11be88803bf.png</url>
+      <title>David Ziegler</title>
+      <link>https://biophotonics.physics.ntua.gr/el/author/david-ziegler/</link>
+    </image>
+    
+    <item>
+      <title>Dynamic bending compensation while focusing through a multimode fiber</title>
+      <link>https://biophotonics.physics.ntua.gr/el/publication/farahi-2013/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>https://biophotonics.physics.ntua.gr/el/publication/farahi-2013/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

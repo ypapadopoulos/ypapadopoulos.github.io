@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Εργαστήριο Βιοφωτονικής</title>
+    <link>https://biophotonics.physics.ntua.gr/el/</link>
+      <atom:link href="https://biophotonics.physics.ntua.gr/el/index.xml" rel="self" type="application/rss+xml" />
+    <description>Εργαστήριο Βιοφωτονικής</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>el</language><lastBuildDate>Mon, 24 Oct 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://biophotonics.physics.ntua.gr/media/icon_hu_e4ffd11be88803bf.png</url>
+      <title>Εργαστήριο Βιοφωτονικής</title>
+      <link>https://biophotonics.physics.ntua.gr/el/</link>
+    </image>
+    
+    <item>
+      <title>Example Event</title>
+      <link>https://biophotonics.physics.ntua.gr/el/event/example/</link>
+      <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
+      <guid>https://biophotonics.physics.ntua.gr/el/event/example/</guid>
+      <description>&lt;p&gt;Slides can be added in a few ways:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Create&lt;/strong&gt; slides using Wowchemy&amp;rsquo;s &lt;a href=&#34;https://docs.hugoblox.com/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Slides&lt;/em&gt;&lt;/a&gt; feature and link using &lt;code&gt;slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Upload&lt;/strong&gt; an existing slide deck to &lt;code&gt;static/&lt;/code&gt; and link using &lt;code&gt;url_slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Embed&lt;/strong&gt; your slides (e.g. Google Slides) or presentation video on this page using &lt;a href=&#34;https://docs.hugoblox.com/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;shortcodes&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Further event details, including page elements such as image galleries, can be added to the body of this page.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Data Analysis of the F-SHARP Multiphocal Method in Biological Tissues</title>
+      <link>https://biophotonics.physics.ntua.gr/el/thesis-projects/fsharp-data-analysis/</link>
+      <pubDate>Wed, 16 Apr 2025 16:20:39 +0300</pubDate>
+      <guid>https://biophotonics.physics.ntua.gr/el/thesis-projects/fsharp-data-analysis/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;br&gt;
+The student will analyze experimental data obtained using the F-SHARP (Focus Scanning Holographic Aberration Probing) method from fluorescent neurons in the brain tissue of &lt;em&gt;Danionella translucida&lt;/em&gt;. The goal is to process and analyze the data to extract quantitative information on the improvement of optical focusing in scattering media.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Required Knowledge:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Understanding basic concepts of optical microscopy and laser propagation in tissues&lt;/li&gt;
+&lt;li&gt;Programming in Matlab or Python&lt;/li&gt;
+&lt;li&gt;Data analysis and visualization&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Suggested Bibliography:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Papadopoulos, I. N. et al. &lt;em&gt;Scattering compensation by F-SHARP&lt;/em&gt;. Nature Photonics (2017).&lt;/li&gt;
+&lt;li&gt;Papadopoulos, I. N. et al. &lt;em&gt;Dynamic conjugate F-SHARP microscopy&lt;/em&gt;. Light: Science and Applications (2020).&lt;/li&gt;
+&lt;li&gt;Denk, W. et al. &lt;em&gt;Two-photon laser scanning fluorescence microscopy&lt;/em&gt;. Science (1990).&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>Modeling Coherent Laser Light Propagation in the Surface Layers of the Circulatory System Using the Monte-Carlo Method</title>
+      <link>https://biophotonics.physics.ntua.gr/el/thesis-projects/monte-carlo-microcirculation/</link>
+      <pubDate>Wed, 16 Apr 2025 16:20:39 +0300</pubDate>
+      <guid>https://biophotonics.physics.ntua.gr/el/thesis-projects/monte-carlo-microcirculation/</guid>
+      <description>&lt;!-- ![screen reader text](mwppg-monte-carlo.jpg &#34;caption&#34;) --&gt;
+&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;br&gt;
+This project focuses on simulating laser light propagation in the superficial layers of the circulatory system (e.g., capillaries, veins). Students will apply the Monte-Carlo method to understand how light interacts with blood and tissues, aiming at applications in optical diagnostics and phototherapy.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Required Knowledge:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Programming (Matlab or Python)&lt;/li&gt;
+&lt;li&gt;Physics of light propagation in scattering media&lt;/li&gt;
+&lt;li&gt;Introduction to Monte-Carlo methods&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Suggested Bibliography:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Wang, L., Jacques, S. L., &amp;amp; Zheng, L. &lt;em&gt;MCML—Monte Carlo modeling of light transport in multi-layered tissues&lt;/em&gt; (1995).&lt;/li&gt;
+&lt;li&gt;Tuchin, V. V. &lt;em&gt;Tissue Optics: Light Scattering Methods and Instruments for Medical Diagnosis&lt;/em&gt; (2015).&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>Modeling Laser Light Propagation Through Biological Tissues Using Machine Learning</title>
+      <link>https://biophotonics.physics.ntua.gr/el/thesis-projects/modeling/</link>
+      <pubDate>Wed, 16 Apr 2025 16:20:39 +0300</pubDate>
+      <guid>https://biophotonics.physics.ntua.gr/el/thesis-projects/modeling/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;br&gt;
+Students will develop a model for coherent light (laser) propagation through scattering media such as biological tissues, utilizing Fourier optics techniques and computational models. The aim is to predict light scattering and signal using machine learning (ML) and neural networks (NN), with applications in optical imaging and therapy.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Required Knowledge:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Programming in Matlab or Python&lt;/li&gt;
+&lt;li&gt;Basic knowledge of ML / neural networks&lt;/li&gt;
+&lt;li&gt;Fundamentals of optics and optical propagation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Suggested Bibliography:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Lin, X. et al. &lt;em&gt;All-optical machine learning using diffractive deep neural networks&lt;/em&gt;. Science (2018).&lt;/li&gt;
+&lt;li&gt;Kamilov*, U. S. &amp;amp; Papadopoulos*, I.N. &lt;em&gt;Learning approach to optical tomography&lt;/em&gt;. Optica (2015).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;</description>
+    </item>
+    
+    <item>
+      <title>Ανάλυση δεδομένων πολυεστιακής μεθόδου F-SHARP εντός βιολογικών ιστών</title>
+      <link>https://biophotonics.physics.ntua.gr/el/project/fsharp-data-analysis/</link>
+      <pubDate>Wed, 16 Apr 2025 16:20:39 +0300</pubDate>
+      <guid>https://biophotonics.physics.ntua.gr/el/project/fsharp-data-analysis/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Περιγραφή&lt;/strong&gt;
+Ο φοιτητής/τρια θα αναλύσει πειραματικά δεδομένα που έχουν ληφθεί με τη μέθοδο F-SHARP (Focus Scanning Holographic Aberration Probing) από φθορίζοντες νευρώνες στο εγκεφαλικό παρέγχυμα του ψαριού Danionella translucida. Στόχος είναι η επεξεργασία και ανάλυση των δεδομένων για την εξαγωγή ποσοτικής πληροφορίας σχετικά με τη βελτίωση της οπτικής εστίασης εντός σκεδαστικών μέσων.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Απαραίτητες γνώσεις&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Κατανόηση βασικών εννοιών οπτικής μικροσκοπίας και διάδοσης laser εντός ιστών&lt;/li&gt;
+&lt;li&gt;Προγραμματισμός με Matlab ή Python&lt;/li&gt;
+&lt;li&gt;Ανάλυση και απεικόνιση δεδομένων&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Προτεινόμενη βιβλιογραφία&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Papadopoulos, I. N., et al. (2017). Scattering compensation by focus scanning holographic aberration probing (F-SHARP). Nature Photonics.&lt;/li&gt;
+&lt;li&gt;Papadopoulos, I. N. et al. Dynamic conjugate F-SHARP microscopy. Light: Science and Applications 9, 110 (2020).&lt;/li&gt;
+&lt;li&gt;Denk, W., et al. (1990). Two-photon laser scanning fluorescence microscopy. Science.&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>Μοντελοποίηση διάδοσης φωτός laser μέσω βιολογικών ιστών με τη χρήση μοντέλων μηχανικής μάθησης</title>
+      <link>https://biophotonics.physics.ntua.gr/el/project/modeling/</link>
+      <pubDate>Wed, 16 Apr 2025 16:20:39 +0300</pubDate>
+      <guid>https://biophotonics.physics.ntua.gr/el/project/modeling/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Περιγραφή&lt;/strong&gt;
+Οι φοιτητές θα αναπτύξουν ένα μοντέλο διάδοσης σύμφωνου φωτός (laser) μέσω σκεδαστικών μέσων, όπως οι βιολογικοί ιστοί, αξιοποιώντας τεχνικές οπτικής Fourier και υπολογιστικά μοντέλα. Στόχος είναι η πρόβλεψη της διασποράς και του σήματος του φωτός με χρήση μεθόδων μηχανικής μάθησης (ML) και νευρωνικών δικτύων (NN), με εφαρμογές στην οπτική απεικόνιση και θεραπευτική.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Απαραίτητες γνώσεις&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Προγραμματισμός σε Matlab ή Python&lt;/li&gt;
+&lt;li&gt;Βασικές γνώσεις μηχανικής μάθησης / νευρωνικών δικτύων&lt;/li&gt;
+&lt;li&gt;Θεμελιώδεις γνώσεις οπτικής και οπτικής διάδοσης&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Προτεινόμενη βιβλιογραφία&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Lin, X. et al. All-optical machine learning using diffractive deep neural networks. Science 361, 1004–1008 (2018).&lt;/li&gt;
+&lt;li&gt;Kamilov*, U. S. Papadopoulos*, I.N. et al. Learning approach to optical tomography. Optica 2, 517–522 (2015).&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>Ο Σπύρος Ρίζος εντάσσεται στην Ερευνητική Ομάδα Βιοφωτονικής</title>
+      <link>https://biophotonics.physics.ntua.gr/el/post/2025-04-01-spyros-joins-the-lab/</link>
+      <pubDate>Tue, 01 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://biophotonics.physics.ntua.gr/el/post/2025-04-01-spyros-joins-the-lab/</guid>
+      <description>&lt;p&gt;Καλώς ήρθες στο εργαστήριο Σπύρο!&lt;/p&gt;
+&lt;p&gt;Spyros has a diverse background &amp;hellip;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Εισαγωγή στην ιατρική φυσική</title>
+      <link>https://biophotonics.physics.ntua.gr/el/courses/medical-physics/</link>
+      <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://biophotonics.physics.ntua.gr/el/courses/medical-physics/</guid>
+      <description>&lt;h3 id=&#34;περιγραφή&#34;&gt;Περιγραφή&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Εισαγωγή: Ορισμός Ιατρικής Φυσικής, η σχέση της με άλλες επιστήμες. Τομείς της Ιατρικής Φυσικής που δεν καλύπτονται στο μάθημα (π.χ. Ακτινοφυσική, Εμβιομηχανική, Φυσική της Ιατρικής Απεικόνισης). Ο ρόλος του Φυσικού Ιατρικής.&lt;/li&gt;
+&lt;li&gt;Μύες και δυνάμεις: Δυνάμεις τριβής. Δυνάμεις, μύες και αρθρώσεις. Δυνάμεις κατά τη σύγκρουση. Μηχανική της βάδισης και των αρθρώσεων.&lt;/li&gt;
+&lt;li&gt;Φυσική του σκελετού: Σύσταση οστών. Πιεζοηλεκτρικά φαινόμενα στα οστά . Αντοχή οστών.&lt;/li&gt;
+&lt;li&gt;Ρευστομηχανική του ανθρώπινου σώματος (πίεση στο σώμα, ώσμωση και νεφροί, Φυσική της αναπνοής): Μέτρηση πίεσης στο σώμα. Ενδοκρανιακή, ενδοφθάλμια πίεση, πίεση στον σκελετό κ.λ.π.. Πίεση κατά την κατάδυση, πίεση σε μεγάλα ύψη. Ώσμωση, νεφροί, τεχνητός νεφρός. Φυσική των πνευμόνων και της αναπνοής.&lt;/li&gt;
+&lt;li&gt;Φυσική του καρδιαγγειακού συστήματος: Η καρδιά ως αντλία - Το έργο της καρδιάς. Πίεση του αίματος και μέτρηση της. Αρχή του Bernoulli και καρδιαγγειακό σύστημα. Στρωτή και τυρβώδης ροή του αίματος. Διάδοση μηχανικών κυμάτων στο σώμα (π.χ. εξωσωματική λιθοτριψία).&lt;/li&gt;
+&lt;li&gt;Ηλεκτρικά σήματα από το ανθρώπινο σώμα: Ηλεκτρικά δυναμικά (ΗΚΓ, ΗΕΓ, ΗΜΓ, ΗΑΓ).&lt;/li&gt;
+&lt;li&gt;Φυσική της ομιλίας και της ακοής: Φυσικές ιδιότητες των ήχων, στηθοσκόπιο, παραγωγή ήχων από το σώμα.&lt;/li&gt;
+&lt;li&gt;Φυσική του ωτός, εξέταση ακοής. Αίσθηση ισορροπίας.&lt;/li&gt;
+&lt;li&gt;Φυσική της όρασης  Βιοοπτικη: Η διαθλαστική συσκευή του οφθαλμού. Διαθλαστικές ανωμαλίες και διόρθωση τους. Όργανα εξέτασης στην Οφθαλμολογία.&lt;/li&gt;
+&lt;li&gt;Στοιχεία Βιονικής. Βιομιμητική, τεχνητά μέλη, βιοαισθητήρες: Ορισμοί, κοχλιακό εμφύτευμα, βιονικό μάτι, τεχνητοί μύες, βιοαισθητήρες.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;πρόγραμμα-μαθήματος-20242025&#34;&gt;Πρόγραμμα Μαθήματος 2024–2025&lt;/h3&gt;
+&lt;p&gt;Το μάθημα διδάσκεται ως εξής:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Δευτέρα: 12:45 – 14:30, Αίθουσα 001 (Νέο Κτίριο ΣΕΜΦΕ)&lt;/li&gt;
+&lt;li&gt;Τετάρτη: 12:45 – 14:30, Αίθουσα 108 (Νέο Κτίριο ΣΕΜΦΕ)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Εφαρμογές των λέιζερ στη βιοϊατρική και το περιβάλλον</title>
+      <link>https://biophotonics.physics.ntua.gr/el/courses/laser-applications/</link>
+      <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://biophotonics.physics.ntua.gr/el/courses/laser-applications/</guid>
+      <description>&lt;h3 id=&#34;περιγραφή&#34;&gt;Περιγραφή&lt;/h3&gt;
+&lt;p&gt;Μάθημα για τις εφαρμογές της Βιοφωτονικής στη βιοϊατρική.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Εισαγωγή στις βιοϊατρικές εφαρμογές των λέιζερ και στη βιοφωτονική&lt;/li&gt;
+&lt;li&gt;Μεγέθη και βασικές έννοιες φωτεινότητας/φωτομετρίας&lt;/li&gt;
+&lt;li&gt;Βασικές αρχές φυσικής των λέιζερ: χωρική/χρονική συνεκτικότητα, εστίαση, αλληλεπίδραση με φακούς, διάδοση δέσμης&lt;/li&gt;
+&lt;li&gt;Οπτική ιστών: σκέδαση, απορρόφηση, νόμος Beer-Lambert, συνάρτηση πιθανότητας σκέδασης, συντελεστής ανισοτροπίας σκέδασης&lt;/li&gt;
+&lt;li&gt;Εξίσωση διάδοσης ακτινοβολίας και εφαρμογές στη μελέτη διάδοσης φωτός σε βιολογικούς ιστούς&lt;/li&gt;
+&lt;li&gt;Βασικές αρχές αλληλεπίδρασης ακτινοβολίας λέιζερ με ζωντανή ύλη:
+ &lt;ol type=&#34;a&#34;&gt;
+   &lt;li&gt;Φωτοχημική δράση – φωτοδυναμική θεραπεία&lt;/li&gt;
+   &lt;li&gt;Φωτοθερμική δράση&lt;/li&gt;
+   &lt;li&gt;Φωτοαποικοδόμηση&lt;/li&gt;
+   &lt;li&gt;Φωτομηχανική δράση&lt;/li&gt;
+ &lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;Εφαρμογές λέιζερ στην οφθαλμολογία&lt;/li&gt;
+&lt;li&gt;Διαγνωστικές εφαρμογές: Οπτική μικροσκοπία, οπτική τομογραφία συνοχής (OCT), οπτογενετική, οπτική τομογραφία διάχυσης, μικροσκοπία διφωτονικής διέγερσης&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;πρόγραμμα-μαθήματος-20242025&#34;&gt;Πρόγραμμα Μαθήματος 2024–2025&lt;/h3&gt;
+&lt;p&gt;Το μάθημα διδάσκεται ως εξής:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Δευτέρα: 10:45 – 12:30, Αίθουσα 103 (Νέο Κτίριο ΣΕΜΦΕ)&lt;/li&gt;
+&lt;li&gt;Τετάρτη: 10:45 – 12:30, Αίθουσα 001 (Νέο Κτίριο ΣΕΜΦΕ)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Φυσική [Ταλαντώσεις και κύματα]</title>
+      <link>https://biophotonics.physics.ntua.gr/el/courses/oscillations-and-waves/</link>
+      <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://biophotonics.physics.ntua.gr/el/courses/oscillations-and-waves/</guid>
+      <description>&lt;h3 id=&#34;description&#34;&gt;Description&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Introduction to the simple harmonic oscillator. Simple harmonic oscillator with damping. Forced oscillations. Complex impedance - Resonance.&lt;/li&gt;
+&lt;li&gt;Coupled oscillators: Normal modes, normal frequencies, normal coordinates. Systems with multiple degrees of freedom.&lt;/li&gt;
+&lt;li&gt;Waves in continuous media in 1 dimension: Wave equation in 1-D. Travelling waves. Standing waves. Reflection, transmission along a discontinuity. Dispersion: Wavepackets. Phase and group velocity. Surface waves in liquids. Fourier methods, bandwidth theorems. Κύματα σε συνεχή μέσα, σε μία διάσταση: Εξίσωση κύματος σε 1-Διάσταση. Οδεύοντα κύματα. Στάσιμα κύματα. Ανάκλαση, διάδοση σε ασυνέχεια. Διασπορά: Κυματοπακέτα. Φασική και ομαδική ταχύτητα. Επιφανειακά κύματα σε υγρά. Μέθοδοι Fourier, θεωρήματα εύρους ζώνης: Πεπερασμένο ελαστικό μέσο – Σειρά Fourier. Άπειρο ελαστικό μέσο – Ολοκλήρωμα Fourier. Θεωρήματα εύρους ζώνης (Σχέσεις αβεβαιότητας).&lt;/li&gt;
+&lt;li&gt;Κύματα σε δύο διαστάσεις: Διαφορική εξίσωση κύματος σε 2-Διαστάσεις. Στάσιμα κύματα σε 2-Δ, Εκφυλισμός, Οδεύοντα κύματα σε 2-Δ, Νόμοι ανάκλασης-διάδοσης, Κυματοδήγηση.&lt;/li&gt;
+&lt;li&gt;Κύματα σε τρεις διαστάσεις (ακουστικά, ηλεκτρομαγνητικά), Πόλωση, Συντελεστές Fresnel, (απλή αναφορά): Ακουστικά. Ηλεκτρομαγνητικά. Συμβολή, Περίθλαση (γενικές αρχές): Συμβολή με διαίρεση μετώπου. Συμβολή με διαίρεση πλάτους. Περίθλαση Fraounhofer.&amp;quot;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;suggested-bibliography&#34;&gt;Suggested bibliography&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Pain&lt;/li&gt;
+&lt;li&gt;Ingard&lt;/li&gt;
+&lt;li&gt;French&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;course-schedule-2024-2025&#34;&gt;Course schedule 2024-2025&lt;/h3&gt;
+&lt;p&gt;The courses are given as follows:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Tuesday:  10:45am - 12:30pm Room 103 (New Build. SAMPS)&lt;/li&gt;
+&lt;li&gt;Wednesday:  10:45am - 12:30pm, Room 001 (New Build. SAMPS) &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>People</title>
+      <link>https://biophotonics.physics.ntua.gr/el/people/</link>
+      <pubDate>Mon, 24 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://biophotonics.physics.ntua.gr/el/people/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Deep tissue scattering compensation with three-photon F-SHARP</title>
+      <link>https://biophotonics.physics.ntua.gr/el/publication/berlage-2021/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://biophotonics.physics.ntua.gr/el/publication/berlage-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dynamic conjugate F-SHARP microscopy</title>
+      <link>https://biophotonics.physics.ntua.gr/el/publication/papadopoulos-2020/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://biophotonics.physics.ntua.gr/el/publication/papadopoulos-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Scattering correlations of time-gated light</title>
+      <link>https://biophotonics.physics.ntua.gr/el/publication/kadobianskyi-18/</link>
+      <pubDate>Sun, 01 Apr 2018 00:00:00 +0000</pubDate>
+      <guid>https://biophotonics.physics.ntua.gr/el/publication/kadobianskyi-18/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kilohertz binary phase modulator for pulsed laser sources using a digital micromirror device</title>
+      <link>https://biophotonics.physics.ntua.gr/el/publication/hoffmann-2018-kilohertz/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://biophotonics.physics.ntua.gr/el/publication/hoffmann-2018-kilohertz/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Scattering compensation by focus scanning holographic aberration probing (F-SHARP)</title>
+      <link>https://biophotonics.physics.ntua.gr/el/publication/papadopoulos-2016/</link>
+      <pubDate>Fri, 01 Dec 2017 00:00:00 +0000</pubDate>
+      <guid>https://biophotonics.physics.ntua.gr/el/publication/papadopoulos-2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Generalized optical memory effect</title>
+      <link>https://biophotonics.physics.ntua.gr/el/publication/osnabrugge-2017/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://biophotonics.physics.ntua.gr/el/publication/osnabrugge-2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Optical Tomographic Image Reconstruction Based on Beam Propagation and Sparse Regularization</title>
+      <link>https://biophotonics.physics.ntua.gr/el/publication/7384714/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://biophotonics.physics.ntua.gr/el/publication/7384714/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Towards new applications using capillary waveguides</title>
+      <link>https://biophotonics.physics.ntua.gr/el/publication/stasio-2015-towards/</link>
+      <pubDate>Tue, 01 Dec 2015 00:00:00 +0000</pubDate>
+      <guid>https://biophotonics.physics.ntua.gr/el/publication/stasio-2015-towards/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Digital confocal microscopy through a multimode fiber</title>
+      <link>https://biophotonics.physics.ntua.gr/el/publication/loterie-2015-digital/</link>
+      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
+      <guid>https://biophotonics.physics.ntua.gr/el/publication/loterie-2015-digital/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Isotropic inverse-problem approach for two-dimensional phase unwrapping</title>
+      <link>https://biophotonics.physics.ntua.gr/el/publication/kamilov-phase-unwrapping/</link>
+      <pubDate>Mon, 01 Jun 2015 00:00:00 +0000</pubDate>
+      <guid>https://biophotonics.physics.ntua.gr/el/publication/kamilov-phase-unwrapping/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning approach to optical tomography</title>
+      <link>https://biophotonics.physics.ntua.gr/el/publication/kamilov-2015/</link>
+      <pubDate>Mon, 01 Jun 2015 00:00:00 +0000</pubDate>
+      <guid>https://biophotonics.physics.ntua.gr/el/publication/kamilov-2015/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Translation correlations in anisotropically scattering media</title>
+      <link>https://biophotonics.physics.ntua.gr/el/publication/judkewitz-2015/</link>
+      <pubDate>Mon, 01 Jun 2015 00:00:00 +0000</pubDate>
+      <guid>https://biophotonics.physics.ntua.gr/el/publication/judkewitz-2015/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Delivery of focused short pulses through a multimode fiber</title>
+      <link>https://biophotonics.physics.ntua.gr/el/publication/morales-2015-delivery/</link>
+      <pubDate>Wed, 01 Apr 2015 00:00:00 +0000</pubDate>
+      <guid>https://biophotonics.physics.ntua.gr/el/publication/morales-2015-delivery/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Optical-resolution photoacoustic microscopy by use of a multimode fiber</title>
+      <link>https://biophotonics.physics.ntua.gr/el/publication/papadopoulos-2013-b/</link>
+      <pubDate>Mon, 01 Apr 2013 00:00:00 +0000</pubDate>
+      <guid>https://biophotonics.physics.ntua.gr/el/publication/papadopoulos-2013-b/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dynamic bending compensation while focusing through a multimode fiber</title>
+      <link>https://biophotonics.physics.ntua.gr/el/publication/farahi-2013/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>https://biophotonics.physics.ntua.gr/el/publication/farahi-2013/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>High-resolution, lensless endoscope based on digital scanning through a multimode optical fiber</title>
+      <link>https://biophotonics.physics.ntua.gr/el/publication/papadopoulos-2013/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>https://biophotonics.physics.ntua.gr/el/publication/papadopoulos-2013/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Increasing the imaging capabilities of multimode fibers by exploiting the properties of highly scattering media</title>
+      <link>https://biophotonics.physics.ntua.gr/el/publication/papadopoulos-2013-increasing/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>https://biophotonics.physics.ntua.gr/el/publication/papadopoulos-2013-increasing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Imaging: The fog clears</title>
+      <link>https://biophotonics.physics.ntua.gr/el/publication/psaltis-2012/</link>
+      <pubDate>Thu, 01 Nov 2012 00:00:00 +0000</pubDate>
+      <guid>https://biophotonics.physics.ntua.gr/el/publication/psaltis-2012/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Focusing and scanning light through a multimode optical fiber using digital phase conjugation</title>
+      <link>https://biophotonics.physics.ntua.gr/el/publication/papadopoulos-2013-focused/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>https://biophotonics.physics.ntua.gr/el/publication/papadopoulos-2013-focused/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://biophotonics.physics.ntua.gr/el/admin/config.yml</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://biophotonics.physics.ntua.gr/el/admin/config.yml</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Επικοινωνία</title>
+      <link>https://biophotonics.physics.ntua.gr/el/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://biophotonics.physics.ntua.gr/el/contact/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

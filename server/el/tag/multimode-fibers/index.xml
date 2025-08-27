@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Multimode Fibers | Εργαστήριο Βιοφωτονικής</title>
+    <link>https://biophotonics.physics.ntua.gr/el/tag/multimode-fibers/</link>
+      <atom:link href="https://biophotonics.physics.ntua.gr/el/tag/multimode-fibers/index.xml" rel="self" type="application/rss+xml" />
+    <description>Multimode Fibers</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>el</language><lastBuildDate>Tue, 01 Sep 2015 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://biophotonics.physics.ntua.gr/media/icon_hu_e4ffd11be88803bf.png</url>
+      <title>Multimode Fibers</title>
+      <link>https://biophotonics.physics.ntua.gr/el/tag/multimode-fibers/</link>
+    </image>
+    
+    <item>
+      <title>Digital confocal microscopy through a multimode fiber</title>
+      <link>https://biophotonics.physics.ntua.gr/el/publication/loterie-2015-digital/</link>
+      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
+      <guid>https://biophotonics.physics.ntua.gr/el/publication/loterie-2015-digital/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

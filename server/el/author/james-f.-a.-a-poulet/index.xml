@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>James F. A. a Poulet | Εργαστήριο Βιοφωτονικής</title>
+    <link>https://biophotonics.physics.ntua.gr/el/author/james-f.-a.-a-poulet/</link>
+      <atom:link href="https://biophotonics.physics.ntua.gr/el/author/james-f.-a.-a-poulet/index.xml" rel="self" type="application/rss+xml" />
+    <description>James F. A. a Poulet</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>el</language><lastBuildDate>Fri, 01 Dec 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://biophotonics.physics.ntua.gr/media/icon_hu_e4ffd11be88803bf.png</url>
+      <title>James F. A. a Poulet</title>
+      <link>https://biophotonics.physics.ntua.gr/el/author/james-f.-a.-a-poulet/</link>
+    </image>
+    
+    <item>
+      <title>Scattering compensation by focus scanning holographic aberration probing (F-SHARP)</title>
+      <link>https://biophotonics.physics.ntua.gr/el/publication/papadopoulos-2016/</link>
+      <pubDate>Fri, 01 Dec 2017 00:00:00 +0000</pubDate>
+      <guid>https://biophotonics.physics.ntua.gr/el/publication/papadopoulos-2016/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

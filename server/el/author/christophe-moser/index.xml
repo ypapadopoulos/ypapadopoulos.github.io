@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Christophe Moser | Εργαστήριο Βιοφωτονικής</title>
+    <link>https://biophotonics.physics.ntua.gr/el/author/christophe-moser/</link>
+      <atom:link href="https://biophotonics.physics.ntua.gr/el/author/christophe-moser/index.xml" rel="self" type="application/rss+xml" />
+    <description>Christophe Moser</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>el</language><lastBuildDate>Tue, 01 Dec 2015 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://biophotonics.physics.ntua.gr/media/icon_hu_e4ffd11be88803bf.png</url>
+      <title>Christophe Moser</title>
+      <link>https://biophotonics.physics.ntua.gr/el/author/christophe-moser/</link>
+    </image>
+    
+    <item>
+      <title>Towards new applications using capillary waveguides</title>
+      <link>https://biophotonics.physics.ntua.gr/el/publication/stasio-2015-towards/</link>
+      <pubDate>Tue, 01 Dec 2015 00:00:00 +0000</pubDate>
+      <guid>https://biophotonics.physics.ntua.gr/el/publication/stasio-2015-towards/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Digital confocal microscopy through a multimode fiber</title>
+      <link>https://biophotonics.physics.ntua.gr/el/publication/loterie-2015-digital/</link>
+      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
+      <guid>https://biophotonics.physics.ntua.gr/el/publication/loterie-2015-digital/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Delivery of focused short pulses through a multimode fiber</title>
+      <link>https://biophotonics.physics.ntua.gr/el/publication/morales-2015-delivery/</link>
+      <pubDate>Wed, 01 Apr 2015 00:00:00 +0000</pubDate>
+      <guid>https://biophotonics.physics.ntua.gr/el/publication/morales-2015-delivery/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Optical-resolution photoacoustic microscopy by use of a multimode fiber</title>
+      <link>https://biophotonics.physics.ntua.gr/el/publication/papadopoulos-2013-b/</link>
+      <pubDate>Mon, 01 Apr 2013 00:00:00 +0000</pubDate>
+      <guid>https://biophotonics.physics.ntua.gr/el/publication/papadopoulos-2013-b/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dynamic bending compensation while focusing through a multimode fiber</title>
+      <link>https://biophotonics.physics.ntua.gr/el/publication/farahi-2013/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>https://biophotonics.physics.ntua.gr/el/publication/farahi-2013/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>High-resolution, lensless endoscope based on digital scanning through a multimode optical fiber</title>
+      <link>https://biophotonics.physics.ntua.gr/el/publication/papadopoulos-2013/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>https://biophotonics.physics.ntua.gr/el/publication/papadopoulos-2013/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Increasing the imaging capabilities of multimode fibers by exploiting the properties of highly scattering media</title>
+      <link>https://biophotonics.physics.ntua.gr/el/publication/papadopoulos-2013-increasing/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>https://biophotonics.physics.ntua.gr/el/publication/papadopoulos-2013-increasing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Focusing and scanning light through a multimode optical fiber using digital phase conjugation</title>
+      <link>https://biophotonics.physics.ntua.gr/el/publication/papadopoulos-2013-focused/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>https://biophotonics.physics.ntua.gr/el/publication/papadopoulos-2013-focused/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

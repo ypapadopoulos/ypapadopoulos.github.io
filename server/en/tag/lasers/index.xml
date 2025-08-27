@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lasers | NTUA Biophotonics research group</title>
+    <link>https://biophotonics.physics.ntua.gr/en/tag/lasers/</link>
+      <atom:link href="https://biophotonics.physics.ntua.gr/en/tag/lasers/index.xml" rel="self" type="application/rss+xml" />
+    <description>Lasers</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en</language><lastBuildDate>Sun, 01 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://biophotonics.physics.ntua.gr/media/icon_hu_e4ffd11be88803bf.png</url>
+      <title>Lasers</title>
+      <link>https://biophotonics.physics.ntua.gr/en/tag/lasers/</link>
+    </image>
+    
+    <item>
+      <title>Laser applications in biomedicine and the environment</title>
+      <link>https://biophotonics.physics.ntua.gr/en/courses/laser-applications/</link>
+      <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://biophotonics.physics.ntua.gr/en/courses/laser-applications/</guid>
+      <description>&lt;h3 id=&#34;description&#34;&gt;Description&lt;/h3&gt;
+&lt;p&gt;Biophotonics/applications in biomedicine module.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Introduction to biomedical applications of lasers, biophotonics&lt;/li&gt;
+&lt;li&gt;Quantities and physics of radiometry/photometry.&lt;/li&gt;
+&lt;li&gt;Basic concepts from laser physics, spatial/temporal coherence, focusing, interaction with lenses, beam propagation.&lt;/li&gt;
+&lt;li&gt;Tissue optics. Scattering, absorption, Beer-Lambert law, scattering probability function, scattering anisotropy coefficient.&lt;/li&gt;
+&lt;li&gt;Radiation propagation equation and applications to the study of light propagation within biological tissues.&lt;/li&gt;
+&lt;li&gt;Basic concepts of radiation laser interaction of living matter:
+&lt;ol type=&#34;a&#34;&gt;
+&lt;li&gt;Photochemical action, photodynamic therapy&lt;/li&gt;
+&lt;li&gt;Photothermal action&lt;/li&gt;
+&lt;li&gt;Photodegradation&lt;/li&gt;
+&lt;li&gt;Photomechanical action&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;Applications of lasers in ophthalmology&lt;/li&gt;
+&lt;li&gt;Diagnostic applications. Optical microscopy, optical coherence tomography, optogenetics, optical diffusion tomography, two-photon fluorescence microscopy.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;course-schedule-2024-2025&#34;&gt;Course schedule 2024-2025&lt;/h3&gt;
+&lt;p&gt;The courses are given as follows:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Monday:  10:45am - 12:30pm Room 103 (New Build. SAMPS)&lt;/li&gt;
+&lt;li&gt;Wednesday:  10:45am - 12:30pm, Room 001 (New Build. SAMPS) &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

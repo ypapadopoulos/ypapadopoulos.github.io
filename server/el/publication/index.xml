@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Δημοσιεύσεις | Εργαστήριο Βιοφωτονικής</title>
+    <link>https://biophotonics.physics.ntua.gr/el/publication/</link>
+      <atom:link href="https://biophotonics.physics.ntua.gr/el/publication/index.xml" rel="self" type="application/rss+xml" />
+    <description>Δημοσιεύσεις</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>el</language><lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://biophotonics.physics.ntua.gr/media/icon_hu_e4ffd11be88803bf.png</url>
+      <title>Δημοσιεύσεις</title>
+      <link>https://biophotonics.physics.ntua.gr/el/publication/</link>
+    </image>
+    
+    <item>
+      <title>Deep tissue scattering compensation with three-photon F-SHARP</title>
+      <link>https://biophotonics.physics.ntua.gr/el/publication/berlage-2021/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://biophotonics.physics.ntua.gr/el/publication/berlage-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dynamic conjugate F-SHARP microscopy</title>
+      <link>https://biophotonics.physics.ntua.gr/el/publication/papadopoulos-2020/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://biophotonics.physics.ntua.gr/el/publication/papadopoulos-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Scattering correlations of time-gated light</title>
+      <link>https://biophotonics.physics.ntua.gr/el/publication/kadobianskyi-18/</link>
+      <pubDate>Sun, 01 Apr 2018 00:00:00 +0000</pubDate>
+      <guid>https://biophotonics.physics.ntua.gr/el/publication/kadobianskyi-18/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kilohertz binary phase modulator for pulsed laser sources using a digital micromirror device</title>
+      <link>https://biophotonics.physics.ntua.gr/el/publication/hoffmann-2018-kilohertz/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://biophotonics.physics.ntua.gr/el/publication/hoffmann-2018-kilohertz/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Scattering compensation by focus scanning holographic aberration probing (F-SHARP)</title>
+      <link>https://biophotonics.physics.ntua.gr/el/publication/papadopoulos-2016/</link>
+      <pubDate>Fri, 01 Dec 2017 00:00:00 +0000</pubDate>
+      <guid>https://biophotonics.physics.ntua.gr/el/publication/papadopoulos-2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Generalized optical memory effect</title>
+      <link>https://biophotonics.physics.ntua.gr/el/publication/osnabrugge-2017/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://biophotonics.physics.ntua.gr/el/publication/osnabrugge-2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Optical Tomographic Image Reconstruction Based on Beam Propagation and Sparse Regularization</title>
+      <link>https://biophotonics.physics.ntua.gr/el/publication/7384714/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://biophotonics.physics.ntua.gr/el/publication/7384714/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Towards new applications using capillary waveguides</title>
+      <link>https://biophotonics.physics.ntua.gr/el/publication/stasio-2015-towards/</link>
+      <pubDate>Tue, 01 Dec 2015 00:00:00 +0000</pubDate>
+      <guid>https://biophotonics.physics.ntua.gr/el/publication/stasio-2015-towards/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Digital confocal microscopy through a multimode fiber</title>
+      <link>https://biophotonics.physics.ntua.gr/el/publication/loterie-2015-digital/</link>
+      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
+      <guid>https://biophotonics.physics.ntua.gr/el/publication/loterie-2015-digital/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Isotropic inverse-problem approach for two-dimensional phase unwrapping</title>
+      <link>https://biophotonics.physics.ntua.gr/el/publication/kamilov-phase-unwrapping/</link>
+      <pubDate>Mon, 01 Jun 2015 00:00:00 +0000</pubDate>
+      <guid>https://biophotonics.physics.ntua.gr/el/publication/kamilov-phase-unwrapping/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning approach to optical tomography</title>
+      <link>https://biophotonics.physics.ntua.gr/el/publication/kamilov-2015/</link>
+      <pubDate>Mon, 01 Jun 2015 00:00:00 +0000</pubDate>
+      <guid>https://biophotonics.physics.ntua.gr/el/publication/kamilov-2015/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Translation correlations in anisotropically scattering media</title>
+      <link>https://biophotonics.physics.ntua.gr/el/publication/judkewitz-2015/</link>
+      <pubDate>Mon, 01 Jun 2015 00:00:00 +0000</pubDate>
+      <guid>https://biophotonics.physics.ntua.gr/el/publication/judkewitz-2015/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Delivery of focused short pulses through a multimode fiber</title>
+      <link>https://biophotonics.physics.ntua.gr/el/publication/morales-2015-delivery/</link>
+      <pubDate>Wed, 01 Apr 2015 00:00:00 +0000</pubDate>
+      <guid>https://biophotonics.physics.ntua.gr/el/publication/morales-2015-delivery/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Optical-resolution photoacoustic microscopy by use of a multimode fiber</title>
+      <link>https://biophotonics.physics.ntua.gr/el/publication/papadopoulos-2013-b/</link>
+      <pubDate>Mon, 01 Apr 2013 00:00:00 +0000</pubDate>
+      <guid>https://biophotonics.physics.ntua.gr/el/publication/papadopoulos-2013-b/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dynamic bending compensation while focusing through a multimode fiber</title>
+      <link>https://biophotonics.physics.ntua.gr/el/publication/farahi-2013/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>https://biophotonics.physics.ntua.gr/el/publication/farahi-2013/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>High-resolution, lensless endoscope based on digital scanning through a multimode optical fiber</title>
+      <link>https://biophotonics.physics.ntua.gr/el/publication/papadopoulos-2013/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>https://biophotonics.physics.ntua.gr/el/publication/papadopoulos-2013/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Increasing the imaging capabilities of multimode fibers by exploiting the properties of highly scattering media</title>
+      <link>https://biophotonics.physics.ntua.gr/el/publication/papadopoulos-2013-increasing/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>https://biophotonics.physics.ntua.gr/el/publication/papadopoulos-2013-increasing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Imaging: The fog clears</title>
+      <link>https://biophotonics.physics.ntua.gr/el/publication/psaltis-2012/</link>
+      <pubDate>Thu, 01 Nov 2012 00:00:00 +0000</pubDate>
+      <guid>https://biophotonics.physics.ntua.gr/el/publication/psaltis-2012/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Focusing and scanning light through a multimode optical fiber using digital phase conjugation</title>
+      <link>https://biophotonics.physics.ntua.gr/el/publication/papadopoulos-2013-focused/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>https://biophotonics.physics.ntua.gr/el/publication/papadopoulos-2013-focused/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

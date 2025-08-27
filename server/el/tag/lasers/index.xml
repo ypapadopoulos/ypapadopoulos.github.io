@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lasers | Εργαστήριο Βιοφωτονικής</title>
+    <link>https://biophotonics.physics.ntua.gr/el/tag/lasers/</link>
+      <atom:link href="https://biophotonics.physics.ntua.gr/el/tag/lasers/index.xml" rel="self" type="application/rss+xml" />
+    <description>Lasers</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>el</language><lastBuildDate>Sun, 01 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://biophotonics.physics.ntua.gr/media/icon_hu_e4ffd11be88803bf.png</url>
+      <title>Lasers</title>
+      <link>https://biophotonics.physics.ntua.gr/el/tag/lasers/</link>
+    </image>
+    
+    <item>
+      <title>Εφαρμογές των λέιζερ στη βιοϊατρική και το περιβάλλον</title>
+      <link>https://biophotonics.physics.ntua.gr/el/courses/laser-applications/</link>
+      <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://biophotonics.physics.ntua.gr/el/courses/laser-applications/</guid>
+      <description>&lt;h3 id=&#34;περιγραφή&#34;&gt;Περιγραφή&lt;/h3&gt;
+&lt;p&gt;Μάθημα για τις εφαρμογές της Βιοφωτονικής στη βιοϊατρική.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Εισαγωγή στις βιοϊατρικές εφαρμογές των λέιζερ και στη βιοφωτονική&lt;/li&gt;
+&lt;li&gt;Μεγέθη και βασικές έννοιες φωτεινότητας/φωτομετρίας&lt;/li&gt;
+&lt;li&gt;Βασικές αρχές φυσικής των λέιζερ: χωρική/χρονική συνεκτικότητα, εστίαση, αλληλεπίδραση με φακούς, διάδοση δέσμης&lt;/li&gt;
+&lt;li&gt;Οπτική ιστών: σκέδαση, απορρόφηση, νόμος Beer-Lambert, συνάρτηση πιθανότητας σκέδασης, συντελεστής ανισοτροπίας σκέδασης&lt;/li&gt;
+&lt;li&gt;Εξίσωση διάδοσης ακτινοβολίας και εφαρμογές στη μελέτη διάδοσης φωτός σε βιολογικούς ιστούς&lt;/li&gt;
+&lt;li&gt;Βασικές αρχές αλληλεπίδρασης ακτινοβολίας λέιζερ με ζωντανή ύλη:
+ &lt;ol type=&#34;a&#34;&gt;
+   &lt;li&gt;Φωτοχημική δράση – φωτοδυναμική θεραπεία&lt;/li&gt;
+   &lt;li&gt;Φωτοθερμική δράση&lt;/li&gt;
+   &lt;li&gt;Φωτοαποικοδόμηση&lt;/li&gt;
+   &lt;li&gt;Φωτομηχανική δράση&lt;/li&gt;
+ &lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;Εφαρμογές λέιζερ στην οφθαλμολογία&lt;/li&gt;
+&lt;li&gt;Διαγνωστικές εφαρμογές: Οπτική μικροσκοπία, οπτική τομογραφία συνοχής (OCT), οπτογενετική, οπτική τομογραφία διάχυσης, μικροσκοπία διφωτονικής διέγερσης&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;πρόγραμμα-μαθήματος-20242025&#34;&gt;Πρόγραμμα Μαθήματος 2024–2025&lt;/h3&gt;
+&lt;p&gt;Το μάθημα διδάσκεται ως εξής:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Δευτέρα: 10:45 – 12:30, Αίθουσα 103 (Νέο Κτίριο ΣΕΜΦΕ)&lt;/li&gt;
+&lt;li&gt;Τετάρτη: 10:45 – 12:30, Αίθουσα 001 (Νέο Κτίριο ΣΕΜΦΕ)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

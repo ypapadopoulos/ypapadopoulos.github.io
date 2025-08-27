@@ -1,0 +1,40 @@
+{{ $block := .wcBlock }}
+
+<div class="row mb-5">
+  {{ with $block.content.title }}
+    <div class="col-12 text-center">
+      <h2 class="fw-bold">{{ . | markdownify }}</h2>
+      {{ with $block.content.subtitle }}
+        <p class="text-muted">{{ . | markdownify }}</p>
+      {{ end }}
+    </div>
+  {{ end }}
+</div>
+
+<div class="row g-4 justify-content-center {{ if eq (len $block.content.cards) 2 }}justify-content-evenly{{ end }}">
+  {{ range $block.content.cards }}
+    {{ $icon := resources.Get (printf "media/%s" .icon) }}
+    <div class="col-md-4 col-sm-6 d-flex">
+        <a href="{{ .url | relLangURL }}" class="card flex-fill text-reset text-decoration-none shadow-sm rounded-3 p-4 d-block hover-lift" style="transition: transform 0.2s;">
+            {{ if $icon }}
+                <img src="{{ $icon.RelPermalink }}" alt="{{ .title }}" style="height: 50px;" class="mb-3 mx-auto d-block">
+            {{ end }}
+            <h3 class="h5 fw-bold mb-2 text-start">{{ .title }}</h3>
+            <p class="text-muted mb-0 text-start">{{ .text }}</p>
+        </a>
+    </div>
+  {{ end }}
+</div>
+
+<style>
+
+.hover-lift:hover {
+  transform: translateY(-4px) scale(1.01);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+}
+
+.card {
+  cursor: pointer;
+}
+
+</style>

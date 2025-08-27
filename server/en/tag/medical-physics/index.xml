@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Medical Physics | NTUA Biophotonics research group</title>
+    <link>https://biophotonics.physics.ntua.gr/en/tag/medical-physics/</link>
+      <atom:link href="https://biophotonics.physics.ntua.gr/en/tag/medical-physics/index.xml" rel="self" type="application/rss+xml" />
+    <description>Medical Physics</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en</language><lastBuildDate>Sun, 01 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://biophotonics.physics.ntua.gr/media/icon_hu_e4ffd11be88803bf.png</url>
+      <title>Medical Physics</title>
+      <link>https://biophotonics.physics.ntua.gr/en/tag/medical-physics/</link>
+    </image>
+    
+    <item>
+      <title>Introduction to medical physics</title>
+      <link>https://biophotonics.physics.ntua.gr/en/courses/medical-physics/</link>
+      <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://biophotonics.physics.ntua.gr/en/courses/medical-physics/</guid>
+      <description>&lt;h3 id=&#34;description&#34;&gt;Description&lt;/h3&gt;
+&lt;p&gt;Introduction to Medical Physics. The role of Medical Physicist in health care. Biomechanics, Muscle and forces. Physics of the skeleton. Pressure in the body. Osmosis and the kidneys. Physics of the lungs and breathing. Physics of the cardiovascular system and electric signals. Sound, speech and hearing. Interaction of mechanical waves with living matter and applications (e.g. extracorporeal lithotripsy). Physics of the eyes and vision, artificial vision. Introduction to Bionics, biosensors and bioactivators.&lt;/p&gt;
+&lt;h3 id=&#34;course-schedule-2024-2025&#34;&gt;Course schedule 2024-2025&lt;/h3&gt;
+&lt;p&gt;The courses are given as follows:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Monday:  12:45am - 14:30pm Room 103 (New Build. SAMPS)&lt;/li&gt;
+&lt;li&gt;Wednesday:  12:45am - 14:30pm, Room 001 (New Build. SAMPS) &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

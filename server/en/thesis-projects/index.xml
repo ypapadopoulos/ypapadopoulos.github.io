@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Thesis projects | NTUA Biophotonics research group</title>
+    <link>https://biophotonics.physics.ntua.gr/en/thesis-projects/</link>
+      <atom:link href="https://biophotonics.physics.ntua.gr/en/thesis-projects/index.xml" rel="self" type="application/rss+xml" />
+    <description>Thesis projects</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en</language><lastBuildDate>Wed, 16 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://biophotonics.physics.ntua.gr/media/icon_hu_e4ffd11be88803bf.png</url>
+      <title>Thesis projects</title>
+      <link>https://biophotonics.physics.ntua.gr/en/thesis-projects/</link>
+    </image>
+    
+    <item>
+      <title>Data Analysis of the F-SHARP Multiphocal Method in Biological Tissues</title>
+      <link>https://biophotonics.physics.ntua.gr/en/thesis-projects/fsharp-data-analysis/</link>
+      <pubDate>Wed, 16 Apr 2025 16:20:39 +0300</pubDate>
+      <guid>https://biophotonics.physics.ntua.gr/en/thesis-projects/fsharp-data-analysis/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;br&gt;
+The student will analyze experimental data obtained using the F-SHARP (Focus Scanning Holographic Aberration Probing) method from fluorescent neurons in the brain tissue of &lt;em&gt;Danionella translucida&lt;/em&gt;. The goal is to process and analyze the data to extract quantitative information on the improvement of optical focusing in scattering media.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Required Knowledge:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Understanding basic concepts of optical microscopy and laser propagation in tissues&lt;/li&gt;
+&lt;li&gt;Programming in Matlab or Python&lt;/li&gt;
+&lt;li&gt;Data analysis and visualization&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Suggested Bibliography:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Papadopoulos, I. N. et al. &lt;em&gt;Scattering compensation by F-SHARP&lt;/em&gt;. Nature Photonics (2017).&lt;/li&gt;
+&lt;li&gt;Papadopoulos, I. N. et al. &lt;em&gt;Dynamic conjugate F-SHARP microscopy&lt;/em&gt;. Light: Science and Applications (2020).&lt;/li&gt;
+&lt;li&gt;Denk, W. et al. &lt;em&gt;Two-photon laser scanning fluorescence microscopy&lt;/em&gt;. Science (1990).&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>Modeling Coherent Laser Light Propagation in the Surface Layers of the Circulatory System Using the Monte-Carlo Method</title>
+      <link>https://biophotonics.physics.ntua.gr/en/thesis-projects/monte-carlo-microcirculation/</link>
+      <pubDate>Wed, 16 Apr 2025 16:20:39 +0300</pubDate>
+      <guid>https://biophotonics.physics.ntua.gr/en/thesis-projects/monte-carlo-microcirculation/</guid>
+      <description>&lt;!-- ![screen reader text](mwppg-monte-carlo.jpg &#34;caption&#34;) --&gt;
+&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;br&gt;
+This project focuses on simulating laser light propagation in the superficial layers of the circulatory system (e.g., capillaries, veins). Students will apply the Monte-Carlo method to understand how light interacts with blood and tissues, aiming at applications in optical diagnostics and phototherapy.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Required Knowledge:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Programming (Matlab or Python)&lt;/li&gt;
+&lt;li&gt;Physics of light propagation in scattering media&lt;/li&gt;
+&lt;li&gt;Introduction to Monte-Carlo methods&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Suggested Bibliography:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Wang, L., Jacques, S. L., &amp;amp; Zheng, L. &lt;em&gt;MCML—Monte Carlo modeling of light transport in multi-layered tissues&lt;/em&gt; (1995).&lt;/li&gt;
+&lt;li&gt;Tuchin, V. V. &lt;em&gt;Tissue Optics: Light Scattering Methods and Instruments for Medical Diagnosis&lt;/em&gt; (2015).&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>Modeling Laser Light Propagation Through Biological Tissues Using Machine Learning</title>
+      <link>https://biophotonics.physics.ntua.gr/en/thesis-projects/modeling/</link>
+      <pubDate>Wed, 16 Apr 2025 16:20:39 +0300</pubDate>
+      <guid>https://biophotonics.physics.ntua.gr/en/thesis-projects/modeling/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;br&gt;
+Students will develop a model for coherent light (laser) propagation through scattering media such as biological tissues, utilizing Fourier optics techniques and computational models. The aim is to predict light scattering and signal using machine learning (ML) and neural networks (NN), with applications in optical imaging and therapy.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Required Knowledge:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Programming in Matlab or Python&lt;/li&gt;
+&lt;li&gt;Basic knowledge of ML / neural networks&lt;/li&gt;
+&lt;li&gt;Fundamentals of optics and optical propagation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Suggested Bibliography:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Lin, X. et al. &lt;em&gt;All-optical machine learning using diffractive deep neural networks&lt;/em&gt;. Science (2018).&lt;/li&gt;
+&lt;li&gt;Kamilov*, U. S. &amp;amp; Papadopoulos*, I.N. &lt;em&gt;Learning approach to optical tomography&lt;/em&gt;. Optica (2015).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

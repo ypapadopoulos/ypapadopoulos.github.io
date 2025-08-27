@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Demetri Psaltis | NTUA Biophotonics research group</title>
+    <link>https://biophotonics.physics.ntua.gr/en/author/demetri-psaltis/</link>
+      <atom:link href="https://biophotonics.physics.ntua.gr/en/author/demetri-psaltis/index.xml" rel="self" type="application/rss+xml" />
+    <description>Demetri Psaltis</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en</language><lastBuildDate>Fri, 01 Jan 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://biophotonics.physics.ntua.gr/media/icon_hu_e4ffd11be88803bf.png</url>
+      <title>Demetri Psaltis</title>
+      <link>https://biophotonics.physics.ntua.gr/en/author/demetri-psaltis/</link>
+    </image>
+    
+    <item>
+      <title>Optical Tomographic Image Reconstruction Based on Beam Propagation and Sparse Regularization</title>
+      <link>https://biophotonics.physics.ntua.gr/en/publication/7384714/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://biophotonics.physics.ntua.gr/en/publication/7384714/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Towards new applications using capillary waveguides</title>
+      <link>https://biophotonics.physics.ntua.gr/en/publication/stasio-2015-towards/</link>
+      <pubDate>Tue, 01 Dec 2015 00:00:00 +0000</pubDate>
+      <guid>https://biophotonics.physics.ntua.gr/en/publication/stasio-2015-towards/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Digital confocal microscopy through a multimode fiber</title>
+      <link>https://biophotonics.physics.ntua.gr/en/publication/loterie-2015-digital/</link>
+      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
+      <guid>https://biophotonics.physics.ntua.gr/en/publication/loterie-2015-digital/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Isotropic inverse-problem approach for two-dimensional phase unwrapping</title>
+      <link>https://biophotonics.physics.ntua.gr/en/publication/kamilov-phase-unwrapping/</link>
+      <pubDate>Mon, 01 Jun 2015 00:00:00 +0000</pubDate>
+      <guid>https://biophotonics.physics.ntua.gr/en/publication/kamilov-phase-unwrapping/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning approach to optical tomography</title>
+      <link>https://biophotonics.physics.ntua.gr/en/publication/kamilov-2015/</link>
+      <pubDate>Mon, 01 Jun 2015 00:00:00 +0000</pubDate>
+      <guid>https://biophotonics.physics.ntua.gr/en/publication/kamilov-2015/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Delivery of focused short pulses through a multimode fiber</title>
+      <link>https://biophotonics.physics.ntua.gr/en/publication/morales-2015-delivery/</link>
+      <pubDate>Wed, 01 Apr 2015 00:00:00 +0000</pubDate>
+      <guid>https://biophotonics.physics.ntua.gr/en/publication/morales-2015-delivery/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Optical-resolution photoacoustic microscopy by use of a multimode fiber</title>
+      <link>https://biophotonics.physics.ntua.gr/en/publication/papadopoulos-2013-b/</link>
+      <pubDate>Mon, 01 Apr 2013 00:00:00 +0000</pubDate>
+      <guid>https://biophotonics.physics.ntua.gr/en/publication/papadopoulos-2013-b/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dynamic bending compensation while focusing through a multimode fiber</title>
+      <link>https://biophotonics.physics.ntua.gr/en/publication/farahi-2013/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>https://biophotonics.physics.ntua.gr/en/publication/farahi-2013/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>High-resolution, lensless endoscope based on digital scanning through a multimode optical fiber</title>
+      <link>https://biophotonics.physics.ntua.gr/en/publication/papadopoulos-2013/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>https://biophotonics.physics.ntua.gr/en/publication/papadopoulos-2013/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Increasing the imaging capabilities of multimode fibers by exploiting the properties of highly scattering media</title>
+      <link>https://biophotonics.physics.ntua.gr/en/publication/papadopoulos-2013-increasing/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>https://biophotonics.physics.ntua.gr/en/publication/papadopoulos-2013-increasing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Imaging: The fog clears</title>
+      <link>https://biophotonics.physics.ntua.gr/en/publication/psaltis-2012/</link>
+      <pubDate>Thu, 01 Nov 2012 00:00:00 +0000</pubDate>
+      <guid>https://biophotonics.physics.ntua.gr/en/publication/psaltis-2012/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Focusing and scanning light through a multimode optical fiber using digital phase conjugation</title>
+      <link>https://biophotonics.physics.ntua.gr/en/publication/papadopoulos-2013-focused/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>https://biophotonics.physics.ntua.gr/en/publication/papadopoulos-2013-focused/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

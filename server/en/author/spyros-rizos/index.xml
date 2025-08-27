@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Spyros Rizos | NTUA Biophotonics research group</title>
+    <link>https://biophotonics.physics.ntua.gr/en/author/spyros-rizos/</link>
+      <atom:link href="https://biophotonics.physics.ntua.gr/en/author/spyros-rizos/index.xml" rel="self" type="application/rss+xml" />
+    <description>Spyros Rizos</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en</language>
+    <image>
+      <url>https://biophotonics.physics.ntua.gr/en/author/spyros-rizos/avatar_hu_bcf7260b188139a6.jpg</url>
+      <title>Spyros Rizos</title>
+      <link>https://biophotonics.physics.ntua.gr/en/author/spyros-rizos/</link>
+    </image>
+    
+  </channel>
+</rss>

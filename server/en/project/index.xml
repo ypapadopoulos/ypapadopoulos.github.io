@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects | NTUA Biophotonics research group</title>
+    <link>https://biophotonics.physics.ntua.gr/en/project/</link>
+      <atom:link href="https://biophotonics.physics.ntua.gr/en/project/index.xml" rel="self" type="application/rss+xml" />
+    <description>Projects</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en</language><lastBuildDate>Wed, 16 Apr 2025 16:20:39 +0300</lastBuildDate>
+    <image>
+      <url>https://biophotonics.physics.ntua.gr/media/icon_hu_e4ffd11be88803bf.png</url>
+      <title>Projects</title>
+      <link>https://biophotonics.physics.ntua.gr/en/project/</link>
+    </image>
+    
+    <item>
+      <title>Ανάλυση δεδομένων πολυεστιακής μεθόδου F-SHARP εντός βιολογικών ιστών</title>
+      <link>https://biophotonics.physics.ntua.gr/en/project/fsharp-data-analysis/</link>
+      <pubDate>Wed, 16 Apr 2025 16:20:39 +0300</pubDate>
+      <guid>https://biophotonics.physics.ntua.gr/en/project/fsharp-data-analysis/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Περιγραφή&lt;/strong&gt;
+Ο φοιτητής/τρια θα αναλύσει πειραματικά δεδομένα που έχουν ληφθεί με τη μέθοδο F-SHARP (Focus Scanning Holographic Aberration Probing) από φθορίζοντες νευρώνες στο εγκεφαλικό παρέγχυμα του ψαριού Danionella translucida. Στόχος είναι η επεξεργασία και ανάλυση των δεδομένων για την εξαγωγή ποσοτικής πληροφορίας σχετικά με τη βελτίωση της οπτικής εστίασης εντός σκεδαστικών μέσων.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Απαραίτητες γνώσεις&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Κατανόηση βασικών εννοιών οπτικής μικροσκοπίας και διάδοσης laser εντός ιστών&lt;/li&gt;
+&lt;li&gt;Προγραμματισμός με Matlab ή Python&lt;/li&gt;
+&lt;li&gt;Ανάλυση και απεικόνιση δεδομένων&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Προτεινόμενη βιβλιογραφία&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Papadopoulos, I. N., et al. (2017). Scattering compensation by focus scanning holographic aberration probing (F-SHARP). Nature Photonics.&lt;/li&gt;
+&lt;li&gt;Papadopoulos, I. N. et al. Dynamic conjugate F-SHARP microscopy. Light: Science and Applications 9, 110 (2020).&lt;/li&gt;
+&lt;li&gt;Denk, W., et al. (1990). Two-photon laser scanning fluorescence microscopy. Science.&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>Μοντελοποίηση διάδοσης φωτός laser μέσω βιολογικών ιστών με τη χρήση μοντέλων μηχανικής μάθησης</title>
+      <link>https://biophotonics.physics.ntua.gr/en/project/modeling/</link>
+      <pubDate>Wed, 16 Apr 2025 16:20:39 +0300</pubDate>
+      <guid>https://biophotonics.physics.ntua.gr/en/project/modeling/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Περιγραφή&lt;/strong&gt;
+Οι φοιτητές θα αναπτύξουν ένα μοντέλο διάδοσης σύμφωνου φωτός (laser) μέσω σκεδαστικών μέσων, όπως οι βιολογικοί ιστοί, αξιοποιώντας τεχνικές οπτικής Fourier και υπολογιστικά μοντέλα. Στόχος είναι η πρόβλεψη της διασποράς και του σήματος του φωτός με χρήση μεθόδων μηχανικής μάθησης (ML) και νευρωνικών δικτύων (NN), με εφαρμογές στην οπτική απεικόνιση και θεραπευτική.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Απαραίτητες γνώσεις&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Προγραμματισμός σε Matlab ή Python&lt;/li&gt;
+&lt;li&gt;Βασικές γνώσεις μηχανικής μάθησης / νευρωνικών δικτύων&lt;/li&gt;
+&lt;li&gt;Θεμελιώδεις γνώσεις οπτικής και οπτικής διάδοσης&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Προτεινόμενη βιβλιογραφία&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Lin, X. et al. All-optical machine learning using diffractive deep neural networks. Science 361, 1004–1008 (2018).&lt;/li&gt;
+&lt;li&gt;Kamilov*, U. S. Papadopoulos*, I.N. et al. Learning approach to optical tomography. Optica 2, 517–522 (2015).&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

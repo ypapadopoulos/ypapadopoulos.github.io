@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Morteza H. Shoreh | NTUA Biophotonics research group</title>
+    <link>https://biophotonics.physics.ntua.gr/en/author/morteza-h.-shoreh/</link>
+      <atom:link href="https://biophotonics.physics.ntua.gr/en/author/morteza-h.-shoreh/index.xml" rel="self" type="application/rss+xml" />
+    <description>Morteza H. Shoreh</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en</language><lastBuildDate>Fri, 01 Jan 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://biophotonics.physics.ntua.gr/media/icon_hu_e4ffd11be88803bf.png</url>
+      <title>Morteza H. Shoreh</title>
+      <link>https://biophotonics.physics.ntua.gr/en/author/morteza-h.-shoreh/</link>
+    </image>
+    
+    <item>
+      <title>Optical Tomographic Image Reconstruction Based on Beam Propagation and Sparse Regularization</title>
+      <link>https://biophotonics.physics.ntua.gr/en/publication/7384714/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://biophotonics.physics.ntua.gr/en/publication/7384714/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Isotropic inverse-problem approach for two-dimensional phase unwrapping</title>
+      <link>https://biophotonics.physics.ntua.gr/en/publication/kamilov-phase-unwrapping/</link>
+      <pubDate>Mon, 01 Jun 2015 00:00:00 +0000</pubDate>
+      <guid>https://biophotonics.physics.ntua.gr/en/publication/kamilov-phase-unwrapping/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning approach to optical tomography</title>
+      <link>https://biophotonics.physics.ntua.gr/en/publication/kamilov-2015/</link>
+      <pubDate>Mon, 01 Jun 2015 00:00:00 +0000</pubDate>
+      <guid>https://biophotonics.physics.ntua.gr/en/publication/kamilov-2015/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

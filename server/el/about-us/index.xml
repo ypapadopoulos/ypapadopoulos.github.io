@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Σχετικά με εμάς | Εργαστήριο Βιοφωτονικής</title>
+    <link>https://biophotonics.physics.ntua.gr/el/about-us/</link>
+      <atom:link href="https://biophotonics.physics.ntua.gr/el/about-us/index.xml" rel="self" type="application/rss+xml" />
+    <description>Σχετικά με εμάς</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>el</language>
+    <image>
+      <url>https://biophotonics.physics.ntua.gr/media/icon_hu_e4ffd11be88803bf.png</url>
+      <title>Σχετικά με εμάς</title>
+      <link>https://biophotonics.physics.ntua.gr/el/about-us/</link>
+    </image>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Inverse Problems | Εργαστήριο Βιοφωτονικής</title>
+    <link>https://biophotonics.physics.ntua.gr/el/tag/inverse-problems/</link>
+      <atom:link href="https://biophotonics.physics.ntua.gr/el/tag/inverse-problems/index.xml" rel="self" type="application/rss+xml" />
+    <description>Inverse Problems</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>el</language><lastBuildDate>Mon, 01 Jun 2015 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://biophotonics.physics.ntua.gr/media/icon_hu_e4ffd11be88803bf.png</url>
+      <title>Inverse Problems</title>
+      <link>https://biophotonics.physics.ntua.gr/el/tag/inverse-problems/</link>
+    </image>
+    
+    <item>
+      <title>Isotropic inverse-problem approach for two-dimensional phase unwrapping</title>
+      <link>https://biophotonics.physics.ntua.gr/el/publication/kamilov-phase-unwrapping/</link>
+      <pubDate>Mon, 01 Jun 2015 00:00:00 +0000</pubDate>
+      <guid>https://biophotonics.physics.ntua.gr/el/publication/kamilov-phase-unwrapping/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,6 +1,6 @@
 ---
-title: Courses
-
+title: Courses offered by the Biophotonics Lab
+view: course-card
 # Listing view
 # view: card
 

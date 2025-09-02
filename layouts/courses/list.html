@@ -1,62 +1,64 @@
 {{ define "main" }}
+{{ partial "page_header.html" . }}
+
 <section class="container py-5">
 
   <div class="row">
+    {{ $paginator := .Paginate .Pages }}
+    {{ range $index, $post := $paginator.Pages }}
+      <div class="col-md-6 col-lg-4 mb-4 d-flex">
+        <div class="card grid-card shadow-sm position-relative h-100">
 
-    {{ range .Pages }}
-    <div class="col-md-6 col-lg-4 mb-4 d-flex">
-      <div class="card grid-card shadow-sm position-relative h-100">
 
+          <!-- Image wrapper (NOT clickable) -->
+          {{ $img := .Resources.GetMatch (default "featured.jpg" .Params.image.filename) }}
+          {{ if $img }}
+            {{ $thumb := $img.Resize "400x" }}
+            <div class="mb-3 rounded-top bg-light d-flex align-items-center justify-content-center" style="height: 280px;">
+              <img src="{{ $thumb.RelPermalink }}"
+                  alt="{{ .Params.image.alttext | default .Title }}"
+                  class="img-fluid"
+                  style="max-height: 100%; object-fit: contain;"
+                  loading="lazy">
+            </div>
+          {{ end }}
 
-        <!-- Image wrapper (NOT clickable) -->
-        {{ $img := .Resources.GetMatch (default "featured.jpg" .Params.image.filename) }}
-        {{ if $img }}
-          {{ $thumb := $img.Resize "400x" }}
-          <div class="mb-3 rounded-top bg-light d-flex align-items-center justify-content-center" style="height: 280px;">
-            <img src="{{ $thumb.RelPermalink }}"
-                alt="{{ .Params.image.alttext | default .Title }}"
-                class="img-fluid"
-                style="max-height: 100%; object-fit: contain;"
-                loading="lazy">
+        
+          <!-- Card body (clickable) -->
+          <div class="card-body d-flex flex-column position-relative">
+            <h5 class="card-title">{{ .Title }}</h5>
+
+            <p class="card-text flex-grow-1">
+              {{ .Params.summary }}
+            </p>
+
+            <ul class="list-unstyled small text-muted mb-2">
+              {{ with .Params.semester }}
+                <li><strong>🗓️ {{ i18n "semester" }}:</strong> {{ . }}</li>
+              {{ end }}
+              {{ with .Params.location }}
+                <li><strong>📍 {{ i18n "location" }}:</strong> {{ . }}</li>
+              {{ end }}
+              {{ with .Params.ects }}
+                <li><strong>🎓 {{ i18n "ects" }}:</strong> {{ . }}</li>
+              {{ end }}
+              {{ with .Params.schedule }}
+                <li><strong>⏰ {{ i18n "schedule" }}:</strong> {{ . }}</li>
+              {{ end }}
+            </ul>
+
+        
+            <!-- Stretched link inside card-body only -->
+            <a href="{{ .RelPermalink }}" class="stretched-link"></a>
           </div>
-        {{ end }}
-
-      
-        <!-- Card body (clickable) -->
-        <div class="card-body d-flex flex-column position-relative">
-          <h5 class="card-title">{{ .Title }}</h5>
-
-          <p class="card-text flex-grow-1">
-            {{ .Params.summary }}
-          </p>
-
-          <ul class="list-unstyled small text-muted mb-2">
-            {{ with .Params.semester }}
-              <li><strong>🗓️ {{ i18n "semester" }}:</strong> {{ . }}</li>
-            {{ end }}
-            {{ with .Params.location }}
-              <li><strong>📍 {{ i18n "location" }}:</strong> {{ . }}</li>
-            {{ end }}
-            {{ with .Params.ects }}
-              <li><strong>🎓 {{ i18n "ects" }}:</strong> {{ . }}</li>
-            {{ end }}
-            {{ with .Params.schedule }}
-              <li><strong>⏰ {{ i18n "schedule" }}:</strong> {{ . }}</li>
-            {{ end }}
-          </ul>
-
-      
-          <!-- Stretched link inside card-body only -->
-          <a href="{{ .RelPermalink }}" class="stretched-link"></a>
-        </div>
-      
-      </div>       
-      
-    </div>
+        
+        </div>       
+        
+      </div>
     {{ end }}
 
   </div>
-
+  {{ partial "pagination" . }}
 </section>
 
 {{ end }}

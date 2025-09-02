@@ -1,0 +1,68 @@
+{{- $p := .Paginator -}}
+{{- if gt $p.TotalPages 1 -}}
+  <div class="position-sticky bottom-0 py-2" style="backdrop-filter: blur(6px); background: color-mix(in oklab, canvas 80%, transparent);">
+    <nav class="mt-4" aria-label="Pagination">
+      <ul class="pagination justify-content-center gap-1 flex-wrap mb-2">
+        <li class="page-item {{ if not $p.HasPrev }}disabled{{ end }}">
+          {{ if $p.HasPrev }}
+            <a class="page-link" href="{{ $p.First.URL }}" aria-label="First">
+              <span aria-hidden="true">««</span><span class="visually-hidden">First</span>
+            </a>
+          {{ else }}<span class="page-link">««</span>{{ end }}
+        </li>
+
+        <li class="page-item {{ if not $p.HasPrev }}disabled{{ end }}">
+          {{ if $p.HasPrev }}
+            <a class="page-link" href="{{ $p.Prev.URL }}" rel="prev" aria-label="Previous">
+              <span aria-hidden="true">«</span><span class="visually-hidden">Previous</span>
+            </a>
+          {{ else }}<span class="page-link">«</span>{{ end }}
+        </li>
+
+        {{- $current := $p.PageNumber -}}
+        {{- $total := $p.TotalPages -}}
+        {{- $window := 2 -}}
+        {{- $start := math.Max 1 (sub $current $window) -}}
+        {{- $end   := math.Min $total (add $current $window) -}}
+
+        {{ if gt $start 1 }}
+          <li class="page-item"><a class="page-link" href="{{ (index $p.Pagers 0).URL }}">1</a></li>
+          {{ if gt $start 2 }}<li class="page-item disabled d-none d-sm-block"><span class="page-link">…</span></li>{{ end }}
+        {{ end }}
+
+        {{ range seq $start $end }}
+          <li class="page-item {{ if eq . $current }}active{{ end }}">
+            <a class="page-link" href="{{ (index $p.Pagers (sub . 1)).URL }}" {{ if eq . $current }}aria-current="page"{{ end }}>{{ . }}</a>
+          </li>
+        {{ end }}
+
+        {{ if lt $end $total }}
+          {{ if lt $end (sub $total 1) }}<li class="page-item disabled d-none d-sm-block"><span class="page-link">…</span></li>{{ end }}
+          <li class="page-item {{ if eq $total $current }}active{{ end }}">
+            <a class="page-link" href="{{ $p.Last.URL }}" {{ if eq $total $current }}aria-current="page"{{ end }}>{{ $total }}</a>
+          </li>
+        {{ end }}
+
+        <li class="page-item {{ if not $p.HasNext }}disabled{{ end }}">
+          {{ if $p.HasNext }}
+            <a class="page-link" href="{{ $p.Next.URL }}" rel="next" aria-label="Next">
+              <span aria-hidden="true">»</span><span class="visually-hidden">Next</span>
+            </a>
+          {{ else }}<span class="page-link">»</span>{{ end }}
+        </li>
+
+        <li class="page-item {{ if not $p.HasNext }}disabled{{ end }}">
+          {{ if $p.HasNext }}
+            <a class="page-link" href="{{ $p.Last.URL }}" aria-label="Last">
+              <span aria-hidden="true">»»</span><span class="visually-hidden">Last</span>
+            </a>
+          {{ else }}<span class="page-link">»»</span>{{ end }}
+        </li>
+      </ul>
+
+      <p class="text-center small text-muted mb-0">
+        Page {{ $p.PageNumber }} / {{ $p.TotalPages }} <span class="d-none d-sm-inline">· {{ len $p.Pages }} items</span>
+      </p>
+    </nav>
+  </div>
+{{- end -}}

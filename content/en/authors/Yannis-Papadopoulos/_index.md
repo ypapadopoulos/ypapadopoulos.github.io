@@ -20,7 +20,7 @@ organizations:
     school: School of Applied Mathematical and Physical Sciences
     url: https://www.ntua.gr
 
-# Short bio (displayed in user profile at end of posts)
+# Short bio (displayed in user profile axt end of posts)
 bio: 
 
 interests:

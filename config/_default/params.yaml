@@ -105,8 +105,8 @@ features:
     provider: 'mapbox'
     api_key: ''
     zoom: 15
-  avatar:
-    shape: circle
+  # avatar:
+  #   shape: circle
 
 # Extensions
 

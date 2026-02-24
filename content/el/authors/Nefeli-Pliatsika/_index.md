@@ -6,13 +6,15 @@ title: Νεφέλη Πλιάτσικα
 first_name: Nefeli
 last_name: Pliatsika
 
+slug: "Nefeli-Pliatsika"
+
 # translationKey: "nefeli-pliatsika"
 
 # Is this the primary user of the site?
 superuser: False
 
 # Role/position
-role: Ερευνητής
+role: Υποψήφια Διδάκτωρ
 
 # Organizations/Affiliations
 organizations:

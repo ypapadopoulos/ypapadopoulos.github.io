@@ -34,7 +34,9 @@ jobs:
         # Check `.bib` file exists for case when action runs on `.bib` deletion
         # Note GH only provides hashFiles func in `steps.if` context, not `jobs.if` context
         if: ${{ hashFiles('publications.bib') != '' }}
-        run: academic import publications.bib content/publication/ --ovewrite
+        run: |
+          academic import publications.bib content/en/publication/ --overwrite
+          academic import publications.bib content/el/publication/ --overwrite
       - name: Create Pull Request
         # Set ID for `Check outputs` stage
         id: cpr

@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Σπύρο Ρίζος
+title: Σπύρος Ρίζος
 
 # Full Name (for SEO)
 first_name: Spyros

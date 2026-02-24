@@ -1,27 +1,35 @@
 ---
-title: Optical-resolution photoacoustic microscopy by use of a multimode fiber
+title: Optical Techniques to Assess Cutaneous Microvascular Function in Cardiovascular
+  Disease
 
 # Authors
 # A YAML list of author names
 # If you created a profile for a user (e.g. the default `admin` user at `content/authors/admin/`), 
 # write the username (folder name) here, and it will be replaced with their full name and linked to their profile.
 authors:
+- Inka Mustajoki
+- Julien Riancho
+- Tuukka Panula
+- Jukka-Pekka Sirkiä
+- Jorge Herranz Olazabal
+- Smriti Badhwar
+- Maria Kjellman
+- Katri Karhinoja
+- Maria Maia
+- Sam Riahi
 - Yannis Papadopoulos
-- Olivier Simandoux
-- Salma Farahi
-- Jean Pierre Huignard
-- Emmanuel Bossy
-- Demetri Psaltis
-- Christophe Moser
+- Evelien Hermeling
+- Rosa-Maria Bruno
+- Matti Kaisti
 
 # Author notes (such as 'Equal Contribution')
 # A YAML list of notes for each author in the above `authors` list
 author_notes: []
 
-date: '2013-04-01'
+date: '2026-01-01'
 
 # Date to publish webpage (NOT necessarily Bibtex publication's date).
-publishDate: '2026-02-24T11:22:49.823075Z'
+publishDate: '2026-02-24T11:22:49.573521Z'
 
 # Publication type.
 # A single CSL publication type but formatted as a YAML list (for Hugo requirements).
@@ -29,25 +37,21 @@ publication_types:
 - article-journal
 
 # Publication name and optional abbreviated publication name.
-publication: '*Applied Physics Letters*'
+publication: '*IEEE Reviews in Biomedical Engineering*'
 publication_short: ''
 
-doi: 10.1063/1.4807621
+doi: 10.1109/RBME.2025.3644411
 
-abstract: We demonstrate Optical-Resolution Photoacoustic Microscopy (OR-PAM), where
-  the optical field is focused and scanned using Digital Phase Conjugation through
-  a multimode fiber. The focus is scanned across the field of view using digital means,
-  and the acoustic signal induced is collected by a transducer. Optical-resolution
-  photoacoustic images of a knot made by two absorptive wires are obtained and we
-  report on resolution smaller than 1.5 μm across a 201 μm × 201 μm field of view.
-  The use of a multimode optical fiber for the optical excitation part can pave the
-  way for miniature endoscopes that can provide optical-resolution photoacoustic images
-  at large optical depth. © 2013 AIP Publishing LLC.
+abstract: ''
 
 # Summary. An optional shortened abstract.
 summary: ''
 
-tags: []
+tags:
+- Optical sensors;Optical imaging;Biomedical optical imaging;Dermis;Absorption;Reviews;Scattering;Reflection;Optical
+  scattering;Blood;Cardiovascular disease (CVD);hyperspectral imaging (HSI);laser
+  Doppler flowmetry (LDF);laser speckle contrast imaging (LSCI);microvascular function;near-infrared
+  spectroscopy (NIRS);photoacoustic imaging;photoplethysmography (PPG)
 
 # Display this page in a list of Featured pages?
 featured: false
@@ -80,9 +84,6 @@ image:
 #   E.g. `projects: ['internal-project']` links to `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
 projects: []
-links:
-- name: URL
-  url: http://link.aip.org/link/?APPLAB/102/211106/1
 ---
 
 Add the **full text** or **supplementary notes** for the publication here using Markdown formatting.

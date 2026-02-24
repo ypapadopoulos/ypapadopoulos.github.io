@@ -1,5 +1,10 @@
 ---
 title: Digital confocal microscopy through a multimode fiber
+
+# Authors
+# A YAML list of author names
+# If you created a profile for a user (e.g. the default `admin` user at `content/authors/admin/`), 
+# write the username (folder name) here, and it will be replaced with their full name and linked to their profile.
 authors:
 - Damien Claude-Marie Loterie
 - Salma Farahi
@@ -7,12 +12,27 @@ authors:
 - Alexandre Goy
 - Demetri Psaltis
 - Christophe Moser
+
+# Author notes (such as 'Equal Contribution')
+# A YAML list of notes for each author in the above `authors` list
+author_notes: []
+
 date: '2015-09-01'
-publishDate: '2025-05-07T10:25:01.055083Z'
+
+# Date to publish webpage (NOT necessarily Bibtex publication's date).
+publishDate: '2026-02-24T11:22:49.956648Z'
+
+# Publication type.
+# A single CSL publication type but formatted as a YAML list (for Hugo requirements).
 publication_types:
 - article-journal
+
+# Publication name and optional abbreviated publication name.
 publication: '*Optics Express*'
+publication_short: ''
+
 doi: 10.1364/oe.23.023845
+
 abstract: Acquiring high-contrast optical images deep inside biological tissues is
   still a challenging problem. Confocal microscopy is an important tool for biomedical
   imaging since it improves image quality by rejecting background signals. However,
@@ -26,6 +46,10 @@ abstract: Acquiring high-contrast optical images deep inside biological tissues 
   numerical aperture 0.22, we achieve a lateral resolution of 1.5µm, and an axial
   resolution of 12.7µm. The point-scanning rate is currently limited by our spatial
   light modulator (20Hz).
+
+# Summary. An optional shortened abstract.
+summary: ''
+
 tags:
 - Aberration compensation
 - Confocal microscopy
@@ -39,9 +63,41 @@ tags:
 - Multimode fibers
 - Single mode fibers
 - Turbid media
-volume: '23'
-pages: '23845'
+
+# Display this page in a list of Featured pages?
+featured: false
+
+# Links
+url_pdf: ''
+url_code: ''
+url_dataset: ''
+url_poster: ''
+url_project: ''
+url_slides: ''
+url_source: ''
+url_video: ''
+
+# Custom links (uncomment lines below)
+# links:
+# - name: Custom Link
+#   url: http://example.org
+
+# Publication image
+# Add an image named `featured.jpg/png` to your page's folder then add a caption below.
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: false
+
+# Associated Projects (optional).
+#   Associate this publication with one or more of your projects.
+#   Simply enter your project's folder or file name without extension.
+#   E.g. `projects: ['internal-project']` links to `content/project/internal-project/index.md`.
+#   Otherwise, set `projects: []`.
+projects: []
 links:
 - name: URL
   url: http://www.opticsexpress.org/abstract.cfm?URI=oe-23-18-23845
 ---
+
+Add the **full text** or **supplementary notes** for the publication here using Markdown formatting.

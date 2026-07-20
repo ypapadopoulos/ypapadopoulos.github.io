@@ -1,0 +1,92 @@
+{{ define "main" }}
+
+<div class="talks-page container">
+
+  <header class="talks-header">
+    <h1>{{ .Title }}</h1>
+
+    {{ with .Description }}
+      <p>{{ . }}</p>
+    {{ end }}
+  </header>
+
+  <div class="talks-list">
+
+    {{ range .Pages.ByDate.Reverse }}
+        <article class="talk-card">
+
+    {{ $image := .Resources.GetMatch "featured.*" }}
+
+    {{ if $image }}
+        <a class="talk-thumbnail" href="{{ .RelPermalink }}">
+        <img
+            src="{{ $image.RelPermalink }}"
+            alt="Thumbnail for {{ .Title }}"
+            loading="lazy"
+        >
+        </a>
+    {{ end }}
+
+        <div class="talk-card-main">
+            {{ with .Params.talk_type }}
+                <div class="talk-type">{{ . }}</div>
+            {{ end }}
+
+            <h2 class="talk-title">
+                <a href="{{ .RelPermalink }}">
+                    {{ .Title }}
+                </a>
+            </h2>
+
+            {{ with .Params.event_name }}
+            <div class="talk-event">{{ . }}</div>
+            {{ end }}
+
+            <div class="talk-meta">
+                <time datetime="{{ .Date.Format "2006-01-02" }}">
+                    {{ .Date.Format "2 January 2006" }}
+                </time>
+
+                {{ with .Params.location }}
+                    <span class="talk-meta-separator">·</span>
+                    <span>{{ . }}</span>
+                {{ end }}
+            </div>
+
+            {{ with .Params.venue }}
+                <div class="talk-venue">{{ . }}</div>
+            {{ end }}
+
+            {{ with .Params.summary }}
+                <p class="talk-summary">{{ . }}</p>
+            {{ end }}
+
+        </div>
+
+        <div class="talk-card-actions">
+
+          <a class="talk-link-secondary"
+             href="{{ .RelPermalink }}">
+            Details
+          </a>
+
+          {{ with .Params.presentation_url }}
+            <a class="talk-link-primary"
+               href="{{ . }}"
+               target="_blank"
+               rel="noopener noreferrer">
+              View presentation ↗
+            </a>
+          {{ end }}
+
+        </div>
+
+      </article>
+
+    {{ end }}
+
+  </div>
+
+</div>
+
+{{ end }}

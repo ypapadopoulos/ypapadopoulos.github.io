@@ -401,3 +401,270 @@ main {
 @media (prefers-color-scheme: dark){
   .pagination .page-link{ background-color: rgba(255,255,255,.06); }
 }
+
+/* Talks section */
+
+.talks-page,
+.talk-single {
+  max-width: 1050px;
+  margin: 0 auto;
+  padding: 4rem 1.5rem;
+}
+
+.talks-header {
+  margin-bottom: 3rem;
+}
+
+.talks-header h1 {
+  margin-bottom: 0.75rem;
+}
+
+.talks-header p {
+  max-width: 720px;
+  margin: 0;
+  font-size: 1.1rem;
+  line-height: 1.65;
+  color: var(--color-text-secondary, #5f6368);
+}
+
+.talks-list {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.talk-card {
+  display: grid;
+  grid-template-columns: 220px minmax(0, 1fr) auto;
+  gap: 2rem;
+  align-items: center;
+
+  padding: 1.75rem 2rem;
+
+  border: 1px solid rgba(0,0,0,.12);
+  border-radius: 12px;
+  background: var(--color-background, #fff);
+}
+
+.talk-thumbnail {
+  display: block;
+  width: 220px;
+  aspect-ratio: 16 / 9;
+
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.talk-thumbnail img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+  transition: transform .2s ease;
+}
+
+.talk-card:hover .talk-thumbnail img {
+  transform: scale(1.03);
+}
+
+.talk-card-main {
+  min-width: 0;
+}
+
+.talk-type {
+  display: inline-block;
+  margin-bottom: 0.65rem;
+
+  font-size: 0.75rem;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+
+  color: #4d616d;
+}
+
+.talk-title {
+  margin: 0 0 0.5rem;
+  font-size: 1.45rem;
+  line-height: 1.25;
+}
+
+.talk-title a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.talk-title a:hover {
+  text-decoration: underline;
+}
+
+.talk-event {
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.talk-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+
+  margin-bottom: 0.25rem;
+
+  font-size: 0.92rem;
+  color: var(--color-text-secondary, #666);
+}
+
+.talk-meta-separator {
+  opacity: 0.65;
+}
+
+.talk-venue {
+  margin-bottom: 0.9rem;
+  font-size: 0.92rem;
+  color: var(--color-text-secondary, #666);
+}
+
+.talk-summary {
+  max-width: 700px;
+  margin: 0;
+  line-height: 1.6;
+}
+
+.talk-card-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 0.75rem;
+
+  flex: 0 0 auto;
+}
+
+.talk-link-primary,
+.talk-link-secondary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 0.65rem 1rem;
+  border-radius: 7px;
+
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.talk-link-primary {
+  border: 1px solid #4d616d;
+  background: #4d616d;
+  color: #fff;
+}
+
+.talk-link-primary:hover {
+  background: #3e505a;
+  color: #fff;
+}
+
+.talk-link-secondary {
+  border: 1px solid rgba(0, 0, 0, 0.18);
+  color: inherit;
+}
+
+.talk-link-secondary:hover {
+  background: rgba(0, 0, 0, 0.04);
+}
+
+
+/* Individual talk */
+
+.talk-back-link {
+  display: inline-block;
+  margin-bottom: 2rem;
+  text-decoration: none;
+}
+
+.talk-single-header {
+  max-width: 850px;
+}
+
+.talk-single-header h1 {
+  margin: 0 0 1rem;
+  font-size: clamp(2rem, 5vw, 3.25rem);
+  line-height: 1.12;
+}
+
+.talk-single-event {
+  margin-bottom: 2rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.talk-single-meta {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.5rem;
+
+  margin: 2rem 0;
+  padding: 1.5rem 0;
+
+  border-top: 1px solid rgba(0, 0, 0, 0.12);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.talk-single-meta > div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.talk-meta-label {
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: var(--color-text-secondary, #666);
+}
+
+.talk-single-summary {
+  max-width: 750px;
+  margin: 0 0 1.75rem;
+  font-size: 1.15rem;
+  line-height: 1.7;
+}
+
+.talk-presentation-button {
+  margin-bottom: 2rem;
+}
+
+.talk-content {
+  max-width: 750px;
+  margin-top: 3rem;
+}
+
+
+/* Responsive layout */
+
+@media (max-width: 760px) {
+  .talk-card {
+    grid-template-columns: 1fr;
+  }
+
+  .talk-thumbnail {
+    width: 100%;
+  }
+
+  .talk-card-actions {
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+
+  .talk-single-meta {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}

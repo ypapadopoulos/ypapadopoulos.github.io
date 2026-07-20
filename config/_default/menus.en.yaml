@@ -38,6 +38,9 @@ main:
     parent: Teaching
     pageref: thesis-projects
     weight: 20
+  - name: Talks
+    pageref: talks
+    weight: 55
   - name: Contact
     pageref: contact
     weight: 60

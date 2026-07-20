@@ -1,0 +1,78 @@
+{{ define "main" }}
+
+<article class="talk-single container">
+
+    <a class="talk-back-link" href="{{ .CurrentSection.RelPermalink }}">
+      ← All talks
+    </a>
+
+  {{ $image := .Resources.GetMatch "featured.*" }}
+
+    {{ if $image }}
+    <div class="talk-single-image">
+        <img
+        src="{{ $image.RelPermalink }}"
+        alt="Featured image for {{ .Title }}"
+        >
+    </div>
+    {{ end }}
+
+  <header class="talk-single-header">
+
+    {{ with .Params.talk_type }}
+      <div class="talk-type">{{ . }}</div>
+    {{ end }}
+
+    <h1>{{ .Title }}</h1>
+
+    {{ with .Params.event_name }}
+      <div class="talk-single-event">{{ . }}</div>
+    {{ end }}
+
+    <div class="talk-single-meta">
+
+      <div>
+        <span class="talk-meta-label">Date</span>
+        <span>{{ .Date.Format "2 January 2006" }}</span>
+      </div>
+
+      {{ with .Params.venue }}
+        <div>
+          <span class="talk-meta-label">Venue</span>
+          <span>{{ . }}</span>
+        </div>
+      {{ end }}
+
+      {{ with .Params.location }}
+        <div>
+          <span class="talk-meta-label">Location</span>
+          <span>{{ . }}</span>
+        </div>
+      {{ end }}
+
+    </div>
+
+    {{ with .Params.summary }}
+      <p class="talk-single-summary">{{ . }}</p>
+    {{ end }}
+
+    {{ with .Params.presentation_url }}
+      <a class="talk-link-primary talk-presentation-button"
+         href="{{ . }}"
+         target="_blank"
+         rel="noopener noreferrer">
+        View presentation ↗
+      </a>
+    {{ end }}
+
+  </header>
+
+  {{ with .Content }}
+    <div class="talk-content">
+      {{ . }}
+    </div>
+  {{ end }}
+
+</article>
+
+{{ end }}

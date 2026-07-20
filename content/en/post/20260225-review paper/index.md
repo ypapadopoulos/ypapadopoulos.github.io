@@ -51,4 +51,4 @@ This publication aligns closely with our research interests in optical sensing a
 
 The article is available via IEEE Xplore:
 
-🔗 https://ieeexplore.ieee.org/document/11339192
+https://ieeexplore.ieee.org/document/11339192

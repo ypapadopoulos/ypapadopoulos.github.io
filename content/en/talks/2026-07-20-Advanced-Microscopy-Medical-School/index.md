@@ -14,7 +14,7 @@ event_name: "Illuminate the Unseen: 3D Advanced Microscopy & Confocal Workshop"
 venue: "Department of Pharmacology Athens, Medical School, National and Kapodistrian University of Athens"
 location: "Athens, Greece"
 
-presentation_url: "/slides/20260720_advanced-imaging-Medical-School-NKUA/talk.html"
+presentation_url: "/slides/2026-07-20-Advanced-Microscopy-Medical-School/talk.html"
 
 tags:
   - Biophotonics
@@ -26,7 +26,7 @@ featured: false
 draft: false
 ---
 
-<a href="/slides/20260720_advanced-imaging-Medical-School-NKUA/talk.html"
+<a href="/slides/2026-07-20-Advanced-Microscopy-Medical-School/talk.html"
    target="_blank"
    rel="noopener noreferrer">
   View presentation

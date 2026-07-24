@@ -1,0 +1,135 @@
+{{ define "main" }}
+
+{{ $theses := .RegularPagesRecursive.ByDate.Reverse }}
+
+<main class="theses-page">
+  <div class="container">
+
+    <header class="theses-header">
+      <h1>{{ .Title }}</h1>
+
+      {{ with .Description }}
+        <p class="theses-introduction">{{ . }}</p>
+      {{ end }}
+
+      {{ with .Content }}
+        <div class="theses-section-content">
+          {{ . }}
+        </div>
+      {{ end }}
+    </header>
+
+    {{ if gt (len $theses) 0 }}
+
+      <div class="theses-list">
+
+        {{ range $theses.GroupByDate "2006" }}
+
+          <section class="theses-year-group">
+
+            <h2 class="theses-year-heading">
+              {{ .Key }}
+            </h2>
+
+            <div class="theses-year-entries">
+
+              {{ range .Pages }}
+
+                <article class="thesis-entry">
+
+                  <h3 class="thesis-entry-title">
+                    <a href="{{ .RelPermalink }}">
+                      {{ .Title }}
+                    </a>
+                  </h3>
+
+                  <p class="thesis-entry-meta">
+
+                    {{ with .Params.student }}
+                      <span class="thesis-entry-student">
+                        {{ . }}
+                      </span>
+                    {{ end }}
+
+                    {{ with .Params.thesis_type }}
+                      {{ $typeKey := printf "thesis_type_%s" . }}
+
+                      <span class="thesis-entry-type">
+                        {{ i18n $typeKey }}
+                      </span>
+                    {{ end }}
+
+                    {{ with .Params.programme }}
+                      <span class="thesis-entry-programme">
+                        {{ . }}
+                      </span>
+                    {{ end }}
+
+                  </p>
+
+                  <!-- {{ with .Params.summary }}
+                    <p class="thesis-entry-summary">
+                      {{ . }}
+                    </p>
+                  {{ end }} -->
+
+                  {{ if or
+                    .Params.pdf
+                    .Params.repository_url
+                    .Params.publication_url
+                  }}
+                    <p class="thesis-entry-links">
+
+                      {{ with .Params.pdf }}
+                        <a href="{{ . | relURL }}">
+                          {{ i18n "thesis_pdf" }}
+                        </a>
+                      {{ end }}
+
+                      {{ with .Params.repository_url }}
+                        <a
+                          href="{{ . | safeURL }}"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          {{ i18n "thesis_repository" }}
+                        </a>
+                      {{ end }}
+
+                      {{ with .Params.publication_url }}
+                        <a
+                          href="{{ . | safeURL }}"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          {{ i18n "thesis_related_publication" }}
+                        </a>
+                      {{ end }}
+
+                    </p>
+                  {{ end }}
+
+                </article>
+
+              {{ end }}
+
+            </div>
+
+          </section>
+
+        {{ end }}
+
+      </div>
+
+    {{ else }}
+
+      <p class="theses-empty">
+        {{ i18n "theses_empty" }}
+      </p>
+
+    {{ end }}
+
+  </div>
+</main>
+
+{{ end }}

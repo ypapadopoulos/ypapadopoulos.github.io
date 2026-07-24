@@ -17,28 +17,40 @@ main:
   #   url: event
   #   weight: 40
   - name: Έρευνα
+    identifier: research
     # pageref: research
-    weight: 45
+    weight: 40
   - name: Δημοσιεύσεις
-    parent: Έρευνα
+    parent: research
     pageref: publication
-    weight: 10
+    weight: 41
   - name: Projects
-    parent: Έρευνα
+    parent: research
     pageref: project
-    weight: 20
+    weight: 42
   - name: Διδασκαλία
+    identifier: teaching
     pageref: teaching
     weight: 50
   - name: Μαθήματα
-    parent: Διδασκαλία
+    parent: teaching
     pageref: courses
-    weight: 10
-  - name: Διπλωματικές εργασίες
-    parent: Διδασκαλία
+    weight: 51
+  
+  - name: Προτεινόμενες διπλωματικές
+    parent: teaching
     pageref: thesis-projects
-    weight: 20
-  - name: Επικοινωνία
-    pageref: contact
-    weight: 60
+    weight: 52
 
+  - name: Διπλωματικές εργασίες
+    identifier: theses
+    parent: teaching
+    pageRef: /theses/diploma/
+    weight: 60
+  
+  - name: Talks
+    pageref: talks
+    weight: 70
+  - name: Contact
+    pageref: contact
+    weight: 80

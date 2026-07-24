@@ -1,0 +1,52 @@
+{{ $adapter := . }}
+{{ $lang := $adapter.Site.Language.Lang }}
+
+{{ range $adapter.Site.Data.courses }}
+
+  {{ $title := index .title $lang }}
+  {{ $summary := index .summary $lang }}
+  {{ $semester := index .semester $lang }}
+  {{ $level := index .level $lang }}
+  {{ $location := index .location $lang }}
+  {{ $schedule := index .schedule $lang }}
+  {{ $description := index .description $lang }}
+  {{ $teachingSchedule := index .teaching_schedule $lang }}
+  {{ $imageAlt := index .image_alt $lang }}
+  {{ $imageCaption := index .image_caption $lang }}
+
+  {{ $params := dict
+    "summary" $summary
+    "course_code" .course_code
+    "semester" $semester
+    "level" $level
+    "location" $location
+    "ects" .ects
+    "schedule" $schedule
+    "description" $description
+    "teaching_schedule" $teachingSchedule
+    "tags" .tags
+    "image" (dict
+        "filename" .image_filename
+        "alttext" $imageAlt
+        "caption" $imageCaption
+        )
+    }}
+
+  {{ with .external_link }}
+    {{ $params = merge $params (dict "external_link" .) }}
+  {{ end }}
+
+  {{ $page := dict
+    "kind" "page"
+    "path" .slug
+    "title" $title
+    "translationKey" .id
+    "dates" (dict
+      "date" (time.AsTime .date)
+    )
+    "params" $params
+  }}
+
+  {{ $adapter.AddPage $page }}
+
+{{ end }}

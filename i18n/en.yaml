@@ -356,3 +356,71 @@
 - id: Alumni
   translation: "Alumni"
 
+- id: thesis_type_diploma
+  translation: "Diploma thesis"
+
+- id: thesis_type_masters
+  translation: "Master's thesis"
+
+- id: thesis_type_phd
+  translation: "Doctoral thesis"
+
+- id: thesis_student
+  translation: "Student"
+
+- id: thesis_year
+  translation: "Year"
+
+- id: thesis_supervision
+  translation: "Supervision"
+
+- id: thesis_programme
+  translation: "Programme"
+
+- id: thesis_institution
+  translation: "Institution"
+
+- id: thesis_abstract
+  translation: "Abstract"
+
+- id: thesis_resources
+  translation: "Resources"
+
+- id: thesis_details
+  translation: "View details"
+
+- id: thesis_pdf
+  translation: "Thesis PDF"
+
+- id: thesis_repository
+  translation: "Institutional repository"
+
+- id: thesis_related_publication
+  translation: "Related publication"
+
+- id: theses_back
+  translation: "Back to theses"
+
+- id: theses_empty
+  translation: "No completed theses are currently listed."
+
+- id: thesis_related_material
+  translation: "Related material"
+
+- id: thesis_pdf
+  translation: "Thesis PDF"
+
+- id: thesis_presentation
+  translation: "Presentation"
+
+- id: github_repository
+  translation: "GitHub repository"
+
+- id: thesis_related_publication
+  translation: "Related publication"
+
+- id: thesis_repository
+  translation: "Institutional repository"
+
+- id: course_schedule
+  translation: "Teaching schedule"

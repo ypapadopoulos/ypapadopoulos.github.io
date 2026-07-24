@@ -1,0 +1,14 @@
+name: hugo-site
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.12
+  - openpyxl
+  - pyyaml
+  - bibtexparser
+  - jinja2
+  - pip
+  - pip:
+      - git+https://github.com/GetRD/academic-file-converter.git@e2ccb0cbcf3842a5e5817f22472ee00b8375652b

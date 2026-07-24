@@ -18,29 +18,40 @@ main:
   #   weight: 40
   - name: Research
     # pageref: research
-    weight: 45
+    weight: 40
   - name: Publications
     parent: Research
     pageref: publication
-    weight: 10
+    weight: 41
+
   - name: Projects
     parent: Research
     pageref: project
-    weight: 20
+    weight: 42
+
   - name: Teaching
-    pageref: teaching
+    identifier: teaching
     weight: 50
+
   - name: Courses
-    parent: Teaching
+    parent: teaching
     pageref: courses
-    weight: 10
-  - name: Thesis projects
-    parent: Teaching
+    weight: 51
+  
+  - name: Available thesis projects
+    parent: teaching
     pageref: thesis-projects
-    weight: 20
+    weight: 52
+
+  - name: Diploma Theses
+    identifier: diploma-theses
+    parent: teaching
+    pageRef: /theses/diploma
+    weight: 53
+  
   - name: Talks
     pageref: talks
-    weight: 55
+    weight: 70
   - name: Contact
     pageref: contact
-    weight: 60
+    weight: 80

@@ -11,7 +11,10 @@
 
 
           <!-- Image wrapper (NOT clickable) -->
-          {{ $img := .Resources.GetMatch (default "featured.jpg" .Params.image.filename) }}
+          {{ $img := partial "functions/get_image_file.html" . }}
+          {{ if not $img }}
+            {{ $img = resources.GetMatch (path.Join "media" .Params.image_filename) }}
+          {{ end }}
           {{ if $img }}
             {{ $thumb := $img.Resize "400x" }}
             <div class="mb-3 rounded-top bg-light d-flex align-items-center justify-content-center" style="height: 280px;">
@@ -25,7 +28,7 @@
 
         
           <!-- Card body (clickable) -->
-          <div class="card-body d-flex flex-column position-relative">
+          <div class="card-body d-flex flex-column">
             <h5 class="card-title">{{ .Title }}</h5>
 
             <p class="card-text flex-grow-1">

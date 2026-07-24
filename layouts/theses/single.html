@@ -1,0 +1,181 @@
+{{ define "main" }}
+
+<main class="thesis-page">
+  <div class="container">
+
+    <article class="thesis-single">
+
+      <header class="thesis-single-header">
+
+        {{ with .Params.thesis_type }}
+          {{ $typeKey := printf "thesis_type_%s" . }}
+
+          <p class="thesis-single-type">
+            {{ i18n $typeKey }}
+          </p>
+        {{ end }}
+
+        <h1>{{ .Title }}</h1>
+
+        {{ with .Params.student }}
+          <p class="thesis-single-student">
+            {{ . }}
+          </p>
+        {{ end }}
+
+        <p class="thesis-single-meta">
+
+          <span>{{ .Date.Format "2006" }}</span>
+<!-- 
+          {{ with .Params.thesis_type }}
+            {{ $typeKey := printf "thesis_type_%s" . }}
+            <span>{{ i18n $typeKey }}</span>
+          {{ end }} -->
+
+          {{ with .Params.programme }}
+            <span>{{ . }}</span>
+          {{ end }}
+
+        </p>
+
+      </header>
+
+      {{ with .Params.summary }}
+        <section class="thesis-single-summary">
+          <h2>{{ i18n "thesis_abstract" }}</h2>
+          <p>{{ . }}</p>
+        </section>
+      {{ end }}
+
+      {{ with .Content }}
+        <div class="thesis-single-content">
+          {{ . }}
+        </div>
+      {{ end }}
+
+      {{ if or .Params.pdf .Params.repository_url .Params.publication_url }}
+        <section class="thesis-single-resources">
+
+          <h2>{{ i18n "thesis_resources" }}</h2>
+
+          <div class="thesis-single-links">
+
+            {{ with .Params.pdf }}
+              <a href="{{ . | relURL }}">
+                {{ i18n "thesis_pdf" }}
+              </a>
+            {{ end }}
+
+            {{ with .Params.repository_url }}
+              <a
+                href="{{ . | safeURL }}"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {{ i18n "thesis_repository" }}
+              </a>
+            {{ end }}
+
+            {{ with .Params.publication_url }}
+              <a
+                href="{{ . | safeURL }}"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {{ i18n "thesis_related_publication" }}
+              </a>
+            {{ end }}
+
+          </div>
+
+        </section>
+      {{ end }}
+
+      {{ if or
+        .Params.pdf
+        .Params.presentation_url
+        .Params.github_repository
+        .Params.publication_url
+        .Params.repository_url
+      }}
+
+        <section class="thesis-single-resources">
+
+          <h2>{{ i18n "thesis_related_material" }}</h2>
+
+          <ul class="thesis-single-resource-list">
+
+            {{ with .Params.pdf }}
+              <li>
+                <a href="{{ . | relURL }}">
+                  {{ i18n "thesis_pdf" }}
+                </a>
+              </li>
+            {{ end }}
+
+            {{ with .Params.presentation_url }}
+              <li>
+                <a
+                  href="{{ . | safeURL }}"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {{ i18n "thesis_presentation" }}
+                </a>
+              </li>
+            {{ end }}
+
+            {{ with .Params.github_repository }}
+              <li>
+                <a
+                  href="{{ . | safeURL }}"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {{ i18n "github_repository" }}
+                </a>
+              </li>
+            {{ end }}
+
+            {{ with .Params.publication_url }}
+              <li>
+                <a
+                  href="{{ . | safeURL }}"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {{ i18n "thesis_related_publication" }}
+                </a>
+              </li>
+            {{ end }}
+
+            {{ with .Params.repository_url }}
+              <li>
+                <a
+                  href="{{ . | safeURL }}"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {{ i18n "thesis_repository" }}
+                </a>
+              </li>
+            {{ end }}
+
+          </ul>
+
+        </section>
+
+      {{ end }}
+
+      <footer class="thesis-single-footer">
+        <a href="{{ .Parent.RelPermalink }}">
+          ← {{ i18n "theses_back" }}
+        </a>
+      </footer>
+
+    </article>
+
+  </div>
+</main>
+
+{{ end }}

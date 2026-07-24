@@ -1,0 +1,53 @@
+- id: 2026-orfanos-vcsel
+  slug: 2026-orfanos-smi-based-muscle-sensor
+  date: '2026-07-21'
+  thesis_type: diploma
+  status: submitted
+  student:
+    en: Vasileios Orfanos
+    el: Βασίλειος Ορφανός
+  title:
+    en: Development of a VCSEL-based optical sensor for muscle movement monitoring
+    el: Ανάπτυξη οπτικού αισθητήρα για τη μέτρηση μυϊκών κινήσεων με χρήση διοδικού λέιζερ VCSEL
+  programme:
+    en: School of Applied Mathematical and Physical Sciences
+    el: Σχολή Εφαρμοσμένων Μαθηματικών και Φυσικών Επιστημών
+  summary:
+    en: This diploma thesis presents the development and evaluation of a non-invasive optical biosensor based on Self-Mixing Interferometry (SMI) for the detection and classification of human hand movements. Using an 850 nm VCSEL operating within the tissue optical window, the contactless system measures tendon and muscle motion at the wrist through optical feedback. A two-stage signal processing pipeline, combining RMS envelope extraction, dynamic thresholding, and FFT-based spectral analysis, enables the segmentation and characterization of different motor tasks. The results demonstrate that distinct hand movements exhibit characteristic spectral signatures, allowing reliable discrimination between finger flexion and fist contraction. Overall, the study demonstrates the potential of SMI as the basis for an optical mechanomyography sensor capable of extracting reliable features for real-time motion classification.
+    el: Η παρούσα διπλωματική εργασία πραγματεύεται την ανάπτυξη και αξιολόγηση ενός μη επεμβατικού οπτικού βιοαισθητήρα βασισμένου στη Συμβολομετρία Αυτο-Ανάμιξης (Self-Mixing Interferometry, SMI) για την ανίχνευση και τον διαχωρισμό κινήσεων του ανθρώπινου χεριού. Χρησιμοποιώντας μία VCSEL στα 850 nm, η οποία λειτουργεί εντός του οπτικού παραθύρου των ιστών, η ανέπαφη διάταξη καταγράφει τις κινήσεις τενόντων και μυών στην περιοχή του καρπού μέσω οπτικής ανάδρασης. Η επεξεργασία των σημάτων βασίζεται σε έναν αλγόριθμο RMS Envelope, δυναμική κατωφλίωση και φασματική ανάλυση μέσω FFT, επιτρέποντας τη χρονική τμηματοποίηση και τον χαρακτηρισμό διαφορετικών κινηματικών γεγονότων. Τα αποτελέσματα δείχνουν ότι διαφορετικές κινήσεις του χεριού εμφανίζουν διακριτά φασματικά αποτυπώματα, επιτρέποντας τον αξιόπιστο διαχωρισμό μεταξύ κάμψης δακτύλων και σύσπασης της γροθιάς. Συνολικά, η εργασία καταδεικνύει τις δυνατότητες της τεχνικής SMI για την ανάπτυξη ενός οπτικού αισθητήρα μηχανομυογραφίας ικανού
+      να εξάγει αξιόπιστα χαρακτηριστικά για ταξινόμηση κινήσεων σε πραγματικό χρόνο.
+  github_repository: https://github.com/Biophotonics-NTUA/smyography
+- id: 2026-melachroinoudis
+  slug: 2026-melachroinoudis
+  date: '2026-07-10'
+  thesis_type: diploma
+  status: submitted
+  student:
+    en: Dimitrios Melachroinoudis
+    el: Δημήτριος Μελαχροινούδης
+  title:
+    en: Development of a dynamic projection device in a microscope optical system with application in two-dimensional printing
+    el: Ανάπτυξη διάταξης δυναμικής προβολής σε οπτικό σύστημα μικροσκοπίου με εφαρμογές στη δισδιάστατη εκτύπωση
+  programme:
+    en: School of Applied Mathematical and Physical Sciences
+    el: Σχολή Εφαρμοσμένων Μαθηματικών και Φυσικών Επιστημών
+  summary:
+    en: This diploma thesis presents the development, optimization, and experimental validation of an innovative optical projection system for enhancing the Laser-Induced Forward Transfer (LIFT) technique in microfabrication and two-dimensional printing applications. The proposed approach replaces conventional serial scanning with dynamic laser beam shaping using a Digital Micromirror Device (DMD), enabling the rapid transfer of complex patterns in a single exposure. A complete experimental setup was developed and evaluated, and surface ablation and printing experiments were performed on gold and nickel–graphene samples, with characterization by optical microscopy and SEM. The results demonstrate a spatial resolution approaching the theoretical diffraction limit (475 nm), highlighting the advantages of parallel projection over conventional scanning for microfabrication applications.
+    el: Η παρούσα διπλωματική εργασία πραγματεύεται την ανάπτυξη, βελτιστοποίηση και πειραματική τεκμηρίωση μιας καινοτόμου οπτικής διάταξης προβολής για την αναβάθμιση της τεχνικής Laser-Induced Forward Transfer (LIFT) σε εφαρμογές μικροκατασκευής και δισδιάστατης εκτύπωσης. Η προτεινόμενη διάταξη αντικαθιστά την παραδοσιακή σειριακή σάρωση με δυναμική διαμόρφωση της δέσμης λέιζερ μέσω DMD, επιτρέποντας τη μεταφορά σύνθετων μοτίβων σε μία μόνο έκθεση. Αναπτύχθηκε και αξιολογήθηκε πλήρης πειραματική διάταξη, ενώ πραγματοποιήθηκαν πειράματα επιφανειακής αφαίρεσης και εκτύπωσης σε δείγματα χρυσού και νικελίου-γραφενίου, με χαρακτηρισμό μέσω οπτικής μικροσκοπίας και SEM. Τα αποτελέσματα δείχνουν ότι η διάταξη επιτυγχάνει χωρική διακριτική ικανότητα που προσεγγίζει το θεωρητικό όριο περίθλασης (475 nm), αναδεικνύοντας τα πλεονεκτήματα της παράλληλης προβολής έναντι της συμβατικής σάρωσης για εφαρμογές μικροκατασκευής.
+- id: 2026-alijaj
+  slug: 2026-alijaj
+  date: '2026-07-08'
+  thesis_type: diploma
+  status: submitted
+  student:
+    en: Elsaid Alijaj
+    el: Ελσαιΐντ Αλίγιαϊ
+  title:
+    en: Οptical microscopy experimental setup for the quantitative analysis of pollen particles via autofluorescence
+    el: Διάταξη οπτικής μικροσκοπίας για ποσοτική ανάλυση σωματιδίων γύρης μέσω αυτοφθορισμού
+  programme:
+    en: School of Applied Mathematical and Physical Sciences
+    el: Σχολή Εφαρμοσμένων Μαθηματικών και Φυσικών Επιστημών
+  summary:
+    en: This diploma thesis presents the development of an optical microscopy system for the quantitative analysis of pollen particles through their intrinsic autofluorescence. The proposed approach exploits the natural autofluorescence of the exine to enable label-free imaging while preserving the native morphology of the sample, with darkfield microscopy providing complementary structural verification. A complete Python-based image-processing workflow was developed, combining CLAHE, median filtering, Otsu thresholding, and morphological operations to extract quantitative morphological and photometric features. The results demonstrate that consistent quantification of biological microstructures is feasible using a low-cost optical setup without chemical staining, provided that adequate signal quality and appropriate feature selection are ensured.
+    el: Η παρούσα διπλωματική εργασία πραγματεύεται την ανάπτυξη μιας διάταξης οπτικής μικροσκοπίας για την ποσοτική ανάλυση σωματιδίων γύρης μέσω του φυσικού τους αυτοφθορισμού. Η προτεινόμενη προσέγγιση αξιοποιεί τον εγγενή αυτοφθορισμό της εξίνης για απεικόνιση χωρίς χημικές χρωστικές, ενώ η μικροσκοπία σκοτεινού πεδίου χρησιμοποιείται συμπληρωματικά για τη δομική επαλήθευση των κόκκων. Αναπτύχθηκε ολοκληρωμένη ροή ψηφιακής επεξεργασίας εικόνας σε Python, βασισμένη σε CLAHE, median filtering, κατωφλίωση Otsu και μορφολογικές πράξεις, για την εξαγωγή μορφολογικών και φωτομετρικών χαρακτηριστικών. Τα αποτελέσματα δείχνουν ότι η συνεπής ποσοτικοποίηση βιολογικών μικροδομών είναι εφικτή με διάταξη χαμηλού κόστους και χωρίς χημική επεξεργασία, εφόσον εξασφαλίζονται υψηλή ποιότητα σήματος και κατάλληλη επιλογή δεικτών.

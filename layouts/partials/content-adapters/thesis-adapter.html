@@ -1,0 +1,51 @@
+{{ $adapter := . }}
+{{ $lang := $adapter.Site.Language.Lang }}
+
+{{ range $adapter.Site.Data.theses }}
+
+  {{ $title := index .title $lang }}
+  {{ $student := index .student $lang }}
+  {{ $programme := index .programme $lang }}
+  {{ $summary := index .summary $lang }}
+
+  {{ $params := dict
+    "student" $student
+    "thesis_type" .thesis_type
+    "programme" $programme
+    "summary" $summary
+  }}
+
+  {{ with .pdf }}
+    {{ $params = merge $params (dict "pdf" .) }}
+  {{ end }}
+
+  {{ with .github_repository }}
+    {{ $params = merge $params (dict "github_repository" .) }}
+  {{ end }}
+
+  {{ with .presentation_url }}
+    {{ $params = merge $params (dict "presentation_url" .) }}
+  {{ end }}
+
+  {{ with .publication_url }}
+    {{ $params = merge $params (dict "publication_url" .) }}
+  {{ end }}
+
+  {{ with .repository_url }}
+    {{ $params = merge $params (dict "repository_url" .) }}
+  {{ end }}
+
+  {{ $page := dict
+    "kind" "page"
+    "path" .slug
+    "title" $title
+    "translationKey" .id
+    "dates" (dict
+      "date" (time.AsTime .date)
+    )
+    "params" $params
+  }}
+
+  {{ $adapter.AddPage $page }}
+
+{{ end }}

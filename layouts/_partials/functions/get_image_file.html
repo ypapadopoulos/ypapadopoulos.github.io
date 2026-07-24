@@ -1,0 +1,16 @@
+{{/* Input: page context */}}
+{{/* Output: image resource, or nil if not found */}}
+
+{{ $resource := (.Resources.ByType "image").GetMatch "*featured*" }}
+
+{{ if eq $resource nil }}
+  {{ $filename := .Params.image.filename }}
+
+  {{ $resource = (.Resources.ByType "image").GetMatch $filename }}
+
+  {{ if eq $resource nil }}
+    {{ $resource = resources.GetMatch (path.Join "media" $filename) }}
+  {{ end }}
+{{ end }}
+
+{{ return $resource }}

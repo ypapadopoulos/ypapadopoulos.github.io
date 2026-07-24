@@ -324,3 +324,72 @@
 
 - id: Alumni
   translation: "Απόφοιτοι"
+
+- id: thesis_type_diploma
+  translation: "Διπλωματική εργασία"
+
+- id: thesis_type_masters
+  translation: "Μεταπτυχιακή εργασία"
+
+- id: thesis_type_phd
+  translation: "Διδακτορική διατριβή"
+
+- id: thesis_student
+  translation: "Φοιτητής/Φοιτήτρια"
+
+- id: thesis_year
+  translation: "Έτος"
+
+- id: thesis_supervision
+  translation: "Επίβλεψη"
+
+- id: thesis_programme
+  translation: "Πρόγραμμα σπουδών"
+
+- id: thesis_institution
+  translation: "Ίδρυμα"
+
+- id: thesis_abstract
+  translation: "Περίληψη"
+
+- id: thesis_resources
+  translation: "Σχετικό υλικό"
+
+- id: thesis_details
+  translation: "Περισσότερες πληροφορίες"
+
+- id: thesis_pdf
+  translation: "PDF εργασίας"
+
+- id: thesis_repository
+  translation: "Ιδρυματικό αποθετήριο"
+
+- id: thesis_related_publication
+  translation: "Σχετική δημοσίευση"
+
+- id: theses_back
+  translation: "Επιστροφή στις εργασίες και διατριβές"
+
+- id: theses_empty
+  translation: "Δεν έχουν καταχωριστεί ακόμη ολοκληρωμένες εργασίες."
+
+- id: thesis_related_material
+  translation: "Σχετικό υλικό"
+
+- id: thesis_pdf
+  translation: "PDF διπλωματικής εργασίας"
+
+- id: thesis_presentation
+  translation: "Παρουσίαση"
+
+- id: github_repository
+  translation: "Αποθετήριο GitHub"
+
+- id: thesis_related_publication
+  translation: "Σχετική δημοσίευση"
+
+- id: thesis_repository
+  translation: "Ιδρυματικό αποθετήριο"
+
+- id: course_schedule
+  translation: "Πρόγραμμα διαλέξεων"

@@ -1,0 +1,145 @@
+- id: course_001_medical_physics
+  slug: intro-medical-physics
+  date: '2026-07-23'
+  status: published
+  course_code: '9199'
+  ects: '5'
+  title:
+    en: Introduction to medical physics
+    el: Εισαγωγή στην Ιατρική Φυσική
+  summary:
+    en: Physics of the human body
+    el: Φυσική του ανθρώπινου σώματος
+  semester:
+    en: Fall Semester
+    el: Χειμερινό Εξάμηνο
+  level:
+    en: Undergraduate
+    el: Προπτυχιακό
+  location:
+    en: NTUA, SAMPS New Buildings
+    el: ΕΜΠ, Νέο Κτίριο ΣΕΜΦΕ
+  schedule:
+    en: Monday & Wednesday, 12:45-14:30
+    el: Δευτέρα & Τετάρτη, 12:45-14:30
+  description:
+    en: "1. Introduction to Medical Physics.\n2. The role of Medical Physicist in health care. \n3. Biomechanics, Muscle and forces. \n4. Physics of the skeleton. \n5. Pressure in the body. \n6. Osmosis and the kidneys. \n7. Physics of the lungs and breathing.\n8. Physics of the cardiovascular system and electric signals.\n9. Sound, speech and hearing. Interaction of mechanical waves with living matter and applications (e.g. extracorporeal lithotripsy).\n10. Physics of the eyes and vision, artificial vision.\n11. Introduction to Bionics, biosensors and bioactivators."
+    el: "1. Εισαγωγή: Ορισμός Ιατρικής Φυσικής, η σχέση της με άλλες επιστήμες. Τομείς της Ιατρικής Φυσικής που δεν καλύπτονται στο μάθημα (π.χ. Ακτινοφυσική, Εμβιομηχανική, Φυσική της Ιατρικής Απεικόνισης). Ο ρόλος του Φυσικού Ιατρικής. \n2. Μύες και δυνάμεις: Δυνάμεις τριβής. Δυνάμεις, μύες και αρθρώσεις. Δυνάμεις κατά τη σύγκρουση. Μηχανική της βάδισης και των αρθρώσεων. \n3. Φυσική του σκελετού: Σύσταση οστών. Πιεζοηλεκτρικά φαινόμενα στα οστά . Αντοχή οστών. \n4. Ρευστομηχανική του ανθρώπινου σώματος (πίεση στο σώμα, ώσμωση και νεφροί, Φυσική της αναπνοής): Μέτρηση πίεσης στο σώμα. Ενδοκρανιακή, ενδοφθάλμια πίεση, πίεση στον σκελετό κ.λ.π.. Πίεση κατά την κατάδυση, πίεση σε μεγάλα ύψη. Ώσμωση, νεφροί, τεχνητός νεφρός. Φυσική των πνευμόνων και της αναπνοής. \n5. Φυσική του καρδιαγγειακού συστήματος: Η καρδιά ως αντλία - Το έργο της καρδιάς. Πίεση του αίματος και μέτρηση της. Αρχή του Bernoulli και καρδιαγγειακό σύστημα. Στρωτή και τυρβώδης ροή του αίματος. Διάδοση μηχανικών κυμάτων στο\
+      \ σώμα (π.χ. εξωσωματική λιθοτριψία). \n6. Ηλεκτρικά σήματα από το ανθρώπινο σώμα: Ηλεκτρικά δυναμικά (ΗΚΓ, ΗΕΓ, ΗΜΓ, ΗΑΓ). \n7. Φυσική της ομιλίας και της ακοής: Φυσικές ιδιότητες των ήχων, στηθοσκόπιο, παραγωγή ήχων από το σώμα. \n8. Φυσική του ωτός, εξέταση ακοής. Αίσθηση ισορροπίας. \n9. Φυσική της όρασης \x96 Βιοοπτικη: Η διαθλαστική συσκευή του οφθαλμού. Διαθλαστικές ανωμαλίες και διόρθωση τους. Όργανα εξέτασης στην Οφθαλμολογία. \n10. Στοιχεία Βιονικής. Βιομιμητική, τεχνητά μέλη, βιοαισθητήρες: Ορισμοί, κοχλιακό εμφύτευμα, βιονικό μάτι, τεχνητοί μύες, βιοαισθητήρες."
+  teaching_schedule:
+    en: |-
+      - Monday:  12:45am - 14:30pm Room 103 (New Build. SAMPS)
+      - Wednesday:  12:45am - 14:30pm, Room 001 (New Build. SAMPS)
+    el: "- Δευτέρα: 12:45 – 14:30, Αίθουσα 001 (Νέο Κτίριο ΣΕΜΦΕ)  \n- Τετάρτη: 12:45 – 14:30, Αίθουσα 108 (Νέο Κτίριο ΣΕΜΦΕ)"
+  image_caption:
+    en: Leonardo da Vinci, Vitruvian man
+    el: Leonardo da Vinci, Vitruvian man
+  external_link: https://helios.ntua.gr/course/view.php?id=1446
+  image_filename: course_thumbnails/medical_physics.jpg
+  tags:
+  - Medical physics
+  - Optics
+
+- id: course_002_laser_applications
+  slug: laser-applications
+  date: '2024-09-01'
+  status: published
+  course_code: '9198'
+  ects: '5'
+  title:
+    en: Laser applications in biomedicine and the environment
+    el: Εφαρμογές των λέιζερ στη βιοϊατρική και το περιβάλλον
+  summary:
+    en: Light-tissue interactions, imaging, and therapy.
+    el: Αλληλεπιδράσεις φωτός-ιστών, απεικόνιση και θεραπεία.
+  semester:
+    en: Fall Semester
+    el: Χειμερινό εξάμηνο
+  level:
+    en: Undergraduate
+    el: Προπτυχιακό
+  location:
+    en: NTUA, SAMPS New Building
+    el: ΕΜΠ, Νέο Κτίριο ΣΕΜΦΕ
+  schedule:
+    en: Monday & Wednesday, 10:45-12:30
+    el: Δευτέρα & Τετάρτη, 10:45-12:30
+  description:
+    en: |-
+      Biophotonics and biomedical applications of lasers.
+
+      1. Introduction to biomedical applications of lasers and biophotonics.
+      2. Quantities and basic concepts of radiometry and photometry.
+      3. Basic laser physics: spatial and temporal coherence, focusing, interaction with lenses, and beam propagation.
+      4. Tissue optics: scattering, absorption, the Beer–Lambert law, scattering phase function, and scattering anisotropy.
+      5. The radiative transfer equation and its application to light propagation in biological tissue.
+      6. Laser interaction with living matter: photochemical and photodynamic effects, photothermal effects, photodegradation, and photomechanical effects.
+      7. Applications of lasers in ophthalmology.
+      8. Diagnostic applications: optical microscopy, optical coherence tomography, optogenetics, diffuse optical tomography, and two-photon fluorescence microscopy.
+    el: "Μάθημα για τις εφαρμογές της Βιοφωτονικής στη βιοϊατρική. \n1. Εισαγωγή στις βιοϊατρικές εφαρμογές των λέιζερ και στη βιοφωτονική. \n2. Μεγέθη και βασικές έννοιες ραδιομετρίας και φωτομετρίας. \n3. Βασικές αρχές φυσικής των λέιζερ: χωρική και χρονική συνεκτικότητα, εστίαση, αλληλεπίδραση με φακούς και διάδοση δέσμης. \n4. Οπτική ιστών: σκέδαση, απορρόφηση, νόμος Beer–Lambert, συνάρτηση πιθανότητας σκέδασης και συντελεστής ανισοτροπίας. \n5. Εξίσωση διάδοσης ακτινοβολίας και εφαρμογές στη μελέτη της διάδοσης του φωτός σε βιολογικούς ιστούς. \n6. Αλληλεπίδραση ακτινοβολίας λέιζερ με ζωντανή ύλη: φωτοχημική και φωτοδυναμική δράση, φωτοθερμική δράση, φωτοαποικοδόμηση και φωτομηχανική δράση. \n7. Εφαρμογές λέιζερ στην οφθαλμολογία. \n8. Διαγνωστικές εφαρμογές: οπτική μικροσκοπία, οπτική τομογραφία συνοχής, οπτογενετική, οπτική τομογραφία διάχυσης και μικροσκοπία διφωτονικής διέγερσης."
+  teaching_schedule:
+    en: "- Monday, 10:45-12:30, Room 103, SAMPS New Building; \n- Wednesday, 10:45-12:30, Room 001, SAMPS New Building."
+    el: |-
+      - Δευτέρα, 10:45-12:30, Αίθουσα 103, Νέο Κτίριο ΣΕΜΦΕ
+      - Τετάρτη, 10:45-12:30, Αίθουσα 001, Νέο Κτίριο ΣΕΜΦΕ.
+  image_alt:
+    en: Laser-tissue interaction in the Biophotonics course
+    el: Αλληλεπίδραση λέιζερ-ιστών στο μάθημα Βιοφωτονικής
+  image_caption:
+    en: 'Ntziachristos, V. Going deeper than microscopy: the optical imaging frontier in biology. Nature Methods 7, 603–614 (2010). https://doi.org/10.1038/nmeth.1483'
+    el: 'Ntziachristos, V. Going deeper than microscopy: the optical imaging frontier in biology. Nature Methods 7, 603–614 (2010). https://doi.org/10.1038/nmeth.1483'
+  external_link: https://helios.ntua.gr/course/view.php?id=1445
+  image_filename: course_thumbnails/biophotonics.jpg
+  tags:
+  - Lasers
+  - Optics
+
+- id: course_003_oscillations_waves
+  slug: oscillations-and-waves
+  date: '2024-09-01'
+  status: published
+  course_code: '2170'
+  ects: '5'
+  title:
+    en: Physics [Oscillations and waves]
+    el: Φυσική [Ταλαντώσεις και κύματα]
+  summary:
+    en: From the simple harmonic oscillator to the generation of light
+    el: Από τον απλό αρμονικό ταλαντωτή στη δημιουργία του φωτός
+  semester:
+    en: Spring Semester 2025
+    el: Εαρινό εξάμηνο 2025
+  level:
+    en: Undergraduate
+    el: Προπτυχιακό
+  location:
+    en: School of Mechanical Engineering
+    el: Σχολή Μηχανολόγων Μηχανικών
+  schedule:
+    en: Tuesday, 14:30-16:15 & Friday, 14:00-15:45
+    el: Τρίτη, 14:30-16:15 & Παρασκευή, 14:00-15:45
+  description:
+    en: "1. Simple harmonic motion: the simple harmonic oscillator, damping, forced oscillations, complex impedance, and resonance.\n2. Coupled oscillators: normal modes, normal frequencies, normal coordinates, and systems with multiple degrees of freedom. \n3. Waves in one-dimensional continuous media: the wave equation, travelling and standing waves, reflection and transmission at discontinuities, dispersion, wave packets, phase and group velocity, surface waves in liquids, Fourier series and transforms, and bandwidth theorems. \n4. Waves in two dimensions: the two-dimensional wave equation, standing and travelling waves, degeneracy, reflection, transmission, and waveguiding. \n5. Waves in three dimensions: acoustic and electromagnetic waves, polarization, Fresnel coefficients, interference by division of wavefront and amplitude, and Fraunhofer diffraction. Suggested bibliography: Pain; Ingard; French."
+    el: "1. Απλή αρμονική ταλάντωση: απλός αρμονικός ταλαντωτής, απόσβεση, εξαναγκασμένες ταλαντώσεις, μιγαδική εμπέδηση και συντονισμός. \n2. Συζευγμένοι ταλαντωτές: κανονικοί τρόποι, κανονικές συχνότητες, κανονικές συντεταγμένες και συστήματα πολλών βαθμών ελευθερίας. \n3. Κύματα σε συνεχή μέσα σε μία διάσταση: εξίσωση κύματος, οδεύοντα και στάσιμα κύματα, ανάκλαση και διάδοση σε ασυνέχεια, διασπορά, κυματοπακέτα, φασική και ομαδική ταχύτητα, επιφανειακά κύματα σε υγρά, σειρές και ολοκληρώματα Fourier και θεωρήματα εύρους ζώνης. \n4. Κύματα σε δύο διαστάσεις: εξίσωση κύματος, στάσιμα και οδεύοντα κύματα, εκφυλισμός, ανάκλαση, διάδοση και κυματοδήγηση. \n5. Κύματα σε τρεις διαστάσεις: ακουστικά και ηλεκτρομαγνητικά κύματα, πόλωση, συντελεστές Fresnel, συμβολή με διαίρεση μετώπου και πλάτους και περίθλαση Fraunhofer. \n\nΠροτεινόμενη βιβλιογραφία: Pain, Ingard και French."
+  teaching_schedule:
+    en: |-
+      - Tuesday, 14:30-16:15
+      - Friday, 14:00-15:45
+
+      at the School of Mechanical Engineering.
+    el: |-
+      - Τρίτη, 14:30-16:15,
+      - Παρασκευή, 14:00-15:45
+      στη Σχολή Μηχανολόγων Μηχανικών.
+  image_alt:
+    en: Illustration of waves for the Oscillations and Waves course
+    el: Απεικόνιση κυμάτων για το μάθημα Ταλαντώσεις και Κύματα
+  image_caption:
+    en: Hokusai, The Great Wave
+    el: Hokusai, Το Μεγάλο Κύμα
+  external_link: https://helios.ntua.gr/course/view.php?id=1717
+  image_filename: course_thumbnails/oscillations_waves.jpg
+  tags:
+  - Vibrations
+  - Waves
+  - Optics
